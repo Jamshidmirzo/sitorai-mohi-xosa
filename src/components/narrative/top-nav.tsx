@@ -1,7 +1,7 @@
 "use client";
 
 import { useLocale, useTranslations } from "next-intl";
-import { usePathname, useRouter } from "@/i18n/navigation";
+import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { useNarrative } from "./narrative-root";
 
 const LANGS: Array<"uz" | "ru" | "en"> = ["uz", "ru", "en"];
@@ -18,6 +18,7 @@ export function TopNav() {
     { id: "exhibits", label: t("collection") },
     { id: "visit", label: t("visit") },
   ];
+  const historyLabel = t("history");
   return (
     <div
       ref={navRef}
@@ -80,6 +81,17 @@ export function TopNav() {
             {it.label}
           </a>
         ))}
+        <Link
+          href="/history"
+          style={{
+            fontFamily: "var(--font-body), sans-serif",
+            fontSize: 14,
+            color: "rgba(247,238,222,.86)",
+            textDecoration: "none",
+          }}
+        >
+          {historyLabel}
+        </Link>
         <div
           style={{
             display: "inline-flex",
