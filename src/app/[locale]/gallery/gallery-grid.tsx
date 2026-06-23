@@ -1,0 +1,184 @@
+"use client"
+
+import { useState, useMemo, useCallback, useEffect } from "react"
+import { useTranslations } from "next-intl"
+import { Dialog, DialogContent } from "@/components/ui/dialog"
+import { cn } from "@/lib/utils"
+import { ChevronLeft, ChevronRight, X } from "lucide-react"
+
+type GalleryImage = {
+  id: string
+  url: string
+  alt: string
+  category: string
+}
+
+type Props = {
+  images: GalleryImage[]
+  categories: string[]
+}
+
+export function GalleryGrid({ images, categories }: Props) {
+  const t = useTranslations("common")
+  const [activeCategory, setActiveCategory] = useState("")
+  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null)
+  const [lightboxOpen, setLightboxOpen] = useState(false)
+
+  const filtered = useMemo(() => {
+    if (!activeCategory) return images
+    return images.filter((img) => img.category === activeCategory)
+  }, [images, activeCategory])
+
+  const openLightbox = (index: number) => {
+    setLightboxIndex(index)
+    setLightboxOpen(true)
+  }
+
+  const closeLightbox = useCallback(() => {
+    setLightboxOpen(false)
+    setLightboxIndex(null)
+  }, [])
+
+  const goNext = useCallback(() => {
+    setLightboxIndex((prev) =>
+      prev !== null && prev < filtered.length - 1 ? prev + 1 : prev
+    )
+  }, [filtered.length])
+
+  const goPrev = useCallback(() => {
+    setLightboxIndex((prev) =>
+      prev !== null && prev > 0 ? prev - 1 : prev
+    )
+  }, [])
+
+  useEffect(() => {
+    if (!lightboxOpen) return
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === "ArrowRight") goNext()
+      else if (e.key === "ArrowLeft") goPrev()
+      else if (e.key === "Escape") closeLightbox()
+    }
+    window.addEventListener("keydown", handleKey)
+    return () => window.removeEventListener("keydown", handleKey)
+  }, [lightboxOpen, goNext, goPrev, closeLightbox])
+
+  const currentImage = lightboxIndex !== null ? filtered[lightboxIndex] : null
+
+  return (
+    <div>
+      {categories.length > 0 && (
+        <div className="mb-8 flex flex-wrap justify-center gap-2">
+          <button
+            onClick={() => setActiveCategory("")}
+            className={cn(
+              "rounded-full border px-5 py-2 text-sm font-medium transition-colors",
+              !activeCategory
+                ? "border-primary bg-primary text-primary-foreground"
+                : "border-border bg-background text-muted-foreground hover:border-primary/40 hover:text-foreground"
+            )}
+          >
+            All
+          </button>
+          {categories.map((cat) => (
+            <button
+              key={cat}
+              onClick={() => setActiveCategory(cat)}
+              className={cn(
+                "rounded-full border px-5 py-2 text-sm font-medium capitalize transition-colors",
+                activeCategory === cat
+                  ? "border-primary bg-primary text-primary-foreground"
+                  : "border-border bg-background text-muted-foreground hover:border-primary/40 hover:text-foreground"
+              )}
+            >
+              {cat}
+            </button>
+          ))}
+        </div>
+      )}
+
+      {filtered.length === 0 ? (
+        <div className="py-20 text-center text-muted-foreground">
+          {t("noResults")}
+        </div>
+      ) : (
+        <div className="columns-2 gap-4 sm:columns-3 lg:columns-4">
+          {filtered.map((image, index) => (
+            <div key={image.id} className="mb-4 break-inside-avoid">
+              <button
+                onClick={() => openLightbox(index)}
+                className="group relative block w-full overflow-hidden rounded-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
+              >
+                <img
+                  src={image.url}
+                  alt={image.alt}
+                  className="w-full rounded-xl object-cover transition-transform duration-300 group-hover:scale-105"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 rounded-xl bg-black/0 transition-colors duration-300 group-hover:bg-black/15" />
+                {image.alt && (
+                  <div className="absolute inset-x-0 bottom-0 translate-y-full rounded-b-xl bg-gradient-to-t from-black/70 to-transparent px-3 pb-3 pt-8 transition-transform duration-300 group-hover:translate-y-0">
+                    <p className="text-sm text-white">{image.alt}</p>
+                  </div>
+                )}
+              </button>
+            </div>
+          ))}
+        </div>
+      )}
+
+      <Dialog open={lightboxOpen} onOpenChange={setLightboxOpen}>
+        <DialogContent
+          showCloseButton={false}
+          className="max-w-[95vw] border-0 bg-black/95 p-0 ring-0 sm:max-w-[95vw]"
+        >
+          {currentImage && (
+            <div className="relative flex min-h-[50vh] items-center justify-center p-2">
+              <img
+                src={currentImage.url}
+                alt={currentImage.alt}
+                className="max-h-[85vh] max-w-full rounded object-contain"
+              />
+
+              <button
+                onClick={closeLightbox}
+                className="absolute right-3 top-3 rounded-full bg-black/60 p-2 text-white transition-colors hover:bg-black/80"
+              >
+                <X className="h-5 w-5" />
+              </button>
+
+              {lightboxIndex !== null && lightboxIndex > 0 && (
+                <button
+                  onClick={goPrev}
+                  className="absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-black/60 p-2.5 text-white transition-colors hover:bg-black/80"
+                >
+                  <ChevronLeft className="h-6 w-6" />
+                </button>
+              )}
+              {lightboxIndex !== null &&
+                lightboxIndex < filtered.length - 1 && (
+                  <button
+                    onClick={goNext}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-black/60 p-2.5 text-white transition-colors hover:bg-black/80"
+                  >
+                    <ChevronRight className="h-6 w-6" />
+                  </button>
+                )}
+
+              {currentImage.alt && (
+                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+                  <p className="text-center text-sm text-white">
+                    {currentImage.alt}
+                  </p>
+                </div>
+              )}
+
+              <div className="absolute bottom-4 right-4 text-xs text-white/60">
+                {(lightboxIndex ?? 0) + 1} / {filtered.length}
+              </div>
+            </div>
+          )}
+        </DialogContent>
+      </Dialog>
+    </div>
+  )
+}

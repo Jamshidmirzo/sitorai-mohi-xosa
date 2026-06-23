@@ -1,0 +1,72 @@
+{
+  "common": {
+    "home": "Home",
+    "exhibits": "Exhibits",
+    "gallery": "Gallery",
+    "news": "News",
+    "about": "About",
+    "contact": "Contact",
+    "search": "Search",
+    "language": "Language",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "back": "Back",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "noResults": "No results found"
+  },
+  "home": {
+    "heroTitle": "Sitorai Mohi Xosa",
+    "heroSubtitle": "The Palace of Moon-like Stars",
+    "welcomeText": "Discover the magnificent summer residence of the last Emir of Bukhara",
+    "featuredExhibits": "Featured Exhibits",
+    "latestNews": "Latest News",
+    "visitUs": "Visit Us"
+  },
+  "exhibits": {
+    "title": "Exhibits & Collections",
+    "searchPlaceholder": "Search exhibits...",
+    "filterByCategory": "Filter by category",
+    "filterByHall": "Filter by hall",
+    "filterByPeriod": "Filter by period",
+    "allCategories": "All categories",
+    "allHalls": "All halls",
+    "allPeriods": "All periods",
+    "details": "Exhibit Details",
+    "period": "Period",
+    "material": "Material",
+    "hall": "Hall",
+    "category": "Category",
+    "takeSurvey": "Take Survey",
+    "clearFilters": "Clear"
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Explore the beauty of Sitorai Mohi Xosa"
+  },
+  "news": {
+    "title": "News & Articles",
+    "publishedOn": "Published on"
+  },
+  "about": {
+    "title": "About the Museum",
+    "visitingHours": "Visiting Hours",
+    "ticketPrices": "Ticket Prices",
+    "location": "Location",
+    "howToGetThere": "How to Get There"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Your Message",
+    "send": "Send Message"
+  },
+  "survey": {
+    "title": "Visitor Survey",
+    "thankYou": "Thank you for your feedback!",
+    "required": "This question is required"
+  }
+}

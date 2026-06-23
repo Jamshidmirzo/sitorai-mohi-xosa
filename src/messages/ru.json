@@ -1,0 +1,72 @@
+{
+  "common": {
+    "home": "Главная",
+    "exhibits": "Экспонаты",
+    "gallery": "Галерея",
+    "news": "Новости",
+    "about": "О музее",
+    "contact": "Контакты",
+    "search": "Поиск",
+    "language": "Язык",
+    "darkMode": "Тёмная тема",
+    "lightMode": "Светлая тема",
+    "readMore": "Подробнее",
+    "viewAll": "Смотреть все",
+    "back": "Назад",
+    "submit": "Отправить",
+    "loading": "Загрузка...",
+    "noResults": "Ничего не найдено"
+  },
+  "home": {
+    "heroTitle": "Ситораи Мохи Хоса",
+    "heroSubtitle": "Дворец Луноподобных Звёзд",
+    "welcomeText": "Откройте для себя великолепную летнюю резиденцию последнего эмира Бухары",
+    "featuredExhibits": "Избранные экспонаты",
+    "latestNews": "Последние новости",
+    "visitUs": "Посетите нас"
+  },
+  "exhibits": {
+    "title": "Экспонаты и коллекции",
+    "searchPlaceholder": "Поиск экспонатов...",
+    "filterByCategory": "По категории",
+    "filterByHall": "По залу",
+    "filterByPeriod": "По периоду",
+    "allCategories": "Все категории",
+    "allHalls": "Все залы",
+    "allPeriods": "Все периоды",
+    "details": "Подробности экспоната",
+    "period": "Период",
+    "material": "Материал",
+    "hall": "Зал",
+    "category": "Категория",
+    "takeSurvey": "Пройти опрос",
+    "clearFilters": "Сбросить"
+  },
+  "gallery": {
+    "title": "Фотогалерея",
+    "subtitle": "Исследуйте красоту Ситораи Мохи Хоса"
+  },
+  "news": {
+    "title": "Новости и статьи",
+    "publishedOn": "Опубликовано"
+  },
+  "about": {
+    "title": "О музее",
+    "visitingHours": "Часы работы",
+    "ticketPrices": "Стоимость билетов",
+    "location": "Расположение",
+    "howToGetThere": "Как добраться"
+  },
+  "contact": {
+    "title": "Связаться с нами",
+    "name": "Ваше имя",
+    "email": "Ваш email",
+    "message": "Ваше сообщение",
+    "send": "Отправить"
+  },
+  "survey": {
+    "title": "Опрос посетителей",
+    "thankYou": "Спасибо за ваш отзыв!",
+    "required": "Это поле обязательно"
+  }
+}

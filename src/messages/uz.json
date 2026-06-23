@@ -1,0 +1,72 @@
+{
+  "common": {
+    "home": "Bosh sahifa",
+    "exhibits": "Eksponatlar",
+    "gallery": "Galereya",
+    "news": "Yangiliklar",
+    "about": "Muzey haqida",
+    "contact": "Aloqa",
+    "search": "Qidirish",
+    "language": "Til",
+    "darkMode": "Qorong'u rejim",
+    "lightMode": "Yorug' rejim",
+    "readMore": "Batafsil",
+    "viewAll": "Hammasini ko'rish",
+    "back": "Orqaga",
+    "submit": "Yuborish",
+    "loading": "Yuklanmoqda...",
+    "noResults": "Natija topilmadi"
+  },
+  "home": {
+    "heroTitle": "Sitorai Mohi Xosa",
+    "heroSubtitle": "Oysimon Yulduzlar Saroyi",
+    "welcomeText": "Buxoroning so'nggi amiri yozgi qarorgohi bilan tanishing",
+    "featuredExhibits": "Tanlangan eksponatlar",
+    "latestNews": "So'nggi yangiliklar",
+    "visitUs": "Bizga tashrif buyuring"
+  },
+  "exhibits": {
+    "title": "Eksponatlar va kolleksiyalar",
+    "searchPlaceholder": "Eksponatlarni qidirish...",
+    "filterByCategory": "Kategoriya bo'yicha",
+    "filterByHall": "Zal bo'yicha",
+    "filterByPeriod": "Davr bo'yicha",
+    "allCategories": "Barcha kategoriyalar",
+    "allHalls": "Barcha zallar",
+    "allPeriods": "Barcha davrlar",
+    "details": "Eksponat tafsilotlari",
+    "period": "Davr",
+    "material": "Material",
+    "hall": "Zal",
+    "category": "Kategoriya",
+    "takeSurvey": "So'rovnomani to'ldirish",
+    "clearFilters": "Tozalash"
+  },
+  "gallery": {
+    "title": "Fotogalereya",
+    "subtitle": "Sitorai Mohi Xosa go'zalligini kashf eting"
+  },
+  "news": {
+    "title": "Yangiliklar va maqolalar",
+    "publishedOn": "Nashr etilgan"
+  },
+  "about": {
+    "title": "Muzey haqida",
+    "visitingHours": "Ish vaqti",
+    "ticketPrices": "Chipta narxlari",
+    "location": "Manzil",
+    "howToGetThere": "Qanday yetib borish"
+  },
+  "contact": {
+    "title": "Biz bilan bog'laning",
+    "name": "Ismingiz",
+    "email": "Elektron pochtangiz",
+    "message": "Xabaringiz",
+    "send": "Xabar yuborish"
+  },
+  "survey": {
+    "title": "Tashrif buyuruvchilar so'rovnomasi",
+    "thankYou": "Fikr-mulohazangiz uchun rahmat!",
+    "required": "Bu maydon to'ldirilishi shart"
+  }
+}
