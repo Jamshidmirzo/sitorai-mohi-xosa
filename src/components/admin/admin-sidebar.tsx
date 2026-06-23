@@ -25,6 +25,7 @@ import {
   Info,
   LogOut,
   Sparkles,
+  Globe,
 } from "lucide-react"
 import { signOut } from "next-auth/react"
 import { Button } from "@/components/ui/button"
@@ -43,6 +44,7 @@ const GROUPS: Group[] = [
   {
     labelKey: "groups.content",
     items: [
+      { titleKey: "nav.landing", url: "/admin/landing", icon: Globe },
       { titleKey: "nav.exhibits", url: "/admin/exhibits", icon: Package },
       { titleKey: "nav.posts", url: "/admin/posts", icon: FileText },
       { titleKey: "nav.gallery", url: "/admin/gallery", icon: ImageIcon },

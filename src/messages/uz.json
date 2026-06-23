@@ -87,16 +87,16 @@
       "eyebrowWeb": "Buxoro · O'zbekiston · 1912-y. ta'sis",
       "eyebrowMobile": "Buxoro · O'zbekiston",
       "titlePrefix": "Sitorai",
-      "titleItalic": "Mohi Xosa",
-      "subtitle": "Yulduzlar va Oy Saroyi",
+      "titleItalic": "Mohi Xossa",
+      "subtitle": "Yulduzlar va oyga xos saroy",
       "scrollCue": "Pastga aylantiring"
     },
     "story": {
       "eyebrow": "I · Yulduz va Oy",
-      "headLead": "Erta ketgan kelinchakka",
-      "headItalic": "atalgan nom.",
-      "p1": "Amir o'zining yozgi saroyini erta vafot etgan yosh kelin nomi bilan atadi — Sitorai Mohi Xosa, oyga o'xshash yulduz. Bir asr o'tsa-da, tovuslar hanuz gulzorlarni kezadi, xonalar esa o'sha elegiyaning sukunatini saqlab turadi.",
-      "p2": "Buxoroning so'nggi amiri Said Olimxon Sankt-Peterburgda ta'lim oldi. U o'zining eng yaxshi ustalarini ruslar va yevropalik quruvchilardan o'rganishga shimolga yubordi — keyin esa ularni Buxoro devorlariga qo'yib yubordi. 1912 va 1918 yillar oralig'ida bu yerda natija ko'tarildi: sharq qalbi atrofidagi yevropacha hajmlar.",
+      "headLead": "Osmonning o'ziga",
+      "headItalic": "o'xshatib qo'yilgan nom.",
+      "p1": "Sitorai Mohi Xossa — «yulduzlar va oyga xos saroy». Mang'itlar sulolasidan Buxoroning so'nggi amirlarining shahar tashqarisidagi yozgi qarorgohi, shahar shimolida 4 km, Samarqand yo'lining yoqasida. Dastlabki toshlar amir Nasrulloxon davrida qo'yilgan, yakuniy ko'rinish amir Abdulahad Bahodirxon davrida berilgan.",
+      "p2": "Uchta hukmdor, uchta usta-me'mor — Hoji Hafiz, Ostonqul Hafizov, Mirzo Ustomiddin Sarkor — va butun bir avlod buxorolik o'ymakorlar, naqqoshlar va zargarlar. 1912–1918 yillar oralig'ida bu devorlarda yevropacha hajmlar sharqona bezak grammatikasi bilan uchrashdi. Bir asr o'tib, tovuslar hanuz gulzorlarni kezadi.",
       "stats": {
         "begun": "Boshlangan",
         "masters": "Ustalar",

@@ -98,6 +98,20 @@ model ExhibitTranslation {
   @@unique([exhibitId, locale])
 }
 
+// ==================== LANDING CONTENT ====================
+// Per-locale overrides for static narrative strings on the public landing.
+// The site falls back to messages/{locale}.json when a key is missing here.
+
+model LandingContent {
+  id        String   @id @default(cuid())
+  key       String
+  locale    String
+  value     String   @db.Text
+  updatedAt DateTime @updatedAt
+
+  @@unique([key, locale])
+}
+
 // ==================== QUIZ ====================
 
 model QuizQuestion {

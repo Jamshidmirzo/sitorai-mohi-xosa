@@ -21,6 +21,7 @@ export const ADMIN_DICT: Record<AdminLocale, Dict> = {
     "shell.theme": "Theme",
 
     "nav.dashboard": "Dashboard",
+    "nav.landing": "Landing page",
     "nav.exhibits": "Exhibits",
     "nav.posts": "Posts",
     "nav.gallery": "Gallery",
@@ -223,6 +224,7 @@ export const ADMIN_DICT: Record<AdminLocale, Dict> = {
     "shell.theme": "Тема",
 
     "nav.dashboard": "Главная",
+    "nav.landing": "Главная страница",
     "nav.exhibits": "Экспонаты",
     "nav.posts": "Новости",
     "nav.gallery": "Галерея",
@@ -425,6 +427,7 @@ export const ADMIN_DICT: Record<AdminLocale, Dict> = {
     "shell.theme": "Mavzu",
 
     "nav.dashboard": "Bosh sahifa",
+    "nav.landing": "Bosh sahifa tahriri",
     "nav.exhibits": "Eksponatlar",
     "nav.posts": "Yangiliklar",
     "nav.gallery": "Galereya",
