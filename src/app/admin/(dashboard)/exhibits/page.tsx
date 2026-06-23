@@ -149,11 +149,12 @@ export default function ExhibitsPage() {
         <div className="rounded-xl border border-dashed p-10 text-center bg-muted/30">
           <Sparkles className="size-8 mx-auto text-muted-foreground/60 mb-3" />
           <p className="text-muted-foreground">{t("ex.empty")}</p>
-          <Button asChild className="mt-4">
-            <Link href="/admin/exhibits/new">
-              <Plus className="mr-2 size-4" />
-              {t("ex.add")}
-            </Link>
+          <Button
+            render={<Link href="/admin/exhibits/new" />}
+            className="mt-4"
+          >
+            <Plus className="mr-2 size-4" />
+            {t("ex.add")}
           </Button>
         </div>
       ) : (
