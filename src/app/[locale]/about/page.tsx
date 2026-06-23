@@ -15,6 +15,7 @@ export default async function AboutPage({
   setRequestLocale(locale)
 
   const t = await getTranslations("about")
+  const tc = await getTranslations("common")
 
   const settings = await prisma.siteSettings.findUnique({ where: { locale } })
   const visitorInfo = await prisma.visitorInfo.findUnique({ where: { locale } })
@@ -56,7 +57,7 @@ export default async function AboutPage({
               />
             ) : (
               <p className="text-sm text-muted-foreground">
-                Information coming soon
+                {tc("comingSoon")}
               </p>
             )}
           </CardContent>
@@ -79,7 +80,7 @@ export default async function AboutPage({
               />
             ) : (
               <p className="text-sm text-muted-foreground">
-                Information coming soon
+                {tc("comingSoon")}
               </p>
             )}
           </CardContent>

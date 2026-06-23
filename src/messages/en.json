@@ -15,7 +15,8 @@
     "back": "Back",
     "submit": "Submit",
     "loading": "Loading...",
-    "noResults": "No results found"
+    "noResults": "No results found",
+    "comingSoon": "Information coming soon"
   },
   "home": {
     "heroTitle": "Sitorai Mohi Xosa",
@@ -68,5 +69,99 @@
     "title": "Visitor Survey",
     "thankYou": "Thank you for your feedback!",
     "required": "This question is required"
+  },
+  "narrative": {
+    "nav": {
+      "wordmark": "Sitorai Mohi Xosa",
+      "story": "The Story",
+      "hall": "The White Hall",
+      "collection": "Collection",
+      "visit": "Visit",
+      "visitPill": "Visit",
+      "mobilePlanVisit": "Plan your visit",
+      "mobileWordmark": "SMX"
+    },
+    "hero": {
+      "eyebrowWeb": "Bukhara · Uzbekistan · est. 1912",
+      "eyebrowMobile": "Bukhara · Uzbekistan",
+      "titlePrefix": "Sitorai",
+      "titleItalic": "Mohi Xosa",
+      "subtitle": "The Palace of Stars & the Moon",
+      "scrollCue": "Scroll to enter"
+    },
+    "story": {
+      "eyebrow": "I · The Star & the Moon",
+      "headLead": "A name written for a wife who",
+      "headItalic": "slipped away too soon.",
+      "p1": "The Emir named his summer palace for a young bride who died before her time — Sitorai Mohi Xosa, a star resembling the moon. A century on, peacocks still cross its rose gardens, and the rooms still hold the hush of that elegy.",
+      "p2": "Said Alim Khan, the last Emir of Bukhara, was schooled in St. Petersburg. He sent his finest masters north to learn from Russian and European builders — then set them loose on Bukharan walls. Between 1912 and 1918 the result rose here: European volumes wrapped around an Eastern soul.",
+      "stats": {
+        "begun": "Begun",
+        "masters": "Masters",
+        "listed": "Listed"
+      },
+      "caption": "“The East and the West meet at every step.”"
+    },
+    "hall": {
+      "eyebrow": "II · Oq Zal",
+      "title1": "The White",
+      "title2": "Hall",
+      "body": "Carved white ganch laid over mirror — a technique attempted here for the first time. No pattern is ever repeated. The mirrors return a reflection forty times over, until the room dissolves into something close to a dream.",
+      "credit": "By the hand of Usto Shirin Muradov & thirty masters.",
+      "stat1Value": "2 yrs",
+      "stat1Label": "1912–1914",
+      "stat2Value": "×40",
+      "stat2Label": "Reflections"
+    },
+    "collection": {
+      "eyebrow": "III · The Collection",
+      "title": "What the walls still keep",
+      "helperWeb": "Over a hundred pieces survive in the halls. Hover a piece, then open it.",
+      "helperMobile": "Over a hundred pieces survive in the halls. Tap a piece, then open it."
+    },
+    "visit": {
+      "eyebrow": "IV · Plan your visit",
+      "title": "Cross the gardens at golden hour",
+      "hours": "Hours",
+      "hoursValue": "Daily · 09:00 – 18:00",
+      "hoursClosed": "Closed Mondays",
+      "place": "Place",
+      "placeValue": "4 km north of Bukhara",
+      "placeCountry": "Uzbekistan",
+      "entry": "Entry",
+      "entryValue": "50 000 so’m",
+      "entryAudio": "Audio guide +30 000",
+      "language": "Language",
+      "mood": "Mood",
+      "colophon": "Sitorai Mohi Xosa — Museum of Decorative & Applied Arts · est. 1927"
+    },
+    "detail": {
+      "close": "Close",
+      "period": "Period",
+      "material": "Material",
+      "hall": "Hall",
+      "testYourEye": "Test your eye →",
+      "nextPiece": "Next piece →"
+    },
+    "quiz": {
+      "question": "Question {n} / {total}",
+      "result": "Result",
+      "correct": "Correct",
+      "notQuite": "Not quite",
+      "answerLabel": "Answer:",
+      "checkAnswer": "Check answer",
+      "continue": "Continue",
+      "seeScore": "See score",
+      "backToReading": "‹ Back to reading",
+      "timeTaken": "Time taken {time}",
+      "tryAgain": "Try again",
+      "backToPiece": "Back to the piece",
+      "nextPiece": "Next piece →",
+      "verdictAll": "A keeper of the palace’s secrets.",
+      "verdictHalf": "A patient eye — and a few more visits to make.",
+      "verdictSome": "A glance through the doorway. Come back to look longer.",
+      "verdictNone": "The palace asks for a slower visit. Try again.",
+      "answerPlaceholder": "Type your answer"
+    }
   }
 }

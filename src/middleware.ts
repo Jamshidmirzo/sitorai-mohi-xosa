@@ -30,4 +30,5 @@ export const config = {
     // Match all pathnames except static files and API/internal Next.js paths
     "/((?!_next|.*\\..*).*)",
   ],
+  runtime: "nodejs",
 }

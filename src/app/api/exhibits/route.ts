@@ -49,7 +49,19 @@ export async function POST(request: Request) {
 
   try {
     const body = await request.json()
-    const { translations, images, slug, categoryId, hallId, period, material, featured } = body
+    const {
+      translations,
+      images,
+      slug,
+      categoryId,
+      hallId,
+      period,
+      material,
+      bg,
+      shot,
+      order,
+      featured,
+    } = body
 
     const enTranslation = translations?.find(
       (t: { locale: string }) => t.locale === "en"
@@ -63,13 +75,24 @@ export async function POST(request: Request) {
         hallId: hallId || null,
         period: period || null,
         material: material || null,
+        bg: bg || null,
+        shot: shot || null,
+        order: typeof order === "number" ? order : 0,
         featured: featured ?? false,
         translations: {
           create: (translations || []).map(
-            (t: { locale: string; name: string; description?: string }) => ({
+            (t: {
+              locale: string
+              name: string
+              description?: string
+              tag?: string
+              story?: string
+            }) => ({
               locale: t.locale,
               name: t.name,
               description: t.description || null,
+              tag: t.tag || null,
+              story: t.story || null,
             })
           ),
         },

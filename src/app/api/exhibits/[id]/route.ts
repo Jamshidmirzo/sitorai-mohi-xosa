@@ -40,7 +40,19 @@ export async function PUT(
 
   try {
     const body = await request.json()
-    const { translations, images, slug, categoryId, hallId, period, material, featured } = body
+    const {
+      translations,
+      images,
+      slug,
+      categoryId,
+      hallId,
+      period,
+      material,
+      bg,
+      shot,
+      order,
+      featured,
+    } = body
 
     const exhibit = await prisma.$transaction(async (tx) => {
       await tx.exhibit.update({
@@ -51,6 +63,9 @@ export async function PUT(
           hallId: hallId || null,
           period: period || null,
           material: material || null,
+          bg: bg || null,
+          shot: shot || null,
+          order: typeof order === "number" ? order : 0,
           featured: featured ?? false,
         },
       })
@@ -60,6 +75,8 @@ export async function PUT(
           locale: string
           name: string
           description?: string
+          tag?: string
+          story?: string
         }[]) {
           await tx.exhibitTranslation.upsert({
             where: { exhibitId_locale: { exhibitId: id, locale: t.locale } },
@@ -68,10 +85,14 @@ export async function PUT(
               locale: t.locale,
               name: t.name,
               description: t.description || null,
+              tag: t.tag || null,
+              story: t.story || null,
             },
             update: {
               name: t.name,
               description: t.description || null,
+              tag: t.tag || null,
+              story: t.story || null,
             },
           })
         }

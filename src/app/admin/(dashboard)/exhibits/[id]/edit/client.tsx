@@ -3,8 +3,10 @@
 import { useEffect, useState } from "react"
 import { ExhibitForm } from "@/components/admin/exhibit-form"
 import { Skeleton } from "@/components/ui/skeleton"
+import { useAdminT } from "@/components/admin/admin-locale"
 
 export function EditExhibitClient({ id }: { id: string }) {
+  const { t } = useAdminT()
   const [exhibit, setExhibit] = useState<any>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
@@ -48,8 +50,8 @@ export function EditExhibitClient({ id }: { id: string }) {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-3xl font-bold tracking-tight">Edit Exhibit</h1>
-        <p className="text-muted-foreground">Update exhibit details</p>
+        <h1 className="text-3xl font-bold tracking-tight">{t("exForm.update")}</h1>
+        <p className="text-muted-foreground">{t("exForm.subtitleUpdate")}</p>
       </div>
       <ExhibitForm exhibit={exhibit} />
     </div>

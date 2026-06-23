@@ -15,6 +15,7 @@ export default async function ContactPage({
   setRequestLocale(locale)
 
   const t = await getTranslations("contact")
+  const tc = await getTranslations("common")
   const visitorInfo = await prisma.visitorInfo.findUnique({ where: { locale } })
 
   return (
@@ -89,7 +90,7 @@ export default async function ContactPage({
             !visitorInfo?.address && (
               <Card>
                 <CardContent className="pt-6 text-center text-sm text-muted-foreground">
-                  Contact information coming soon.
+                  {tc("comingSoon")}
                 </CardContent>
               </Card>
             )}

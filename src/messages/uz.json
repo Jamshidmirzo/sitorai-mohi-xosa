@@ -15,7 +15,8 @@
     "back": "Orqaga",
     "submit": "Yuborish",
     "loading": "Yuklanmoqda...",
-    "noResults": "Natija topilmadi"
+    "noResults": "Natija topilmadi",
+    "comingSoon": "Ma'lumot tez orada paydo bo'ladi"
   },
   "home": {
     "heroTitle": "Sitorai Mohi Xosa",
@@ -68,5 +69,99 @@
     "title": "Tashrif buyuruvchilar so'rovnomasi",
     "thankYou": "Fikr-mulohazangiz uchun rahmat!",
     "required": "Bu maydon to'ldirilishi shart"
+  },
+  "narrative": {
+    "nav": {
+      "wordmark": "Sitorai Mohi Xosa",
+      "story": "Tarix",
+      "hall": "Oq Zal",
+      "collection": "Kolleksiya",
+      "visit": "Tashrif",
+      "visitPill": "Tashrif",
+      "mobilePlanVisit": "Tashrifni rejalashtirish",
+      "mobileWordmark": "SMX"
+    },
+    "hero": {
+      "eyebrowWeb": "Buxoro · O'zbekiston · 1912-y. ta'sis",
+      "eyebrowMobile": "Buxoro · O'zbekiston",
+      "titlePrefix": "Sitorai",
+      "titleItalic": "Mohi Xosa",
+      "subtitle": "Yulduzlar va Oy Saroyi",
+      "scrollCue": "Pastga aylantiring"
+    },
+    "story": {
+      "eyebrow": "I · Yulduz va Oy",
+      "headLead": "Erta ketgan kelinchakka",
+      "headItalic": "atalgan nom.",
+      "p1": "Amir o'zining yozgi saroyini erta vafot etgan yosh kelin nomi bilan atadi — Sitorai Mohi Xosa, oyga o'xshash yulduz. Bir asr o'tsa-da, tovuslar hanuz gulzorlarni kezadi, xonalar esa o'sha elegiyaning sukunatini saqlab turadi.",
+      "p2": "Buxoroning so'nggi amiri Said Olimxon Sankt-Peterburgda ta'lim oldi. U o'zining eng yaxshi ustalarini ruslar va yevropalik quruvchilardan o'rganishga shimolga yubordi — keyin esa ularni Buxoro devorlariga qo'yib yubordi. 1912 va 1918 yillar oralig'ida bu yerda natija ko'tarildi: sharq qalbi atrofidagi yevropacha hajmlar.",
+      "stats": {
+        "begun": "Boshlangan",
+        "masters": "Ustalar",
+        "listed": "YUNESKO"
+      },
+      "caption": "“Sharq va G'arb har qadamda uchrashadi.”"
+    },
+    "hall": {
+      "eyebrow": "II · Oq Zal",
+      "title1": "Oq",
+      "title2": "Zal",
+      "body": "Oyna ustiga qo'yilgan o'yilgan oq ganch — bu yerda birinchi marta sinab ko'rilgan texnika. Bironta naqsh takrorlanmaydi. Oynalar aksni qirq marta qaytaradi, toki xona tushga o'xshash narsaga aylanmaguncha.",
+      "credit": "Usto Shirin Muradov va o'ttiz usta qo'li bilan.",
+      "stat1Value": "2 yil",
+      "stat1Label": "1912–1914",
+      "stat2Value": "×40",
+      "stat2Label": "Aks"
+    },
+    "collection": {
+      "eyebrow": "III · Kolleksiya",
+      "title": "Devorlar saqlab turgan narsalar",
+      "helperWeb": "Zallarda yuzdan ortiq buyum saqlanib qolgan. Buyum ustiga kursorni olib boring va oching.",
+      "helperMobile": "Zallarda yuzdan ortiq buyum saqlanib qolgan. Buyumga teging va oching."
+    },
+    "visit": {
+      "eyebrow": "IV · Tashrifni rejalang",
+      "title": "Bog'larni oltin soatda kezing",
+      "hours": "Soat",
+      "hoursValue": "Har kuni · 09:00 – 18:00",
+      "hoursClosed": "Dushanba kuni dam olish",
+      "place": "Manzil",
+      "placeValue": "Buxoroning shimolida 4 km",
+      "placeCountry": "O'zbekiston",
+      "entry": "Kirish",
+      "entryValue": "50 000 so'm",
+      "entryAudio": "Audio-yo'riq +30 000",
+      "language": "Til",
+      "mood": "Rejim",
+      "colophon": "Sitorai Mohi Xosa — Amaliy va dekorativ san'at muzeyi · 1927-y. ta'sis"
+    },
+    "detail": {
+      "close": "Yopish",
+      "period": "Davr",
+      "material": "Material",
+      "hall": "Zal",
+      "testYourEye": "Ko'zingizni sinab ko'ring →",
+      "nextPiece": "Keyingisi →"
+    },
+    "quiz": {
+      "question": "Savol {n} / {total}",
+      "result": "Natija",
+      "correct": "To'g'ri",
+      "notQuite": "Yaqin, lekin emas",
+      "answerLabel": "Javob:",
+      "checkAnswer": "Tekshirish",
+      "continue": "Davom etish",
+      "seeScore": "Natijani ko'rish",
+      "backToReading": "‹ Hikoyaga qaytish",
+      "timeTaken": "Sarflangan vaqt {time}",
+      "tryAgain": "Yana urinib ko'ring",
+      "backToPiece": "Eksponatga qaytish",
+      "nextPiece": "Keyingisi →",
+      "verdictAll": "Saroy sirlarining qo'riqchisi.",
+      "verdictHalf": "Sabrli ko'z — yana bir necha tashrif kerak.",
+      "verdictSome": "Eshik tashqarisidan qarash. Ko'proq ko'rish uchun qayting.",
+      "verdictNone": "Saroy sekinroq tashrifni so'raydi. Qaytadan urinib ko'ring.",
+      "answerPlaceholder": "Javobingizni kiriting"
+    }
   }
 }

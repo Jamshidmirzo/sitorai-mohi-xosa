@@ -19,92 +19,98 @@ import {
   LayoutDashboard,
   Package,
   FileText,
-  Image,
+  Image as ImageIcon,
   ClipboardList,
   Settings,
   Info,
   LogOut,
+  Sparkles,
 } from "lucide-react"
 import { signOut } from "next-auth/react"
 import { Button } from "@/components/ui/button"
+import { useAdminT } from "./admin-locale"
 
-const menuItems = [
+type Group = {
+  labelKey: string
+  items: { titleKey: string; url: string; icon: typeof Package }[]
+}
+
+const GROUPS: Group[] = [
   {
-    title: "Dashboard",
-    url: "/admin",
-    icon: LayoutDashboard,
+    labelKey: "shell.management",
+    items: [{ titleKey: "nav.dashboard", url: "/admin", icon: LayoutDashboard }],
   },
   {
-    title: "Exhibits",
-    url: "/admin/exhibits",
-    icon: Package,
+    labelKey: "groups.content",
+    items: [
+      { titleKey: "nav.exhibits", url: "/admin/exhibits", icon: Package },
+      { titleKey: "nav.posts", url: "/admin/posts", icon: FileText },
+      { titleKey: "nav.gallery", url: "/admin/gallery", icon: ImageIcon },
+    ],
   },
   {
-    title: "Posts",
-    url: "/admin/posts",
-    icon: FileText,
+    labelKey: "groups.engagement",
+    items: [
+      { titleKey: "nav.surveys", url: "/admin/surveys", icon: ClipboardList },
+    ],
   },
   {
-    title: "Gallery",
-    url: "/admin/gallery",
-    icon: Image,
-  },
-  {
-    title: "Surveys",
-    url: "/admin/surveys",
-    icon: ClipboardList,
-  },
-  {
-    title: "Visitor Info",
-    url: "/admin/visitor-info",
-    icon: Info,
-  },
-  {
-    title: "Settings",
-    url: "/admin/settings",
-    icon: Settings,
+    labelKey: "groups.system",
+    items: [
+      { titleKey: "nav.visitorInfo", url: "/admin/visitor-info", icon: Info },
+      { titleKey: "nav.settings", url: "/admin/settings", icon: Settings },
+    ],
   },
 ]
 
 export function AdminSidebar() {
   const pathname = usePathname()
+  const { t } = useAdminT()
 
   return (
     <Sidebar>
       <SidebarHeader className="p-4">
-        <Link href="/admin" className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary text-primary-foreground text-sm font-bold">
-            SM
+        <Link href="/admin" className="flex items-center gap-3">
+          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-amber-400 to-amber-700 text-white">
+            <Sparkles className="h-4 w-4" />
           </div>
           <div className="flex flex-col">
-            <span className="text-sm font-semibold">Sitorai Mohi Xosa</span>
-            <span className="text-xs text-muted-foreground">Admin Panel</span>
+            <span className="text-sm font-semibold leading-tight">
+              {t("shell.title")}
+            </span>
+            <span className="text-xs text-muted-foreground">
+              {t("shell.subtitle")}
+            </span>
           </div>
         </Link>
       </SidebarHeader>
       <SidebarContent>
-        <SidebarGroup>
-          <SidebarGroupLabel>Management</SidebarGroupLabel>
-          <SidebarGroupContent>
-            <SidebarMenu>
-              {menuItems.map((item) => (
-                <SidebarMenuItem key={item.title}>
-                  <SidebarMenuButton
-                    render={<Link href={item.url} />}
-                    isActive={
-                      item.url === "/admin"
-                        ? pathname === "/admin"
-                        : pathname.startsWith(item.url)
-                    }
-                  >
-                    <item.icon className="h-4 w-4" />
-                    <span>{item.title}</span>
-                  </SidebarMenuButton>
-                </SidebarMenuItem>
-              ))}
-            </SidebarMenu>
-          </SidebarGroupContent>
-        </SidebarGroup>
+        {GROUPS.map((group) => (
+          <SidebarGroup key={group.labelKey}>
+            <SidebarGroupLabel className="text-[10px] tracking-widest uppercase">
+              {t(group.labelKey)}
+            </SidebarGroupLabel>
+            <SidebarGroupContent>
+              <SidebarMenu>
+                {group.items.map((item) => (
+                  <SidebarMenuItem key={item.url}>
+                    <SidebarMenuButton
+                      render={<Link href={item.url} />}
+                      isActive={
+                        item.url === "/admin"
+                          ? pathname === "/admin"
+                          : pathname.startsWith(item.url)
+                      }
+                    >
+                      <item.icon className="h-4 w-4" />
+                      <span>{t(item.titleKey)}</span>
+                    </SidebarMenuButton>
+                  </SidebarMenuItem>
+                ))}
+              </SidebarMenu>
+            </SidebarGroupContent>
+          </SidebarGroup>
+        ))}
       </SidebarContent>
       <SidebarFooter className="p-4">
         <Button
@@ -113,7 +119,7 @@ export function AdminSidebar() {
           onClick={() => signOut({ callbackUrl: "/admin/login" })}
         >
           <LogOut className="h-4 w-4" />
-          Sign Out
+          {t("shell.signOut")}
         </Button>
       </SidebarFooter>
       <SidebarRail />
