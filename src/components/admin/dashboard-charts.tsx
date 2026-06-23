@@ -148,7 +148,7 @@ export function DashboardCharts({
             <Tooltip
               cursor={{ fill: "var(--muted)", opacity: 0.3 }}
               contentStyle={chartTooltipStyle()}
-              formatter={(value: number) => [`${value} ${respLabel}`, ""]}
+              formatter={(value) => [`${value} ${respLabel}`, ""]}
               labelStyle={{ color: "var(--foreground)", fontWeight: 500 }}
             />
             <Bar dataKey="responses" fill={PALETTE[0]} radius={[0, 6, 6, 0]} />
@@ -174,7 +174,7 @@ export function DashboardCharts({
             <Tooltip
               cursor={{ stroke: PALETTE[1], strokeWidth: 1 }}
               contentStyle={chartTooltipStyle()}
-              formatter={(value: number) => [`${value} ${respLabel}`, ""]}
+              formatter={(value) => [`${value} ${respLabel}`, ""]}
               labelStyle={{ color: "var(--foreground)", fontWeight: 500 }}
             />
             <Line
@@ -218,10 +218,7 @@ export function DashboardCharts({
               </Pie>
               <Tooltip
                 contentStyle={chartTooltipStyle()}
-                formatter={(value: number, name: string) => [
-                  `${value}`,
-                  name,
-                ]}
+                formatter={(value, name) => [`${value}`, String(name)]}
               />
             </PieChart>
           </ResponsiveContainer>
