@@ -200,6 +200,34 @@ const CURATORS: Master[] = [
     },
   },
   {
+    name: "P. A. Goncharova",
+    years: "1930s",
+    role: {
+      en: "Co-author of the modern museum’s scientific programme",
+      ru: "Соавтор научной программы современного музея",
+      uz: "Zamonaviy muzey ilmiy dasturining hammuallifi",
+    },
+    bio: {
+      en: "A graduate of the Eastern Languages Institute at the Central Asian State University, Goncharova arrived in Bukhara in the early 1930s and, with the art historian L. I. Rempel, carried out the first systematic ethnographic and curatorial fieldwork at the palace. Their proposals turned the museum from a display of confiscated objects into an academic institution — and led directly to the 1937–38 «Chinese Porcelain» exhibition that became the country’s first scientifically catalogued ethnographic display.",
+      ru: "Выпускница Института восточных языков при Среднеазиатском государственном университете. В начале 1930-х Гончарова приехала в Бухару и вместе с искусствоведом Л.И. Ремпелем провела первое систематическое этнографическое и кураторское полевое исследование во дворце. Их рекомендации превратили музей из показа конфискованных предметов в академическое учреждение — и привели напрямую к экспозиции «Китайский фарфор» 1937–38 годов, первой в стране выставке с научным каталогом.",
+      uz: "O‘rta Osiyo davlat universiteti qoshidagi Sharq tillari instituti bitiruvchisi. 1930-yillarning boshida Goncharova Buxoroga keldi va san‘atshunos L.I. Rempel bilan birgalikda saroyda birinchi tizimli etnografik va kuratorlik dala ishini olib bordi. Ularning tavsiyalari muzeyni musodara qilingan buyumlar namoyishidan akademik muassasaga aylantirdi — va 1937–38-yillardagi «Xitoy chinnisi» ko‘rgazmasiga olib keldi, bu mamlakatdagi birinchi ilmiy katalog bilan ekspozitsiya bo‘ldi.",
+    },
+  },
+  {
+    name: "L. I. Rempel",
+    years: "1930s",
+    role: {
+      en: "Art historian; co-designer of the first scientific exhibition",
+      ru: "Искусствовед; соавтор первой научной экспозиции",
+      uz: "San‘atshunos; birinchi ilmiy ekspozitsiyaning hammualifi",
+    },
+    bio: {
+      en: "Co-worker of Goncharova on the museum’s 1930s research programme. Rempel’s art-historical lens — provenance, attribution, decorative grammar — turned the palace inventory into a curatorial scheme that European ethnographic museums of the period would recognise. The 320-piece Chinese Porcelain catalogue prepared by the Uzbek Republican Art Museum was the visible result of his method.",
+      ru: "Сотрудник Гончаровой по научной программе музея 1930-х. Искусствоведческий подход Ремпеля — провенанс, атрибуция, декоративная грамматика — превратил инвентарь дворца в кураторскую схему, узнаваемую европейскими этнографическими музеями той эпохи. Каталог «Китайский фарфор» на 320 предметов, подготовленный Республиканским художественным музеем Узбекистана, — видимый результат его метода.",
+      uz: "Goncharova bilan muzeyning 1930-yillardagi ilmiy dasturidagi hamkasbi. Rempelning san‘atshunoslik nuqtai nazari — provenans, atributsiya, dekorativ grammatika — saroy ro‘yxatini o‘sha davr yevropa etnografik muzeylariga taniqli bo‘lgan kuratorlik sxemasiga aylantirdi. O‘zbekiston Respublikasi Badiiy muzeyi tayyorlagan 320 buyumdan iborat «Xitoy chinnisi» katalogi uning metodining ko‘rinarli natijasidir.",
+    },
+  },
+  {
     name: "P. E. Kornilov",
     years: "1930s",
     role: { en: "Director, Bukhara Local-History Museum", ru: "Директор, Бухарский краеведческий музей", uz: "Direktor, Buxoro o‘lkashunoslik muzeyi" },
