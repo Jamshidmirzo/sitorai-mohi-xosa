@@ -20,6 +20,7 @@ export function TopNav() {
   ];
   const historyLabel = t("history");
   const mastersLabel = t("masters");
+  const branchesLabel = t("branches");
   return (
     <div
       ref={navRef}
@@ -103,6 +104,17 @@ export function TopNav() {
           }}
         >
           {mastersLabel}
+        </Link>
+        <Link
+          href="/branches"
+          style={{
+            fontFamily: "var(--font-body), sans-serif",
+            fontSize: 14,
+            color: "rgba(247,238,222,.86)",
+            textDecoration: "none",
+          }}
+        >
+          {branchesLabel}
         </Link>
         <div
           style={{

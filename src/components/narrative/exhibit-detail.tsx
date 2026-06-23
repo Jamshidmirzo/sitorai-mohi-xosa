@@ -113,21 +113,8 @@ export function ExhibitDetail({
         >
           ‹
         </button>
-        <div
-          style={{
-            position: "absolute",
-            bottom: isMobile ? 16 : 32,
-            left: isMobile ? 16 : 32,
-            right: isMobile ? 16 : 32,
-            color: "rgba(255,255,255,.5)",
-            fontFamily: "var(--font-mono), monospace",
-            fontSize: 11,
-            letterSpacing: ".14em",
-            textTransform: "uppercase",
-          }}
-        >
-          {ex.shot}
-        </div>
+        {/* Placeholder caption (ex.shot) intentionally hidden from public view:
+            it’s a curator hint for what photograph belongs here, not user content. */}
       </div>
 
       {/* Info / Quiz pane */}
