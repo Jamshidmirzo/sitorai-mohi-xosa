@@ -144,6 +144,62 @@ const MASTERS: Master[] = [
 
 const CURATORS: Master[] = [
   {
+    name: "Fayzulla Xoʻjayev",
+    years: "1920",
+    role: {
+      en: "Saved the palace from looting",
+      ru: "Спас дворец от мародёрства",
+      uz: "Saroyni talondan saqlab qoldi",
+    },
+    bio: {
+      en: "Head of the Bukhara People’s Republic. After the Red Army takes the palace in September 1920 and the gardens are trampled, the gateway portal shot at, Fayzulla Xoʻjayev makes the palace the official government residence — a single bureaucratic stroke that stops the mass looting and saves the building for what becomes its museum decade.",
+      ru: "Глава Бухарской Народной Республики. После того как Красная армия в сентябре 1920 года занимает дворец и портал ворот расстрелян, а сады вытоптаны, Файзулла Ходжаев превращает дворец в официальную резиденцию правительства — одним административным росчерком останавливает мародёрство и сохраняет здание до его «музейного десятилетия».",
+      uz: "Buxoro Xalq Respublikasi rahbari. 1920-yil sentyabrda qizil qoʻshin saroyni egallab, darvozaning peshtogʻi oʻqqa tutilgach va bogʻlar oyoq ostiga bosilgach, Fayzulla Xoʻjayev saroyni rasmiy hukumat qarorgohiga aylantiradi — bir maʼmuriy qaror bilan ommaviy talonchilikni toʻxtatadi va binoni keyingi muzey oʻn yili uchun saqlab qoladi.",
+    },
+  },
+  {
+    name: "Muso Saidjonov",
+    years: "1920s",
+    role: {
+      en: "Founder of professional museum work in Bukhara",
+      ru: "Основатель профессиональной музейной работы в Бухаре",
+      uz: "Buxoroda professional muzey ishining asoschisi",
+    },
+    bio: {
+      en: "Minister of Education and Secretary of the Bukhara Central Executive Committee. With Abdurauf Fitrat and Abdulvohid Burhonov he sets up the first systematic inventory of Bukharan monuments — including a photo archive — and pushes through the «Sredazkomstaris» committee’s proposal to open a museum here. His memoranda to the Uzbek government argue the palace should become «something like Peterhof or Tsarskoe Selo». The 1927 branch museum that follows is his idea made law.",
+      ru: "Нарком просвещения и секретарь Бухарского Центрального исполнительного комитета. Вместе с Абдурауфом Фитратом и Абдулвохидом Бурхановым организует первую систематическую опись бухарских памятников — с фотоархивом — и проводит через комитет «Среазкомстарис» идею открыть здесь музей. В записках в правительство Узбекистана доказывает, что дворец должен стать «чем-то вроде Петергофа или Царского Села». Филиал-музей 1927 года — его замысел, ставший постановлением.",
+      uz: "Maorif noziri va Buxoro Markaziy ijroiya qoʻmitasining mas'ul kotibi. Abdurauf Fitrat va Abdulvohid Burhonov bilan birga Buxoro yodgorliklarining birinchi tizimli roʻyxatini — fotoarxiv bilan birga — tashkil qiladi va «Sredazkomstaris» qoʻmitasi orqali bu yerda muzey ochish gʻoyasini oʻtkazadi. Oʻzbekiston hukumatiga yozgan maʼlumotnomalarida saroy «Peterhof yoki Tsarskoe Selo singari» boʻlishi kerakligini isbotlaydi. 1927-yilgi filial-muzey — uning gʻoyasi qonunga aylangani.",
+    },
+  },
+  {
+    name: "Abdurauf Fitrat",
+    years: "1920s",
+    role: {
+      en: "Writer and reformer; infrastructure for the palace road",
+      ru: "Писатель и реформатор; инфраструктура к дворцу",
+      uz: "Yozuvchi va isloh tarafdori; saroy yoʻli infratuzilmasi",
+    },
+    bio: {
+      en: "One of the founding intellectuals of modern Uzbek literature. Worked with Saidjonov on the monuments inventory; his particular contribution to the palace was the repair of the road that led to it from Bukhara — without which curators, scholars and the first visitors could not have reached the building in the 1920s.",
+      ru: "Один из основоположников современной узбекской литературы. Работал с Саиджановым над описью памятников; его личный вклад в дворец — ремонт дороги, ведущей сюда из Бухары, без которой кураторы, исследователи и первые посетители не добрались бы до здания в 1920-е.",
+      uz: "Zamonaviy oʻzbek adabiyotining asoschilaridan biri. Saidjonov bilan yodgorliklar roʻyxati ustida ishlagan; saroyga uning shaxsiy hissasi — bu yerga Buxoroyalashtirigan yoʻlning ta'mirlanishi: usiz kuratorlar, tadqiqotchilar va birinchi tashrif buyuruvchilar 1920-yillarda binoga yetib kelolmas edi.",
+    },
+  },
+  {
+    name: "Karim Kamolov",
+    years: "2020",
+    role: {
+      en: "Mayor of Bukhara who stopped a botched restoration",
+      ru: "Мэр Бухары, остановивший неудачную реставрацию",
+      uz: "Yomon restavratsiyani to‘xtatgan Buxoro hokimi",
+    },
+    bio: {
+      en: "Late mayor of Bukhara. In 2019–2020 a contractor without restoration expertise damages ancient tiles and patterns on the staircases and ayvans and replaces the original windows with cheap wood. Kamolov, together with the Regional Cultural Heritage Department, demands a halt. After warnings, formal letters and a referral to the prosecutor’s office, the works are finally stopped in March 2020. The case becomes a textbook example in Uzbekistan of why heritage restoration needs scientific oversight.",
+      ru: "Покойный мэр Бухары. В 2019–2020 годах подрядчик без реставрационной квалификации повреждает древние изразцы и узоры на лестницах и айванах и заменяет оригинальные окна на дешёвое дерево. Камолов вместе с областным управлением культурного наследия требует остановить. После предупреждений, писем и обращения в прокуратуру стройка наконец остановлена в марте 2020 года. Случай стал хрестоматийным для Узбекистана примером того, почему реставрация наследия требует научного надзора.",
+      uz: "Buxoroning marhum hokimi. 2019–2020-yillarda restavratsiya tajribasi yo‘q pudratchi zinapoyalar va ayvonlardagi qadimiy koshin va naqshlarni shikastlaydi, asl derazalarni arzon yog‘ochga almashtiradi. Kamolov viloyat Madaniy meros departamenti bilan birgalikda to‘xtatishni talab qiladi. Ogohlantirish xatlari, prokuraturaga ma'lumotnoma — va 2020-yil mart oyida ishlar nihoyat to‘xtatiladi. Bu voqea O‘zbekistonda meros restavratsiyasi nima uchun ilmiy nazorat talab qilishini ko‘rsatuvchi darslik holatga aylanadi.",
+    },
+  },
+  {
     name: "P. E. Kornilov",
     years: "1930s",
     role: { en: "Director, Bukhara Local-History Museum", ru: "Директор, Бухарский краеведческий музей", uz: "Direktor, Buxoro o‘lkashunoslik muzeyi" },

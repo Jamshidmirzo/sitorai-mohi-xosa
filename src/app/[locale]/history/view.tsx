@@ -110,14 +110,14 @@ const ERAS: Era[] = [
   {
     year: "1920",
     headline: {
-      en: "The emirate ends",
-      ru: "Конец эмирата",
-      uz: "Amirlik tugaydi",
+      en: "The emirate ends — the palace is looted",
+      ru: "Конец эмирата — дворец разграблен",
+      uz: "Amirlik tugaydi — saroy talab ketadi",
     },
     body: {
-      en: "On 2 September 1920 the rule of Sayyid Olim-khan formally ends. The palace is closed, the inventory drawn up. Usto Shirin Muradov refuses to flee with the Emir to Afghanistan and stays.",
-      ru: "2 сентября 1920 года формально завершается правление Саида Олим-хана. Дворец закрывают, имущество описывают. Усто Ширин Мурадов отказывается бежать с эмиром в Афганистан и остаётся.",
-      uz: "1920-yil 2-sentyabrda Sayyid Olimxonning hukmronligi rasman tugaydi. Saroy yopiladi, ashyolar roʻyxatga olinadi. Usto Shirin Murodov amir bilan Afgʻonistonga qochib ketishni rad etib, oʻz yurtida qoladi.",
+      en: "On 2 September 1920 the rule of Sayyid Olim-khan formally ends. Red Army troops take the palace; ornamental trees and the rose gardens are trampled, the gateway portal is shot at and the architectural ornaments damaged in dozens of places. To stop the looting, Fayzulla Xoʻjayev — head of the Bukhara People’s Republic — turns the building into the official government residence, and the first Congress of the Republic is held in its halls that October. Usto Shirin Muradov refuses to flee with the Emir to Afghanistan and stays.",
+      ru: "2 сентября 1920 года формально завершается правление Саида Олим-хана. Красная армия занимает дворец; декоративные деревья и розарии вытоптаны, портал ворот расстрелян, архитектурные узоры повреждены в десятках мест. Чтобы остановить мародёрство, Файзулла Ходжаев — глава Бухарской Народной Республики — превращает здание в официальную резиденцию правительства, и в октябре того же года в его залах проводят первый Курултай Республики. Усто Ширин Мурадов отказывается бежать с эмиром в Афганистан и остаётся.",
+      uz: "1920-yil 2-sentyabrda Sayyid Olimxonning hukmronligi rasman tugaydi. Qizil qo‘shin saroyni egallaydi; bezakli daraxtlar va gulzorlar oyoq tagiga bosiladi, darvozaning peshtog‘i o‘qqa tutilib, me'moriy bezaklar o‘nlab joyda shikastlanadi. Talonchilikni to‘xtatish uchun Buxoro Xalq Respublikasi rahbari Fayzulla Xo‘jayev binoni rasmiy hukumat qarorgohiga aylantiradi, va o‘sha yilning oktyabrida uning zallarida Respublika birinchi qurultoyi o‘tkaziladi. Usto Shirin Murodov amir bilan Afg‘onistonga qochishni rad etib, o‘z yurtida qoladi.",
     },
   },
   {
@@ -131,6 +131,32 @@ const ERAS: Era[] = [
       en: "On 8 November 1922 the city’s first official museum opens in the former Russo-Chinese bank building — Bukhara State Museum. The proposal at the opening: name it after Qori Yoʻldosh. Five rooms, a theatre, a library and a club share the building.",
       ru: "8 ноября 1922 года в здании бывшего Русско-Китайского банка открывается первый официальный музей города — Бухарский государственный музей. На церемонии открытия звучит предложение: назвать его именем Кари Юлдоша. Пять залов, театр, библиотека и клуб делят здание.",
       uz: "1922-yil 8-noyabrda sobiq Rus-Xitoy banki binosida shahar birinchi rasmiy muzeyi — Buxoro davlat muzeyi ochiladi. Ochilish marosimida muzeyni Qori Yoʻldosh nomi bilan atash taklif qilinadi. Besh xona, teatr, kutubxona va klub bir binoda joylashadi.",
+    },
+  },
+  {
+    year: "1923",
+    headline: {
+      en: "The fire of autumn 1923",
+      ru: "Пожар осени 1923 года",
+      uz: "1923-yil kuzgi yong‘in",
+    },
+    body: {
+      en: "After the government moves back to the city centre the palace is left empty. In autumn 1923 peasants carelessly burning hay set fire to some of the buildings — it takes five hours for the villagers to put it out. The episode lays bare the absence of any fire-safety arrangement or legal protection. The Bukhara Central Executive Committee is forced to issue an emergency directive.",
+      ru: "После того как правительство возвращается в центр города, дворец оставляют пустым. Осенью 1923 года крестьяне неосторожно жгут солому и подпаливают часть построек — пять часов сельчане тушат пожар. Эпизод обнажает полное отсутствие пожарной охраны и правовой защиты. Бухарский Центральный исполнительный комитет вынужден издать срочное предписание.",
+      uz: "Hukumat shahar markaziga qaytib o‘rnashgach, saroy bo‘sh qoladi. 1923-yil kuzida dehqonlar somon yoqayotib ehtiyotsizlik bilan binolarning bir qismiga o‘t qo‘yib yuboradi — qishloq aholisi besh soat davomida o‘chiradi. Hodisa yong‘in xavfsizligi va huquqiy muhofazaning batamom yo‘qligini ochib tashlaydi. Buxoro Markaziy ijroiya qo‘mitasi shoshilinch yo‘riqnoma chiqarishga majbur bo‘ladi.",
+    },
+  },
+  {
+    year: "1927",
+    headline: {
+      en: "First branch museum opens",
+      ru: "Открыт первый филиал-музей",
+      uz: "Birinchi filial-muzey ochiladi",
+    },
+    body: {
+      en: "On the initiative of Muso Saidjonov (Minister of Education), Abdurauf Fitrat and Abdulvohid Burhonov, the «Sredazkomstaris» committee opens the first branch museum here — «Life of the Last Emirs’ Dynasty». Display cases show jewellery, gold-thread embroidery, pottery and coppersmith work. Funds and qualified curators are scarce, but the foundation of professional museum work in Bukhara is laid.",
+      ru: "По инициативе Мусо Саиджанова (нарком просвещения), Абдурауфа Фитрата и Абдулвохида Бурханова комитет «Среазкомстарис» открывает здесь первый филиал-музей — «Жизнь последней эмирской династии». В витринах — ювелирные изделия, зардузи, керамика, медная посуда. Денег и квалифицированных хранителей не хватает, но фундамент профессиональной музейной работы в Бухаре заложен.",
+      uz: "Muso Saidjonov (Maorif noziri), Abdurauf Fitrat va Abdulvohid Burhonov tashabbusi bilan «Sredazkomstaris» qo‘mitasi shu yerda birinchi filial-muzeyni — «So‘nggi amirlar sulolasining turmushi» — ochadi. Vitrinalarda zargarlik, zardo‘zlik, kulolchilik, misgarlik buyumlari. Mablag‘ va malakali kadr yetishmaydi, ammo Buxoroda professional muzey ishining poydevori qo‘yiladi.",
     },
   },
   {
@@ -160,6 +186,19 @@ const ERAS: Era[] = [
     },
   },
   {
+    year: "1954",
+    headline: {
+      en: "Rest house — and the loss of the gardens",
+      ru: "Дом отдыха — и потеря парка",
+      uz: "Dam olish uyi — bog‘ning yo‘qotilishi",
+    },
+    body: {
+      en: "By government resolution, parts of the palace and most of the garden are handed over to a workers’ rest house. Native trees are cut down and replaced with Russian decorative species; palace rooms — harem, kanizakxona, even Xonai Xasht — are converted into kitchens and dormitories. Unprofessional reconstruction permanently alters the architecture. Only ministerial intervention saves 9 halls (565 m²) for the Folk Decorative Art Museum.",
+      ru: "Постановлением правительства часть дворца и большая часть бога передаются в ведение дома отдыха для трудящихся. Местные деревья срубают, на их место сажают русские декоративные породы; покои дворца — гарем, кaнизакхана, даже Хонаи Хашт — превращают в кухни и общежития. Непрофессиональная реконструкция необратимо меняет архитектуру. Только вмешательство министерства спасает 9 залов (565 м²) для Музея народного прикладного искусства.",
+      uz: "Hukumat qarori bilan saroyning bir qismi va bog‘ning katta qismi ishchilar dam olish uyi ixtiyoriga topshiriladi. Mahalliy daraxtlar kesilib, rus bezakli daraxtlari ekiladi; saroy xonalari — harem, kanizakxona, hatto Xonai Xasht — oshxona va yotoqxonaga aylantiriladi. Nomutaxassis qayta qurish me'morchilikni qaytarib bo‘lmas darajada o‘zgartiradi. Faqat vazirlik aralashuvi 9 ta zalni (565 m²) Xalq amaliy bezak san'ati muzeyi uchun saqlab qoladi.",
+    },
+  },
+  {
     year: "1977",
     headline: {
       en: "The metals are counted",
@@ -170,6 +209,19 @@ const ERAS: Era[] = [
       en: "On 1 December 1977 every piece of precious metal in the Bukhara museum holdings is weighed. The inventory reports: 1 162.85 g of gold, 249 522.5 g of silver, 359 diamonds, 272 carats of brilliants, 40 emeralds and 35 corals. The number on paper is at last equal to the number in the cases — a long-overdue accounting of what survived the Emirate, the Soviet redistribution and four decades of museum care.",
       ru: "1 декабря 1977 года в фондах Бухарского музея взвешен каждый предмет драгоценного металла. Опись фиксирует: золото — 1 162,85 г, серебро — 249 522,5 г, алмазы — 359 шт., бриллианты — 272 карата, изумруды — 40 шт., кораллы — 35 шт. Число на бумаге наконец совпадает с числом в витринах — давно откладывавшаяся ревизия того, что пережило эмират, советский передел и четыре десятилетия музейной опеки.",
       uz: "1977-yil 1-dekabrida Buxoro muzeyi fondidagi har bir qimmatbaho metall buyumi tarozida tortib chiqiladi. Roʻyxat: oltin — 1 162,85 g, kumush — 249 522,5 g, olmos — 359 dona, brilliant — 272 karat, zumrad — 40, marjon — 35. Qogʻozdagi raqam nihoyat vitrinadagi raqamga teng boʻladi — amirlikdan, sovet qayta taqsimotidan va muzeyning toʻrt oʻn yillik gʻamxoʻrligidan keyin qolgan narsalarning kechikkan reviziyasi.",
+    },
+  },
+  {
+    year: "1983",
+    headline: {
+      en: "Museum-reserve status",
+      ru: "Статус музея-заповедника",
+      uz: "Muzey-qoʻriqxona maqomi",
+    },
+    body: {
+      en: "By resolution of the Council of Ministers of the Uzbek SSR (16 May 1983, No. 308), the museum becomes the Bukhara State Historical-Architectural Museum-Reserve. More than a thousand cultural monuments and 603 state-protected objects fall under its care.",
+      ru: "Постановлением Совета Министров Узбекской ССР от 16 мая 1983 года № 308 музей получает наименование «Бухарский государственный историко-архитектурный музей-заповедник». В его ведение переходят более тысячи памятников культуры и 603 объекта государственной охраны.",
+      uz: "Oʻzbekiston SSR Vazirlar Kengashining 1983-yil 16-maydagi 308-sonli qarori bilan muzey «Buxoro davlat tarixiy-meʼmorchilik muzey-qoʻriqxonasi» nomini oladi. Uning tarkibiga 1000 dan ortiq madaniy yodgorlik va 603 ta davlat muhofazasidagi obyekt kiritiladi.",
     },
   },
   {
@@ -187,19 +239,6 @@ const ERAS: Era[] = [
     },
   },
   {
-    year: "1983",
-    headline: {
-      en: "Museum-reserve status",
-      ru: "Статус музея-заповедника",
-      uz: "Muzey-qoʻriqxona maqomi",
-    },
-    body: {
-      en: "By resolution of the Council of Ministers of the Uzbek SSR (16 May 1983, No. 308), the museum becomes the Bukhara State Historical-Architectural Museum-Reserve. More than a thousand cultural monuments and 603 state-protected objects fall under its care.",
-      ru: "Постановлением Совета Министров Узбекской ССР от 16 мая 1983 года № 308 музей получает наименование «Бухарский государственный историко-архитектурный музей-заповедник». В его ведение переходят более тысячи памятников культуры и 603 объекта государственной охраны.",
-      uz: "Oʻzbekiston SSR Vazirlar Kengashining 1983-yil 16-maydagi 308-sonli qarori bilan muzey «Buxoro davlat tarixiy-meʼmorchilik muzey-qoʻriqxonasi» nomini oladi. Uning tarkibiga 1000 dan ortiq madaniy yodgorlik va 603 ta davlat muhofazasidagi obyekt kiritiladi.",
-    },
-  },
-  {
     year: "2017",
     headline: {
       en: "A new chapter",
@@ -207,9 +246,22 @@ const ERAS: Era[] = [
       uz: "Yangi sahifa",
     },
     body: {
-      en: "President Mirziyoyev’s visit in March 2017 sets in motion a programme to expand Bukhara’s tourism potential and to restore the Ark citadel to its original form. By Resolution No. 975, the body becomes the “Bukhara State Museum-Reserve”. Today its collection holds more than 150 000 objects across 16 branches and 2 permanent exhibitions.",
-      ru: "Визит президента Мирзиёева в марте 2017 года запускает программу расширения туристического потенциала Бухары и восстановления цитадели Арк в её первоначальном виде. Постановлением Кабмина № 975 структура переименовывается в «Бухарский государственный музей-заповедник». Сегодня в её собрании — более 150 000 экспонатов в 16 филиалах и двух постоянных экспозициях.",
-      uz: "Prezident Mirziyoyevning 2017-yil mart oyidagi tashrifi Buxoro turizm salohiyatini kengaytirish va Ark qoʻrgʻonini asl koʻrinishida tiklash dasturini boshlab beradi. Vazirlar Mahkamasining 975-sonli qarori bilan tashkilot «Buxoro davlat muzey-qoʻriqxonasi» nomini oladi. Bugungi kunda uning saqlovida 16 ta filial va 2 doimiy ekspozitsiyada 150 mingdan ortiq eksponat saqlanmoqda.",
+      en: "President Mirziyoyev’s visit in March 2017 sets in motion a programme to expand Bukhara’s tourism potential and to restore the Ark citadel to its original form. By Resolution No. 975, the body becomes the “Bukhara State Museum-Reserve”. On 11 December the Cabinet of Ministers approves the 2017–2027 programme to upgrade state museums. Today the reserve’s collection holds more than 150 000 objects across 16 branches and 2 permanent exhibitions.",
+      ru: "Визит президента Мирзиёева в марте 2017 года запускает программу расширения туристического потенциала Бухары и восстановления цитадели Арк в её первоначальном виде. Постановлением Кабмина № 975 структура переименовывается в «Бухарский государственный музей-заповедник». 11 декабря Кабмин утверждает программу модернизации государственных музеев на 2017–2027 годы. Сегодня в собрании заповедника — более 150 000 экспонатов в 16 филиалах и двух постоянных экспозициях.",
+      uz: "Prezident Mirziyoyevning 2017-yil mart oyidagi tashrifi Buxoro turizm salohiyatini kengaytirish va Ark qo‘rg‘onini asl ko‘rinishida tiklash dasturini boshlab beradi. Vazirlar Mahkamasining 975-sonli qarori bilan tashkilot «Buxoro davlat muzey-qo‘riqxonasi» nomini oladi. 11-dekabrda Vazirlar Mahkamasi 2017–2027-yillar uchun davlat muzeylarini takomillashtirish dasturini tasdiqlaydi. Bugungi kunda qo‘riqxona saqlovida 16 ta filial va 2 doimiy ekspozitsiyada 150 mingdan ortiq eksponat bor.",
+    },
+  },
+  {
+    year: "2019–2020",
+    headline: {
+      en: "Restoration begun — and halted",
+      ru: "Реставрация начата — и остановлена",
+      uz: "Restavratsiya boshlanadi — va to‘xtatiladi",
+    },
+    body: {
+      en: "Restoration work begins on the reception hall, the guest rooms, the kanizakxona and the Xonai Xasht pavilion. Non-specialist craftsmen are brought in: ancient tiles and patterns on the staircases and ayvans are damaged, the original windows replaced with low-quality wood. The late mayor of Bukhara Karim Kamolov, together with the Regional Cultural Heritage Department, demands a halt. After warnings, formal letters and a report to the prosecutor’s office, construction is finally stopped in March 2020. The case becomes the textbook example in Uzbekistan of why heritage restoration needs scientific oversight.",
+      ru: "Начинаются реставрационные работы — приёмные, гостевые комнаты, канизакхана и павильон Хонаи Хашт. Привлекают неспециалистов: древние изразцы и узоры на лестницах и айванах повреждают, оригинальные окна заменяют на дешёвое дерево. Покойный мэр Бухары Карим Камолов вместе с областным управлением культурного наследия требует остановить. После предупреждений, писем и обращения в прокуратуру стройка наконец остановлена в марте 2020 года. Случай становится для Узбекистана хрестоматийным примером того, почему реставрация наследия требует научного надзора.",
+      uz: "Qabulxona, mehmonxona, kanizakxona va Xonai Xasht pavilonida restavratsiya boshlanadi. Nomutaxassis ustalar jalb qilinadi: zinapoyalar va ayvonlardagi qadimiy koshin va naqshlar shikastlanadi, asl derazalar arzon yog‘ochga almashtiriladi. Buxoroning marhum hokimi Karim Kamolov viloyat Madaniy meros departamenti bilan birgalikda to‘xtatishni talab qiladi. Ogohlantirish xatlari, prokuraturaga ma'lumotnoma — va nihoyat 2020-yil mart oyida ishlar to‘xtatiladi. Bu voqea O‘zbekistonda meros restavratsiyasi nima uchun ilmiy nazorat talab qilishini ko‘rsatadigan darslik holatiga aylanadi.",
     },
   },
 ];
