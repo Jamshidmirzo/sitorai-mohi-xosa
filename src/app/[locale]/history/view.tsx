@@ -53,6 +53,20 @@ const ERAS: Era[] = [
     },
   },
   {
+    year: "1860–1885",
+    ruler: "Muzaffar-khan",
+    headline: {
+      en: "The project drawn",
+      ru: "Проект на бумаге",
+      uz: "Loyiha qog‘ozga tushadi",
+    },
+    body: {
+      en: "Under Amir Muzaffar-khan the project of the future palace is drawn up by master architect Ostonqul Hafizov — one of the gifted builders of his generation who tries to braid Eastern tradition with European modernity. Earlier masters — usta Hoji Hafiz and usta Nasrulloboy — work the initial designs of the gardens and courtyards. Construction is not yet complete, but the palace’s shape on paper is already set.",
+      ru: "При амире Музаффар-хане проект будущего дворца разрабатывает архитектор Усто Остонкул Хафизов — один из самых одарённых мастеров своего поколения, пытающийся соединить восточную традицию с европейской современностью. Ранее усто Хаджи Хафиз и усто Насруллобой работают над начальными проектами садов и двориков. Строительство ещё не завершено, но облик дворца на бумаге уже задан.",
+      uz: "Amir Muzaffarxon davrida boʻlajak saroyning loyihasi meʼmor Usto Ostonqul Hafizov tomonidan tuziladi — sharqona an'ana bilan yevropacha zamonaviylikni birlashtirishga uringan oʻz davrining isteʼdodli ustalaridan biri. Bundan oldin usto Hoji Hafiz va usto Nasrulloboy bogʻ va hovlilarning dastlabki loyihalari ustida ishlaydi. Qurilish hali tugamagan, ammo saroyning qogʻozdagi qiyofasi belgilangan.",
+    },
+  },
+  {
     year: "1885–1910",
     ruler: "Abdulahad Bahodir-khan",
     headline: {
@@ -143,6 +157,33 @@ const ERAS: Era[] = [
       en: "Architect-restorer Vinogradov, an academician, draws the palace sheet by sheet — walls of two and one storeys, the deep niches and ayvans, the carved ceilings. His blueprints become the reference document for every restoration that follows.",
       ru: "Архитектор-реставратор академик Виноградов чертит дворец лист за листом — стены в два и один этаж, глубокие ниши и айваны, резные потолки. Его чертежи станут эталонным документом для каждой последующей реставрации.",
       uz: "Akademik me'mor-restavrator Vinogradov saroyni varaq-varaq qilib chizadi — ikki va bir qavatli devorlar, chuqur tokchalar va ayvonlar, oʻyilgan shiftlar. Uning chizmalari bundan keyingi har bir restavratsiya uchun mezon hujjat boʻladi.",
+    },
+  },
+  {
+    year: "1977",
+    headline: {
+      en: "The metals are counted",
+      ru: "Металлы пересчитаны",
+      uz: "Metallar sanab chiqildi",
+    },
+    body: {
+      en: "On 1 December 1977 every piece of precious metal in the Bukhara museum holdings is weighed. The inventory reports: 1 162.85 g of gold, 249 522.5 g of silver, 359 diamonds, 272 carats of brilliants, 40 emeralds and 35 corals. The number on paper is at last equal to the number in the cases — a long-overdue accounting of what survived the Emirate, the Soviet redistribution and four decades of museum care.",
+      ru: "1 декабря 1977 года в фондах Бухарского музея взвешен каждый предмет драгоценного металла. Опись фиксирует: золото — 1 162,85 г, серебро — 249 522,5 г, алмазы — 359 шт., бриллианты — 272 карата, изумруды — 40 шт., кораллы — 35 шт. Число на бумаге наконец совпадает с числом в витринах — давно откладывавшаяся ревизия того, что пережило эмират, советский передел и четыре десятилетия музейной опеки.",
+      uz: "1977-yil 1-dekabrida Buxoro muzeyi fondidagi har bir qimmatbaho metall buyumi tarozida tortib chiqiladi. Roʻyxat: oltin — 1 162,85 g, kumush — 249 522,5 g, olmos — 359 dona, brilliant — 272 karat, zumrad — 40, marjon — 35. Qogʻozdagi raqam nihoyat vitrinadagi raqamga teng boʻladi — amirlikdan, sovet qayta taqsimotidan va muzeyning toʻrt oʻn yillik gʻamxoʻrligidan keyin qolgan narsalarning kechikkan reviziyasi.",
+    },
+  },
+  {
+    year: "1985",
+    ruler: "R. V. Almeyev",
+    headline: {
+      en: "The pieces return",
+      ru: "Возврат предметов",
+      uz: "Buyumlar qaytadi",
+    },
+    body: {
+      en: "R. V. Almeyev is appointed director of the Bukhara museum. Under him many of the objects that the Soviet authorities had quietly transferred to other regional collections are returned to Bukhara. New branches open, several monuments themselves are turned into museums, and ethnographic field expeditions are organised in Romitan, Peshku, Shafirkan, Qiziltepa, Vobkent and Gijduvon.",
+      ru: "Директором Бухарского музея назначается Р.В. Альмеев. При нём в Бухару возвращаются многие предметы, которые в советское время были тихо переданы в другие областные собрания. Открываются новые филиалы, несколько памятников сами становятся музеями, организуются этнографические экспедиции в Ромитан, Пешку, Шафиркан, Кызылтепа, Вобкент и Гиждуван.",
+      uz: "Buxoro muzeyiga direktor etib R.V. Almeyev tayinlanadi. Uning rahbarligida sovet hokimiyati davrida boshqa viloyat toʻplamlariga jimgina koʻchirilgan koʻplab buyumlar Buxoroga qaytariladi. Yangi filiallar ochiladi, bir nechta yodgorliklarning oʻzi muzeyga aylantiriladi, Romitan, Peshku, Shofirkon, Qiziltepa, Vobkent va Gʻijduvonga etnografik ekspeditsiyalar uyushtiriladi.",
     },
   },
   {

@@ -19,6 +19,7 @@ export function TopNav() {
     { id: "visit", label: t("visit") },
   ];
   const historyLabel = t("history");
+  const mastersLabel = t("masters");
   return (
     <div
       ref={navRef}
@@ -91,6 +92,17 @@ export function TopNav() {
           }}
         >
           {historyLabel}
+        </Link>
+        <Link
+          href="/masters"
+          style={{
+            fontFamily: "var(--font-body), sans-serif",
+            fontSize: 14,
+            color: "rgba(247,238,222,.86)",
+            textDecoration: "none",
+          }}
+        >
+          {mastersLabel}
         </Link>
         <div
           style={{
