@@ -42,6 +42,24 @@ const LEGAL_TITLE: Tri<string> = {
   uz: "Huquqiy asoslar",
 };
 
+const PRES_TITLE: Tri<string> = {
+  en: "Works of the President of the Republic of Uzbekistan",
+  ru: "Работы Президента Республики Узбекистан",
+  uz: "O‘zbekiston Respublikasi Prezidenti asarlari",
+};
+
+const ART_TITLE: Tri<string> = {
+  en: "Academic articles on Sitorai Mohi Xossa and museography",
+  ru: "Научные статьи о Ситораи Мохи Хосса и музеографии",
+  uz: "Sitorai Mohi Xossa va muzeografiya bo‘yicha ilmiy maqolalar",
+};
+
+const WEB_TITLE: Tri<string> = {
+  en: "Web sources",
+  ru: "Веб-источники",
+  uz: "Veb-manbalar",
+};
+
 const LEGAL_LEAD: Tri<string> = {
   en: "Decrees and resolutions governing the preservation, restoration and museification of Uzbek cultural heritage:",
   ru: "Указы и постановления, определяющие сохранение, реставрацию и музеефикацию культурного наследия Узбекистана:",
@@ -73,6 +91,214 @@ const PRIMARY: Entry = {
     uz: "«Xronologiya» sahifasidagi, «Ustalar», eksponatlar kartochkalaridagi, «Muzey haqida» va me‘morchilik tavsiflaridagi barcha matnlar shu dissertatsiyadan olingan. Bo‘lmasa, faqat arxivda qoladigan ismlar, sanalar, atributsiyalar va bo‘yoq retseptlari.",
   },
 };
+
+const PRESIDENTIAL: Entry[] = [
+  {
+    authors: "Mirziyoyev Sh. M.",
+    title: {
+      en: "From national revival to national rise",
+      ru: "От национального возрождения — к национальному подъёму",
+      uz: "Milliy tiklanishdan — milliy yuksalish sari",
+    },
+    meta: {
+      en: "Tashkent: «O‘zbekiston» NMIU, 2020 — 48 pp. The cultural-heritage policy framework under which the present museum-reserve programme operates.",
+      ru: "Ташкент: «Узбекистан» НМИУ, 2020 — 48 с. Рамки политики культурного наследия, в рамках которой работает действующая программа музея-заповедника.",
+      uz: "Toshkent: «O‘zbekiston» NMIU, 2020 — 48 b. Hozirgi muzey-qo‘riqxona dasturi faoliyat yuritayotgan madaniy meros siyosati doirasi.",
+    },
+  },
+  {
+    authors: "Mirziyoyev Sh. M.",
+    title: {
+      en: "We will build our great future together with our brave and noble people",
+      ru: "Великое будущее строим вместе с нашим мужественным и благородным народом",
+      uz: "Buyuk kelajagimizni mard va oliyjanob xalqimiz bilan birga quramiz",
+    },
+    meta: {
+      en: "Tashkent: «O‘zbekiston» NMIU, 2017 — 407 pp.",
+      ru: "Ташкент: «Узбекистан» НМИУ, 2017 — 407 с.",
+      uz: "Toshkent: «O‘zbekiston» NMIU, 2017 — 407 b.",
+    },
+  },
+];
+
+const ARTICLES: Entry[] = [
+  {
+    authors: "Zaripov S.",
+    title: {
+      en: "Bukhara Architectural Monument Sitorai Mohi Xossa Construction Architecture",
+      ru: "Архитектура постройки Бухарского архитектурного памятника Ситораи Мохи Хосса",
+      uz: "Buxoro me‘moriy yodgorligi Sitorai Mohi Xossa qurilishi arxitekturasi",
+    },
+    meta: {
+      en: "Central Asian Journal of Social Sciences and History. Vol. 02, Iss. 04, April 2021. pp. 124–130. An English-language peer-reviewed account of the construction phases — useful for international researchers.",
+      ru: "Central Asian Journal of Social Sciences and History. Том 02, выпуск 04, апрель 2021. С. 124–130. Рецензируемая англоязычная статья об этапах постройки — полезна международным исследователям.",
+      uz: "Central Asian Journal of Social Sciences and History. 02-jild, 04-son, 2021-yil aprel. 124–130-betlar. Qurilish bosqichlari haqida ingliz tilidagi taqrizli maqola — xalqaro tadqiqotchilar uchun foydali.",
+    },
+  },
+  {
+    authors: "Boltayev A., Odilov J.",
+    title: {
+      en: "Sitorai Mohi Xosa as an Ethnographic Museum",
+      ru: "Ситораи Мохи Хосса как этнографический музей",
+      uz: "Sitorai Mohi Xosa etnografik muzey",
+    },
+    meta: {
+      en: "Innovations in Technology and Science Education. Vol. 2, Iss. 9, 2023. pp. 1028–1034. Frames the palace not just as architectural monument but as a living ethnographic record.",
+      ru: "Innovations in Technology and Science Education. Том 2, выпуск 9, 2023. С. 1028–1034. Рассматривает дворец не только как архитектурный памятник, но и как живой этнографический источник.",
+      uz: "Innovations in Technology and Science Education. 2-jild, 9-son, 2023. 1028–1034-betlar. Saroyni faqat me‘moriy yodgorlik emas, jonli etnografik manba sifatida ko‘radi.",
+    },
+  },
+  {
+    authors: "Boltayev A. H.",
+    title: {
+      en: "Historical buildings of the Bukhara Registan",
+      ru: "Исторические постройки Бухарского Регистана",
+      uz: "Buxoro registonidagi tarixiy imoratlar",
+    },
+    meta: {
+      en: "Moziydan sado, No. 1, 2022. pp. 24–25.",
+      ru: "«Мозийдан садо», № 1, 2022. С. 24–25.",
+      uz: "«Mozийdan sado», 1-son, 2022. 24–25-betlar.",
+    },
+  },
+  {
+    authors: "Boltayev A., Ramazonova F.",
+    title: {
+      en: "100 years of the Bukhara Local-History Museum (history and analysis)",
+      ru: "Бухарскому краеведческому музею 100 лет (история и анализ)",
+      uz: "Buxoro o‘lkashunoslik muzeyi 100 yoshda (tarix va tahlil)",
+    },
+    meta: {
+      en: "Proceedings of the international scientific-practical conference «Museum studies in the XXI century: research, traditions and innovations». Tashkent, 2022. pp. 207–214.",
+      ru: "Материалы международной научно-практической конференции «Музееведение в XXI веке: исследования, традиции и инновации». Ташкент, 2022. С. 207–214.",
+      uz: "«Muzeyshunoslik XXI asrda: tadqiqotlar, an’analar va innovatsiyalar» xalqaro ilmiy-amaliy anjuman materiallari to‘plami. Toshkent, 2022. 207–214-betlar.",
+    },
+  },
+  {
+    authors: "Jumayev Q.",
+    title: {
+      en: "Sitorai Mohi Xosa — the museum of folk applied art",
+      ru: "Ситораи Мохи Хоса — музей народного прикладного искусства",
+      uz: "Sitorai Mohi Xosa halq amaliy san‘ati muzeyi",
+    },
+    meta: {
+      en: "Moziydan sado, No. 1, 2003. p. 26.",
+      ru: "«Мозийдан садо», № 1, 2003. С. 26.",
+      uz: "«Mozийdan sado», 1-son, 2003. 26-bet.",
+    },
+  },
+  {
+    authors: "Saloyeva O.",
+    title: {
+      en: "Activities of house-museums within the Bukhara State Museum-Reserve",
+      ru: "Деятельность дом-музеев в составе Бухарского государственного музея-заповедника",
+      uz: "Buxoro davlat muzey qo‘riqxonasi tarkibidagi uy muzeylari faoliyati",
+    },
+    meta: {
+      en: "International Scientific Journal «Interpretation and Researches». Vol. 1, Iss. 3, 2023. pp. 152–154. ISSN: 2181-4163.",
+      ru: "Международный научный журнал «Interpretation and Researches». Том 1, выпуск 3, 2023. С. 152–154. ISSN: 2181-4163.",
+      uz: "Xalqaro ilmiy jurnal «Interpretation and Researches». 1-jild, 3-son, 2023. 152–154-betlar. ISSN: 2181-4163.",
+    },
+  },
+  {
+    authors: "Lysenko O.",
+    title: {
+      en: "Ethnographic museums today",
+      ru: "Этнографические музеи сегодня",
+      uz: "Etnografik muzeylar bugun",
+    },
+    meta: {
+      en: "Anthropological Forum, No. 6, 2007. p. 69. Reference framework for evaluating Sitorai Mohi Xossa against contemporary ethnographic-museum practice.",
+      ru: "Антропологический форум, № 6, 2007. С. 69. Эталонная рамка для оценки Ситораи Мохи Хосса в контексте современной этнографической музеефикации.",
+      uz: "Antropologik forum, 6-son, 2007. 69-bet. Sitorai Mohi Xossani zamonaviy etnografik muzey amaliyoti bilan baholash uchun mezon.",
+    },
+  },
+  {
+    authors: "Rahmonov K.",
+    title: {
+      en: "The first museum in Bukhara and its organiser",
+      ru: "Первый музей в Бухаре и его организатор",
+      uz: "Buxoroda birinchi muzey va uning tashkilotchisi",
+    },
+    meta: {
+      en: "Proceedings of the international conference «Museum studies in the XXI century». Tashkent, 2022. pp. 146–151. Original archival research on the 8 November 1922 opening of the Bukhara museum and the role of Qori Yo‘ldosh.",
+      ru: "Материалы международной конференции «Музееведение в XXI веке». Ташкент, 2022. С. 146–151. Оригинальное архивное исследование об открытии Бухарского музея 8 ноября 1922 года и роли Кари Юлдоша.",
+      uz: "«Muzeyshunoslik XXI asrda» xalqaro anjumani materiallari. Toshkent, 2022. 146–151-betlar. 1922-yil 8-noyabrdagi Buxoro muzeyining ochilishi va Qori Yo‘ldoshning roli haqida asl arxiv tadqiqoti.",
+    },
+  },
+  {
+    authors: "Sadikova N.",
+    title: {
+      en: "The formation of museums in Central Asia",
+      ru: "Становление музеев в Средней Азии",
+      uz: "O‘rta Osiyoda muzeylarning shakllanishi",
+    },
+    meta: {
+      en: "Moziydan sado, No. 1–2, 1999. pp. 16–23.",
+      ru: "«Мозийдан садо», № 1–2, 1999. С. 16–23.",
+      uz: "«Mozийdan sado», 1–2-son, 1999. 16–23-betlar.",
+    },
+  },
+];
+
+const WEB: { url: string; title: Tri<string> }[] = [
+  {
+    url: "yuz.uz/uz/news/citoraimohi-xossa--ismmi-yoki-tarixiy-joy-nomi",
+    title: {
+      en: "Yuz.uz: «Sitorai Mohi Xossa — a name or a place?»",
+      ru: "Yuz.uz: «Ситораи Мохи Хосса — имя или название места?»",
+      uz: "Yuz.uz: «Sitorai Mohi Xossa — ismmi yoki tarixiy joy nomi»",
+    },
+  },
+  {
+    url: "oz.sputniknews.uz/20250103/sitorai-mohi-xosa-46678447.html",
+    title: {
+      en: "Sputnik Uzbekistan: Sitorai Mohi Xosa (Jan 2025)",
+      ru: "Sputnik Узбекистан: Ситораи Мохи Хоса (январь 2025)",
+      uz: "Sputnik O‘zbekiston: Sitorai Mohi Xosa (2025-yil yanvar)",
+    },
+  },
+  {
+    url: "daryo.uz/2022/04/16/korib-bilib-tursak-da-qarshilik-qilolmadik",
+    title: {
+      en: "Daryo.uz: museum director on the 2020 botched restoration",
+      ru: "Daryo.uz: директор музея об неудачной реставрации 2020 года",
+      uz: "Daryo.uz: muzey direktori 2020-yil noto‘g‘ri restavratsiya haqida",
+    },
+  },
+  {
+    url: "darakchi.uz/oz/143030",
+    title: {
+      en: "Darakchi.uz: news on the palace",
+      ru: "Darakchi.uz: новости о дворце",
+      uz: "Darakchi.uz: saroy haqida yangiliklar",
+    },
+  },
+  {
+    url: "uz.wikipedia.org/wiki/Buxoro_tasviriy_san%CA%BCat_muzeyi",
+    title: {
+      en: "Wikipedia: Bukhara Museum of Fine Arts (related branch)",
+      ru: "Википедия: Бухарский музей изобразительных искусств (родственный филиал)",
+      uz: "Vikipediya: Buxoro tasviriy san‘at muzeyi (qarindosh filial)",
+    },
+  },
+  {
+    url: "azhistorymuseum.gov.az/ru/about/3",
+    title: {
+      en: "Azerbaijan History Museum (Tagiyev Palace) — comparative case",
+      ru: "Музей истории Азербайджана (дворец Тагиева) — сравнительный кейс",
+      uz: "Ozarbayjon tarix muzeyi (Tag‘iyev saroyi) — qiyosiy holat",
+    },
+  },
+  {
+    url: "@BukharaMuseum",
+    title: {
+      en: "Bukhara Museum-Reserve official channel",
+      ru: "Бухарский музей-заповедник, официальный канал",
+      uz: "Buxoro davlat muzey-qo‘riqxonasining rasmiy kanali",
+    },
+  },
+];
 
 const LITERATURE: Entry[] = [
   {
@@ -195,14 +421,166 @@ const LITERATURE: Entry[] = [
   {
     authors: "Jumayev Q.",
     title: {
-      en: "Sitorai Mohi Xossa (art-historical articles)",
-      ru: "Ситораи Мохи Хосса (искусствоведческие статьи)",
-      uz: "Sitorai Mohi Xossa (san‘atshunoslik maqolalari)",
+      en: "Sitorai Mohi Xosa",
+      ru: "Ситораи Мохи Хоса",
+      uz: "Sitorai Mohi Xosa",
     },
     meta: {
-      en: "Art-historical study of the palace by Bukharan scholar Q. Jumayev — a key source on attribution of decoration and provenance of furnishings.",
-      ru: "Искусствоведческое исследование дворца бухарского учёного К. Жумаева — ключевой источник по атрибуции декора и провенансу убранства.",
-      uz: "Buxorolik olim Q. Jumayev tomonidan saroy haqida san‘atshunoslik tadqiqoti — bezak atributsiyasi va jihozlarning provenans bo‘yicha asosiy manba.",
+      en: "Bukhara: Yoqub Dovud, 2010 — 136 pp. Standalone art-historical monograph on the palace by the Bukharan scholar — a key source on attribution of decoration and provenance of furnishings.",
+      ru: "Бухара: Якуб Дауд, 2010 — 136 с. Самостоятельная искусствоведческая монография о дворце от бухарского учёного — ключевой источник по атрибуции декора и провенансу убранства.",
+      uz: "Buxoro: Yoqub Dovud, 2010 — 136 b. Buxorolik olim tomonidan saroy haqida mustaqil san‘atshunoslik monografiyasi — bezak atributsiyasi va jihozlarning provenans bo‘yicha asosiy manba.",
+    },
+  },
+  {
+    authors: "Sadikova N.",
+    title: {
+      en: "The treasury of our cultural heritage",
+      ru: "Сокровищница нашего культурного наследия",
+      uz: "Madaniy merosimiz xazinasi",
+    },
+    meta: {
+      en: "Tashkent: Fan, 1981 — 270 pp.",
+      ru: "Ташкент: Фан, 1981 — 270 с.",
+      uz: "Toshkent: Fan, 1981 — 270 b.",
+    },
+  },
+  {
+    authors: "Sadikova N.",
+    title: {
+      en: "The unity of scientific-research and ideological-educational work in Uzbek museums",
+      ru: "Единство научно-исследовательской и идейно-воспитательной работы музеев Узбекистана",
+      uz: "O‘zbekiston muzeylarining ilmiy-tadqiqot va g‘oyaviy-tarbiyaviy ishining birligi",
+    },
+    meta: {
+      en: "Tashkent: Fan, 1987.",
+      ru: "Ташкент: Фан, 1987.",
+      uz: "Toshkent: Fan, 1987.",
+    },
+  },
+  {
+    authors: "Sadikova N.",
+    title: {
+      en: "Historiography and sources on museum construction",
+      ru: "Историография и источники по музейному строительству",
+      uz: "Muzey qurilishi tarixshunosligi va manbalari",
+    },
+    meta: { en: "Tashkent: Fan, 1987.", ru: "Ташкент: Фан, 1987.", uz: "Toshkent: Fan, 1987." },
+  },
+  {
+    authors: "Sadikova N.",
+    title: {
+      en: "Mulki toroj o‘zbegim",
+      ru: "Мулки торож узбегим",
+      uz: "Mulki toroj o‘zbegim",
+    },
+    meta: {
+      en: "Tashkent: Fan-Xazina, 1995 — 42 pp.",
+      ru: "Ташкент: Фан-Хазина, 1995 — 42 с.",
+      uz: "Toshkent: Fan-Xazina, 1995 — 42 b.",
+    },
+  },
+  {
+    authors: "Kuryazova D. T.",
+    title: {
+      en: "History of museum work in Uzbekistan",
+      ru: "История музейного дела в Узбекистане",
+      uz: "O‘zbekistonda muzey ishi tarixi",
+    },
+    meta: {
+      en: "Tashkent: San‘at, 2010 — 154 pp.",
+      ru: "Ташкент: Санъат, 2010 — 154 с.",
+      uz: "Toshkent: San‘at, 2010 — 154 b.",
+    },
+  },
+  {
+    authors: "Kuryazova D. T.",
+    title: {
+      en: "Foundations of museum work",
+      ru: "Основы музейного дела",
+      uz: "Muzey ishi asoslari",
+    },
+    meta: {
+      en: "Tashkent: O‘qituvchi, 2020 — 180 pp.",
+      ru: "Ташкент: Укитувчи, 2020 — 180 с.",
+      uz: "Toshkent: O‘qituvchi, 2020 — 180 b.",
+    },
+  },
+  {
+    authors: "Kuryazova D.",
+    title: {
+      en: "History and theory of museum work (handbook for vocational colleges)",
+      ru: "История и теория музейного дела (учебное пособие для колледжей)",
+      uz: "Muzey ishi tarixi va nazariyasi (kollejlar uchun o‘quv qo‘llanma)",
+    },
+    meta: {
+      en: "Tashkent, 2007 — 160 pp.",
+      ru: "Ташкент, 2007 — 160 с.",
+      uz: "Toshkent, 2007 — 160 b.",
+    },
+  },
+  {
+    authors: "Ismailova J. H., Nishanova K. S., Mukhamedova M. S.",
+    title: {
+      en: "Museum and Society. Textbook for higher education",
+      ru: "Музей и общество. Учебник для вузов",
+      uz: "Muzey va jamiyat. Oliy ta‘lim muassasalari uchun darslik",
+    },
+    meta: {
+      en: "Tashkent: Chinor ENK, 2015 — 174 pp.",
+      ru: "Ташкент: Чинор ЭНК, 2015 — 174 с.",
+      uz: "Toshkent: Chinor ENK, 2015 — 174 b.",
+    },
+  },
+  {
+    authors: "Ismailova J. H., Mukhamedova M. S.",
+    title: {
+      en: "Modern world museography. Study aid",
+      ru: "Современное мировое музееведение. Учебное пособие",
+      uz: "Zamonaviy jahon muzeyshunoslik. O‘quv qo‘llanma",
+    },
+    meta: {
+      en: "Tashkent, 2013 — 310 pp.",
+      ru: "Ташкент, 2013 — 310 с.",
+      uz: "Toshkent, 2013 — 310 b.",
+    },
+  },
+  {
+    authors: "Ismailova J.",
+    title: {
+      en: "Foundations of modern museum studies",
+      ru: "Основы современного музееведения",
+      uz: "Zamonaviy muzeyshunoslik asoslari",
+    },
+    meta: {
+      en: "Tashkent: Turon Zamin Ziyo, 2016 — 324 pp.",
+      ru: "Ташкент: Турон Замин Зиё, 2016 — 324 с.",
+      uz: "Toshkent: Turon Zamin Ziyo, 2016 — 324 b.",
+    },
+  },
+  {
+    authors: "Ilalov I.",
+    title: {
+      en: "Museum studies",
+      ru: "Музееведение",
+      uz: "Muzeyshunoslik",
+    },
+    meta: {
+      en: "Tashkent: Musiqa, 2006 — 357 pp.",
+      ru: "Ташкент: Мусика, 2006 — 357 с.",
+      uz: "Toshkent: Musiqa, 2006 — 357 b.",
+    },
+  },
+  {
+    authors: "Uzbekistan National Encyclopedia",
+    title: {
+      en: "O‘zbekiston Milliy Ensiklopediyasi, Vol. 2",
+      ru: "Узбекистон Миллий Энциклопедияси, Том 2",
+      uz: "O‘zbekiston Milliy Ensiklopediyasi, 2-jild",
+    },
+    meta: {
+      en: "Tashkent: State Scientific Publishing House, 2001 — 570 pp.",
+      ru: "Ташкент: Государственное научное издательство, 2001 — 570 с.",
+      uz: "Toshkent: Davlat ilmiy nashriyoti, 2001 — 570 b.",
     },
   },
 ];
@@ -472,10 +850,46 @@ export function SourcesView() {
               marginBottom: 16,
             }}
           >
+            {PRES_TITLE[locale]}
+          </h2>
+          {PRESIDENTIAL.map((e, i) => (
+            <EntryRow key={`pres-${i}`} entry={e} locale={locale} />
+          ))}
+        </section>
+
+        <section style={{ marginBottom: 72 }}>
+          <h2
+            style={{
+              fontFamily: "var(--font-mono), monospace",
+              fontSize: 12,
+              letterSpacing: ".24em",
+              textTransform: "uppercase",
+              color: "rgba(216,185,120,.75)",
+              marginBottom: 16,
+            }}
+          >
             {LIT_TITLE[locale]}
           </h2>
-          {LITERATURE.map((e) => (
-            <EntryRow key={e.authors} entry={e} locale={locale} />
+          {LITERATURE.map((e, i) => (
+            <EntryRow key={`lit-${i}`} entry={e} locale={locale} />
+          ))}
+        </section>
+
+        <section style={{ marginBottom: 72 }}>
+          <h2
+            style={{
+              fontFamily: "var(--font-mono), monospace",
+              fontSize: 12,
+              letterSpacing: ".24em",
+              textTransform: "uppercase",
+              color: "rgba(216,185,120,.75)",
+              marginBottom: 16,
+            }}
+          >
+            {ART_TITLE[locale]}
+          </h2>
+          {ARTICLES.map((e, i) => (
+            <EntryRow key={`art-${i}`} entry={e} locale={locale} />
           ))}
         </section>
 
@@ -540,6 +954,45 @@ export function SourcesView() {
               </div>
               <div style={{ fontSize: 14, lineHeight: 1.65, color: "#d8d3c6", maxWidth: 680 }}>
                 {d.title[locale]}
+              </div>
+            </article>
+          ))}
+        </section>
+
+        <section style={{ marginTop: 72 }}>
+          <h2
+            style={{
+              fontFamily: "var(--font-mono), monospace",
+              fontSize: 12,
+              letterSpacing: ".24em",
+              textTransform: "uppercase",
+              color: "rgba(216,185,120,.75)",
+              marginBottom: 16,
+            }}
+          >
+            {WEB_TITLE[locale]}
+          </h2>
+          {WEB.map((w, i) => (
+            <article
+              key={`web-${i}`}
+              style={{
+                padding: "14px 0",
+                borderTop: "1px solid rgba(216,185,120,.10)",
+                borderBottom: i === WEB.length - 1 ? "1px solid rgba(216,185,120,.10)" : undefined,
+              }}
+            >
+              <div
+                style={{
+                  fontFamily: "var(--font-mono), monospace",
+                  fontSize: 11,
+                  color: "rgba(216,185,120,.7)",
+                  marginBottom: 4,
+                }}
+              >
+                {w.url}
+              </div>
+              <div style={{ fontSize: 14, color: "#d8d3c6", lineHeight: 1.55 }}>
+                {w.title[locale]}
               </div>
             </article>
           ))}
