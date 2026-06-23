@@ -22,6 +22,7 @@ export function TopNav() {
   const mastersLabel = t("masters");
   const branchesLabel = t("branches");
   const sourcesLabel = t("sources");
+  const glossaryLabel = t("glossary");
   return (
     <div
       ref={navRef}
@@ -127,6 +128,17 @@ export function TopNav() {
           }}
         >
           {sourcesLabel}
+        </Link>
+        <Link
+          href="/glossary"
+          style={{
+            fontFamily: "var(--font-body), sans-serif",
+            fontSize: 14,
+            color: "rgba(247,238,222,.86)",
+            textDecoration: "none",
+          }}
+        >
+          {glossaryLabel}
         </Link>
         <div
           style={{
