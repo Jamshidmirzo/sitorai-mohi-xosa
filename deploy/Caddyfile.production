@@ -1,0 +1,40 @@
+# Production Caddyfile for the DigitalOcean droplet.
+# Lives on the server at /etc/caddy/Caddyfile.
+# Caddy handles automatic HTTPS via Let's Encrypt.
+#
+# Two hosts:
+#   mohixossa.uz  + www-redirect       — primary domain, canonical
+#   206-81-26-116.nip.io                — fallback / debug URL
+#
+# Static uploads are served directly from disk (Next.js prod indexes
+# /public at startup and won't see newly uploaded files until restart;
+# Caddy bypasses Next.js for /uploads/*).
+
+mohixossa.uz, www.mohixossa.uz {
+	encode zstd gzip
+
+	@www host www.mohixossa.uz
+	redir @www https://mohixossa.uz{uri} 308
+
+	handle /uploads/* {
+		root * /var/www/sitorai-mohi-xosa/public
+		file_server
+	}
+
+	handle {
+		reverse_proxy 127.0.0.1:3000
+	}
+}
+
+206-81-26-116.nip.io {
+	encode zstd gzip
+
+	handle /uploads/* {
+		root * /var/www/sitorai-mohi-xosa/public
+		file_server
+	}
+
+	handle {
+		reverse_proxy 127.0.0.1:3000
+	}
+}
