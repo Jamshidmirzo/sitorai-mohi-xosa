@@ -264,6 +264,19 @@ const ERAS: Era[] = [
       uz: "Qabulxona, mehmonxona, kanizakxona va Xonai Xasht pavilonida restavratsiya boshlanadi. Nomutaxassis ustalar jalb qilinadi: zinapoyalar va ayvonlardagi qadimiy koshin va naqshlar shikastlanadi, asl derazalar arzon yog‘ochga almashtiriladi. Buxoroning marhum hokimi Karim Kamolov viloyat Madaniy meros departamenti bilan birgalikda to‘xtatishni talab qiladi. Ogohlantirish xatlari, prokuraturaga ma'lumotnoma — va nihoyat 2020-yil mart oyida ishlar to‘xtatiladi. Bu voqea O‘zbekistonda meros restavratsiyasi nima uchun ilmiy nazorat talab qilishini ko‘rsatadigan darslik holatiga aylanadi.",
     },
   },
+  {
+    year: "Today",
+    headline: {
+      en: "A working museum",
+      ru: "Работающий музей",
+      uz: "Ishlovchi muzey",
+    },
+    body: {
+      en: "Sitorai Mohi Xossa now operates as the Folk Decorative Art Museum. Reconstructed rooms with mannequins and video panels bring the period of the emirate back interactively. Research-grounded expositions tie every object to its provenance, function and historical context. The lineage of P. A. Goncharova and L. I. Rempel — the 1930s curators who first put attribution and catalogue on a scientific footing — runs through it still.",
+      ru: "Сегодня Ситораи Мохи Хосса работает как Музей народного прикладного искусства. Реконструированные комнаты с манекенами и видео-панелями интерактивно возвращают эпоху эмирата. Исследовательски обоснованные экспозиции связывают каждый предмет с его провенансом, функцией и историческим контекстом. Преемственность от П.А. Гончаровой и Л.И. Ремпеля — кураторов 1930-х, впервые поставивших атрибуцию и каталог на научную основу, — продолжается.",
+      uz: "Bugungi kunda Sitorai Mohi Xossa Xalq amaliy bezak san‘ati muzeyi sifatida faoliyat ko‘rsatmoqda. Manekenlar va video-panellar bilan qayta tiklangan xonalar amirlik davrini interaktiv tarzda qaytaradi. Tadqiqotga asoslangan ekspozitsiyalar har bir buyumni uning provenans, funksiya va tarixiy konteksti bilan bog‘laydi. 1930-yillarda atributsiya va katalogni birinchi marta ilmiy asosga qo‘ygan P.A. Goncharova va L.I. Rempelning ishini bugun ham davom ettiradi.",
+    },
+  },
 ];
 
 export function HistoryView() {

@@ -76,50 +76,102 @@ const PRIMARY: Entry = {
 
 const LITERATURE: Entry[] = [
   {
-    authors: "Kryukov K.",
+    authors: "Kryukov K. S.",
     title: {
-      en: "Sitorai-Mohi-Xossa: a methodological guide",
-      ru: "«Ситораи-Махи-Хаса»: методическое пособие",
-      uz: "«Ситораи-Махи-Хаса»: uslubiy qo‘llanma",
+      en: "Sitorai-Mokhi-Khasa",
+      ru: "Ситораи-Махи-Хаса",
+      uz: "Ситораи-Махи-Хаса",
     },
     meta: {
-      en: "Methodological publication on the palace’s construction, architectural styles and interior decoration.",
-      ru: "Методическое издание о постройке дворца, архитектурных стилях и внутреннем убранстве.",
-      uz: "Saroyning qurilishi, me‘moriy uslublari va ichki bezaklari haqida uslubiy nashr.",
+      en: "Tashkent: Uzbekistan, 1968 — 18 pp. The first methodological publication on the palace’s construction, architectural styles and interior decoration. A pocket-format primer that has been quietly reproduced in every guide since.",
+      ru: "Ташкент: Узбекистан, 1968 — 18 с. Первая методическая публикация о постройке дворца, архитектурных стилях и внутреннем убранстве. Карманное издание, фактически переиздаваемое в каждом путеводителе с тех пор.",
+      uz: "Toshkent: O‘zbekiston, 1968 — 18 b. Saroyning qurilishi, me‘moriy uslublari va ichki bezaklari haqida birinchi uslubiy nashr. Cho‘ntak formatdagi qo‘llanma, o‘shandan beri har bir yo‘riqnomada qayta nashr qilingan.",
     },
   },
   {
-    authors: "Jumayev Q.",
+    authors: "Pugachenkova G. A.",
     title: {
-      en: "Sitorai Mohi Xossa (art-historical articles)",
-      ru: "«Ситораи Мохи Хосса» (искусствоведческие статьи)",
-      uz: "«Sitorai Mohi Xossa» (san‘atshunoslik maqolalari)",
+      en: "Bukhara: An open-sky museum",
+      ru: "Бухара. Музей под открытым небом",
+      uz: "Buxoro. Ochiq osmon ostidagi muzey",
     },
     meta: {
-      en: "Art-historical study of the palace by Bukharan scholar Q. Jumayev — a key source on attribution of decoration and provenance of furnishings.",
-      ru: "Искусствоведческое исследование дворца бухарского учёного К. Жумаева — ключевой источник по атрибуции декора и провенансу убранства.",
-      uz: "Buxorolik olim Q. Jumayev tomonidan saroy haqida san‘atshunoslik tadqiqoti — bezak atributsiyasi va jihozlarning provenans bo‘yicha asosiy manba.",
+      en: "Tashkent, 1981 — 291 pp. Canonical art-historical survey of Bukhara’s monuments by the leading scholar of Central Asian architectural history. A foundational reference cited across the dissertation.",
+      ru: "Ташкент, 1981 — 291 с. Канонический искусствоведческий обзор памятников Бухары от ведущей исследовательницы архитектурной истории Центральной Азии. Базовый источник, на который ссылается вся диссертация.",
+      uz: "Toshkent, 1981 — 291 b. Markaziy Osiyo me‘morchilik tarixining yetakchi tadqiqotchisidan Buxoro yodgorliklarining kanonik san‘atshunoslik sharhi. Dissertatsiya bo‘ylab tilga olingan asosiy manba.",
     },
   },
   {
-    authors: "Boltayev A., Odilov J.",
+    authors: "Sadikova N.",
     title: {
-      en: "Sitorai Mohi Xossa as an ethnographic object",
-      ru: "Ситораи Мохи Хосса как этнографический объект",
-      uz: "Sitorai Mohi Xossa etnografik obyekt sifatida",
+      en: "Museum work in Uzbekistan",
+      ru: "Музейное дело в Узбекистане",
+      uz: "O‘zbekistonda muzey ishi",
     },
     meta: {
-      en: "Joint article treating the palace not only as an architectural monument but as an ethnographic complex — interiors, household objects, costume, decoration as expressions of the everyday culture of Bukharan elites.",
-      ru: "Совместная статья, рассматривающая дворец не только как архитектурный памятник, но и как этнографический комплекс — интерьеры, утварь, костюм, декор как выражение повседневной культуры бухарской знати.",
-      uz: "Saroyni faqat me‘moriy yodgorlik emas, balki etnografik majmua sifatida ko‘rib chiqadigan birgalikdagi maqola — interyerlar, ro‘zg‘or buyumlari, kostyum, bezak — buxoro zodagonlari kundalik madaniyatining ifodalari.",
+      en: "Tashkent: Fan, 1975 — 290 pp. A monograph on the development of Uzbek museography from the 1920s — institutional history, exposition models, the role of state policy.",
+      ru: "Ташкент: Фан, 1975 — 290 с. Монография о развитии узбекской музеографии с 1920-х годов: институциональная история, экспозиционные модели, роль государственной политики.",
+      uz: "Toshkent: Fan, 1975 — 290 b. 1920-yillardan boshlab O‘zbek muzeografiyasining rivojlanishi haqida monografiya: institutsional tarix, ekspozitsiya modellari, davlat siyosatining roli.",
     },
   },
   {
-    authors: "Sodiqova N., Kuryazova D., Ismailova J., Nishanova K., Muxamedova M.",
+    authors: "Muini R.",
+    title: {
+      en: "Architectural monuments of Bukhara",
+      ru: "Архитектурные памятники Бухары",
+      uz: "Buxoroning me‘moriy yodgorliklari",
+    },
+    meta: {
+      en: "Tashkent, 2007 — 94 pp. A typology of Bukharan architectural objects — palaces, madrasas, caravanserais — with attention to construction techniques and decorative grammar.",
+      ru: "Ташкент, 2007 — 94 с. Типология бухарских архитектурных объектов — дворцы, медресе, караван-сараи — с вниманием к технике постройки и декоративной грамматике.",
+      uz: "Toshkent, 2007 — 94 b. Buxoro me‘moriy obyektlarining tipologiyasi — saroylar, madrasalar, karvonsaroylar — qurilish texnikasi va dekorativ grammatikasiga e‘tibor bilan.",
+    },
+  },
+  {
+    authors: "Mukhamedova M. S.",
+    title: {
+      en: "The role of national and international organisations in museum-studies development (XX–XXI cc.)",
+      ru: "Роль национальных и международных организаций в развитии музееведения (XX–XXI вв.)",
+      uz: "XX–XXI asrlarda muzeyshunoslik sohasini rivojlantirishda milliy va xalqaro tashkilotlar faoliyatining o‘rni",
+    },
+    meta: {
+      en: "Monograph. Tashkent: Yosh Kuch Press, 2017 — 297 pp. ICOM, UNESCO and the national museum agencies — how the international standards arrived in the Uzbek museum sector.",
+      ru: "Монография. Ташкент: Yosh Kuch Press, 2017 — 297 с. ICOM, ЮНЕСКО и национальные музейные ведомства — как международные стандарты пришли в узбекскую музейную отрасль.",
+      uz: "Monografiya. Toshkent: Yosh Kuch Press, 2017 — 297 b. ICOM, YuNESKO va milliy muzey agentliklari — xalqaro standartlar O‘zbekiston muzey sohasiga qanday yetib kelgani.",
+    },
+  },
+  {
+    authors: "Nishanova K. S.",
+    title: {
+      en: "Trends in the development of Uzbekistan’s art museums in the XX–XXI centuries",
+      ru: "Тенденции развития художественных музеев Узбекистана в XX–XXI веках",
+      uz: "XX–XXI asrlarda O‘zbekiston badiiy muzeylarining rivojlanish tendentsiyalari",
+    },
+    meta: {
+      en: "Monograph. Tashkent, 2021 — 151 pp. A typological history of Uzbek art museums covering the post-Soviet reform period — relevant to Sitorai Mohi Xossa’s repositioning after 1991.",
+      ru: "Монография. Ташкент, 2021 — 151 с. Типологическая история узбекских художественных музеев, охватывающая постсоветский реформенный период — релевантна перепозиционированию Ситораи Мохи Хосса после 1991 года.",
+      uz: "Monografiya. Toshkent, 2021 — 151 b. Sovetdan keyingi islohot davrini qamragan o‘zbek badiiy muzeylarining tipologik tarixi — 1991-yildan keyin Sitorai Mohi Xossaning qayta joylashtirilishiga tegishli.",
+    },
+  },
+  {
+    authors: "Boltayev A. H.",
+    title: {
+      en: "The Bukhara Museum as a Centre of Historical-Regional Studies",
+      ru: "Бухарский музей как центр историко-краеведческих исследований",
+      uz: "Buxoro muzeyi — tarixiy o‘lkashunoslik markazi sifatida",
+    },
+    meta: {
+      en: "Tashkent: Navro‘z, 2019 — 70 pp. Studies the institutional role of the Bukhara museum in regional historical research; co-authored complementary material with J. Odilov on the palace as an ethnographic object.",
+      ru: "Ташкент: Навруз, 2019 — 70 с. Изучение институциональной роли Бухарского музея в региональных исторических исследованиях; в соавторстве с Дж. Одиловым — параллельные работы о дворце как этнографическом объекте.",
+      uz: "Toshkent: Navro‘z, 2019 — 70 b. Buxoro muzeyining mintaqaviy tarixiy tadqiqotlardagi institutsional rolini o‘rganadi; J. Odilov bilan birgalikda saroy haqida etnografik obyekt sifatida tegishli ishlar bajargan.",
+    },
+  },
+  {
+    authors: "Sodiqova N., Kuryazova D., Ismailova J., Nishanova K., Mukhamedova M.",
     title: {
       en: "Museum and Society",
-      ru: "«Музей и общество»",
-      uz: "«Muzey va jamiyat»",
+      ru: "Музей и общество",
+      uz: "Muzey va jamiyat",
     },
     meta: {
       en: "Reference monograph on modern museum studies — current trends, new types of museums, their educational and cultural-enlightening function. Frames the conceptual approach taken on this site.",
@@ -130,14 +182,27 @@ const LITERATURE: Entry[] = [
   {
     authors: "Ismailova J.",
     title: {
-      en: "Foundations of modern museum studies (scholarly-methodological handbook)",
-      ru: "«Основы современного музееведения» (научно-методическое пособие)",
-      uz: "«Zamonaviy muzeyshunoslik asoslari» (ilmiy-uslubiy qo‘llanma)",
+      en: "Foundations of modern museum studies",
+      ru: "Основы современного музееведения",
+      uz: "Zamonaviy muzeyshunoslik asoslari",
     },
     meta: {
-      en: "Reform of the Uzbek museum sector, principles of museum exposition design, and the dialogue between museums and society.",
-      ru: "Реформы музейной отрасли Узбекистана, принципы построения музейной экспозиции, диалог музея и общества.",
-      uz: "O‘zbekiston muzey sohasidagi islohotlar, muzey ekspozitsiyalarini tashkil etish tamoyillari, muzey va jamiyat o‘rtasidagi muloqot.",
+      en: "Scholarly-methodological handbook. Reform of the Uzbek museum sector, principles of museum exposition design, and the dialogue between museums and society.",
+      ru: "Научно-методическое пособие. Реформы музейной отрасли Узбекистана, принципы построения музейной экспозиции, диалог музея и общества.",
+      uz: "Ilmiy-uslubiy qo‘llanma. O‘zbekiston muzey sohasidagi islohotlar, muzey ekspozitsiyalarini tashkil etish tamoyillari, muzey va jamiyat o‘rtasidagi muloqot.",
+    },
+  },
+  {
+    authors: "Jumayev Q.",
+    title: {
+      en: "Sitorai Mohi Xossa (art-historical articles)",
+      ru: "Ситораи Мохи Хосса (искусствоведческие статьи)",
+      uz: "Sitorai Mohi Xossa (san‘atshunoslik maqolalari)",
+    },
+    meta: {
+      en: "Art-historical study of the palace by Bukharan scholar Q. Jumayev — a key source on attribution of decoration and provenance of furnishings.",
+      ru: "Искусствоведческое исследование дворца бухарского учёного К. Жумаева — ключевой источник по атрибуции декора и провенансу убранства.",
+      uz: "Buxorolik olim Q. Jumayev tomonidan saroy haqida san‘atshunoslik tadqiqoti — bezak atributsiyasi va jihozlarning provenans bo‘yicha asosiy manba.",
     },
   },
 ];
