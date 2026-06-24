@@ -5,9 +5,12 @@ import { getTranslations, setRequestLocale } from "next-intl/server"
 import { GalleryGrid } from "./gallery-grid"
 import { getCategoryLabel, getCategoryOrder } from "@/lib/gallery-categories"
 import blurMap from "@/lib/gallery-blur.json"
+import captionsMap from "@/lib/gallery-captions.json"
 
 type BlurEntry = { width: number; height: number; blurDataURL: string }
 const BLUR: Record<string, BlurEntry> = blurMap as Record<string, BlurEntry>
+type Caption = { en: string; ru: string; uz: string }
+const CAPTIONS: Record<string, Caption> = captionsMap as Record<string, Caption>
 
 export default async function GalleryPage({
   params,
@@ -37,12 +40,17 @@ export default async function GalleryPage({
     }))
     .sort((a, b) => a.order - b.order)
 
+  const loc = (locale === "ru" || locale === "uz" || locale === "en"
+    ? locale
+    : "en") as "en" | "ru" | "uz"
+
   const serializedImages = images.map((img) => {
     const meta = BLUR[img.url]
+    const caption = CAPTIONS[img.url]
     return {
       id: img.id,
       url: img.url,
-      alt: img.alt ?? "",
+      alt: caption?.[loc] ?? img.alt ?? "",
       category: img.category ?? "",
       width: meta?.width ?? 1000,
       height: meta?.height ?? 1333,
