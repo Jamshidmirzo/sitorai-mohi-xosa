@@ -49,7 +49,10 @@ echo "  • prisma db push"
 npx prisma db push --accept-data-loss 2>&1 | tail -2
 
 if [ "$RESEED" = "1" ]; then
-  for f in prisma/seed-dissertation*.ts; do
+  # Run every additive seeder (anything matching seed-*.ts, e.g.
+  # seed-dissertation*.ts, seed-salomxona-gallery.ts, future seed-<hall>*.ts).
+  # The master seed.ts is excluded — it's the bootstrap seeder.
+  for f in prisma/seed-*.ts; do
     [ -f "\$f" ] || continue
     echo "  • seeding \$f"
     npx tsx "\$f" 2>&1 | tail -5 || true

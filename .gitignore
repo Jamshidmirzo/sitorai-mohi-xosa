@@ -43,3 +43,5 @@ next-env.d.ts
 
 /src/generated/prisma
 /public/uploads/*
+# Curated gallery content ships with the repo; admin-panel uploads stay local.
+!/public/uploads/gallery/
