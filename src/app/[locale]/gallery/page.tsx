@@ -51,24 +51,58 @@ export default async function GalleryPage({
   })
 
   return (
-    <div className="mx-auto max-w-7xl px-4 pt-8 pb-12 sm:px-6 sm:pt-10 lg:px-8">
-      <div className="mb-8 flex flex-col items-start gap-2 sm:mb-10">
-        <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-primary/70">
-          Sitorai Mohi Xosa
-        </span>
-        <h1 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-          {t("title")}
-        </h1>
-        <p className="max-w-2xl text-sm text-muted-foreground sm:text-base">
-          {t("subtitle")}
-        </p>
+    <div
+      className="min-h-screen"
+      style={{
+        background:
+          "radial-gradient(ellipse at top, #161a2e 0%, #0c1018 55%, #07090f 100%)",
+        color: "#F7EEDE",
+      }}
+    >
+      <div className="mx-auto max-w-7xl px-5 pb-20 pt-12 sm:px-8 sm:pt-16 lg:px-12">
+        <div className="mb-10 flex flex-col items-start gap-3 sm:mb-14">
+          <span
+            style={{
+              fontFamily: "var(--font-mono), monospace",
+              fontSize: 11,
+              letterSpacing: "0.24em",
+              textTransform: "uppercase",
+              color: "rgba(216,185,120,.78)",
+            }}
+          >
+            Sitorai Mohi Xosa
+          </span>
+          <h1
+            style={{
+              fontFamily: "var(--font-display), serif",
+              fontSize: "clamp(36px, 5vw, 56px)",
+              lineHeight: 1.05,
+              margin: 0,
+              color: "#F7EEDE",
+            }}
+          >
+            {t("title")}
+          </h1>
+          <p
+            style={{
+              fontFamily: "var(--font-body), sans-serif",
+              fontSize: 15,
+              lineHeight: 1.6,
+              color: "rgba(247,238,222,.66)",
+              maxWidth: 560,
+              margin: 0,
+            }}
+          >
+            {t("subtitle")}
+          </p>
+        </div>
+        <GalleryGrid
+          images={serializedImages}
+          categories={categories}
+          allLabel={t("all")}
+          locale={locale}
+        />
       </div>
-      <GalleryGrid
-        images={serializedImages}
-        categories={categories}
-        allLabel={t("all")}
-        locale={locale}
-      />
     </div>
   )
 }

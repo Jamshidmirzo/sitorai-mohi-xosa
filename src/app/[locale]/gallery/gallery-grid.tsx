@@ -32,6 +32,19 @@ type Props = {
   locale: string
 }
 
+type TileSize = "big" | "wide" | "tall" | "std"
+
+/// Repeating bento pattern. Yields varied tile sizes that flow with
+/// CSS grid `auto-flow: dense`, producing a mosaic without per-image
+/// manual tagging. Cycle length picked so it doesn't visibly repeat.
+function tileSize(i: number): TileSize {
+  const m = i % 11
+  if (m === 0) return "big"
+  if (m === 3) return "wide"
+  if (m === 7) return "tall"
+  return "std"
+}
+
 export function GalleryGrid({ images, categories, allLabel, locale }: Props) {
   const t = useTranslations("common")
   const searchParams = useSearchParams()
@@ -93,17 +106,18 @@ export function GalleryGrid({ images, categories, allLabel, locale }: Props) {
 
   return (
     <div>
+      {/* CHIPS */}
       {categories.length > 0 && (
-        <div className="-mx-4 mb-5 overflow-x-auto px-4 sm:mx-0 sm:px-0">
-          <div className="flex w-max gap-1.5 pb-1 sm:flex-wrap sm:w-auto">
-            <CategoryChip
+        <div className="-mx-5 mb-6 overflow-x-auto px-5 sm:mx-0 sm:px-0">
+          <div className="flex w-max gap-2 pb-1 sm:flex-wrap sm:w-auto">
+            <Chip
               active={!activeCategory}
               onClick={() => setActiveCategory("")}
               label={allLabel}
               count={images.length}
             />
             {categories.map((cat) => (
-              <CategoryChip
+              <Chip
                 key={cat.slug}
                 active={activeCategory === cat.slug}
                 onClick={() => setActiveCategory(cat.slug)}
@@ -115,34 +129,65 @@ export function GalleryGrid({ images, categories, allLabel, locale }: Props) {
         </div>
       )}
 
+      {/* ACTIVE CATEGORY BANNER */}
       {activeMeta && (
-        <div className="mb-6 flex items-baseline justify-between gap-4 border-l-2 border-primary/60 pl-4">
+        <div
+          className="mb-7 flex items-baseline justify-between gap-4"
+          style={{ borderLeft: "2px solid #D8B978", paddingLeft: 16 }}
+        >
           <div>
-            <p className="text-lg font-semibold tracking-tight text-foreground sm:text-xl">
+            <p
+              style={{
+                fontFamily: "var(--font-display), serif",
+                fontSize: 22,
+                lineHeight: 1.2,
+                color: "#F7EEDE",
+                margin: 0,
+              }}
+            >
               {activeMeta.label}
             </p>
             {activeMeta.subtitle && (
-              <p className="mt-0.5 text-xs text-muted-foreground sm:text-sm">
+              <p
+                style={{
+                  fontFamily: "var(--font-body), sans-serif",
+                  fontSize: 13,
+                  color: "rgba(247,238,222,.6)",
+                  marginTop: 4,
+                }}
+              >
                 {activeMeta.subtitle}
               </p>
             )}
           </div>
-          <span className="shrink-0 text-xs tabular-nums text-muted-foreground">
+          <span
+            style={{
+              fontFamily: "var(--font-mono), monospace",
+              fontSize: 12,
+              color: "rgba(247,238,222,.55)",
+              flexShrink: 0,
+            }}
+          >
             {activeMeta.count}
           </span>
         </div>
       )}
 
+      {/* MOSAIC */}
       {filtered.length === 0 ? (
-        <div className="py-20 text-center text-muted-foreground">
+        <div
+          className="py-20 text-center"
+          style={{ color: "rgba(247,238,222,.5)" }}
+        >
           {t("noResults")}
         </div>
       ) : (
-        <div className="columns-2 gap-3 sm:columns-3 sm:gap-4 lg:columns-4">
+        <div className="gallery-mosaic">
           {filtered.map((image, index) => (
             <GalleryTile
               key={image.id}
               image={image}
+              size={tileSize(index)}
               priority={index < 4}
               onClick={() => openLightbox(index)}
             />
@@ -150,6 +195,7 @@ export function GalleryGrid({ images, categories, allLabel, locale }: Props) {
         </div>
       )}
 
+      {/* LIGHTBOX */}
       <Dialog open={lightboxOpen} onOpenChange={setLightboxOpen}>
         <DialogContent
           showCloseButton={false}
@@ -203,53 +249,167 @@ export function GalleryGrid({ images, categories, allLabel, locale }: Props) {
           )}
         </DialogContent>
       </Dialog>
+
+      <style jsx global>{`
+        .gallery-mosaic {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          grid-auto-rows: 180px;
+          grid-auto-flow: dense;
+          gap: 10px;
+        }
+        @media (min-width: 768px) {
+          .gallery-mosaic {
+            grid-auto-rows: 220px;
+            gap: 12px;
+          }
+        }
+        @media (min-width: 1280px) {
+          .gallery-mosaic {
+            grid-auto-rows: 260px;
+            gap: 14px;
+          }
+        }
+        .gtile {
+          position: relative;
+          overflow: hidden;
+          border-radius: 14px;
+          background: rgba(255, 255, 255, 0.03);
+          border: 1px solid rgba(216, 185, 120, 0.1);
+          cursor: pointer;
+          transition: border-color 0.4s ease, transform 0.4s ease;
+        }
+        .gtile:hover {
+          border-color: rgba(216, 185, 120, 0.45);
+          transform: translateY(-2px);
+        }
+        .gtile.std {
+          grid-column: span 1;
+          grid-row: span 1;
+        }
+        .gtile.wide {
+          grid-column: span 2;
+          grid-row: span 1;
+        }
+        .gtile.tall {
+          grid-column: span 1;
+          grid-row: span 2;
+        }
+        .gtile.big {
+          grid-column: span 2;
+          grid-row: span 2;
+        }
+        @media (max-width: 767px) {
+          .gtile.tall {
+            grid-row: span 2;
+          }
+          .gtile.wide,
+          .gtile.big {
+            grid-column: span 2;
+          }
+          .gtile.big {
+            grid-row: span 2;
+          }
+        }
+        .gtile-skeleton {
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(
+            110deg,
+            rgba(216, 185, 120, 0.04) 0%,
+            rgba(216, 185, 120, 0.1) 50%,
+            rgba(216, 185, 120, 0.04) 100%
+          );
+          background-size: 200% 100%;
+          animation: gshimmer 1.6s ease-in-out infinite;
+        }
+        @keyframes gshimmer {
+          0% {
+            background-position: 200% 0;
+          }
+          100% {
+            background-position: -200% 0;
+          }
+        }
+        .gtile-img {
+          object-fit: cover;
+          transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+        .gtile:hover .gtile-img {
+          transform: scale(1.05);
+        }
+        .gtile-overlay {
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(
+            to top,
+            rgba(7, 9, 15, 0.85) 0%,
+            rgba(7, 9, 15, 0.3) 40%,
+            transparent 65%
+          );
+          opacity: 0;
+          transition: opacity 0.35s ease;
+          pointer-events: none;
+        }
+        .gtile:hover .gtile-overlay {
+          opacity: 1;
+        }
+        .gtile-caption {
+          position: absolute;
+          inset: auto 14px 14px 14px;
+          color: rgba(247, 238, 222, 0.94);
+          font-family: var(--font-body), sans-serif;
+          font-size: 13px;
+          line-height: 1.45;
+          transform: translateY(8px);
+          opacity: 0;
+          transition: transform 0.35s ease, opacity 0.35s ease;
+          pointer-events: none;
+        }
+        .gtile:hover .gtile-caption {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      `}</style>
     </div>
   )
 }
 
 type TileProps = {
   image: GalleryImage
+  size: TileSize
   priority: boolean
   onClick: () => void
 }
 
-function GalleryTile({ image, priority, onClick }: TileProps) {
+function GalleryTile({ image, size, priority, onClick }: TileProps) {
   const [loaded, setLoaded] = useState(false)
   return (
-    <div className="mb-3 break-inside-avoid sm:mb-4">
-      <button
-        onClick={onClick}
-        className="group relative block w-full overflow-hidden rounded-xl bg-muted/40 ring-1 ring-black/5 transition-shadow duration-300 hover:ring-primary/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary dark:ring-white/5"
-        style={{ aspectRatio: `${image.width} / ${image.height}` }}
-      >
-        {!loaded && (
-          <div className="absolute inset-0 animate-pulse bg-gradient-to-br from-muted to-muted/50" />
-        )}
-        <Image
-          src={image.url}
-          alt={image.alt}
-          fill
-          sizes="(min-width: 1024px) 25vw, (min-width: 640px) 33vw, 50vw"
-          placeholder={image.blurDataURL ? "blur" : "empty"}
-          blurDataURL={image.blurDataURL ?? undefined}
-          priority={priority}
-          onLoad={() => setLoaded(true)}
-          className={cn(
-            "object-cover transition-[opacity,transform] duration-500 ease-out",
-            "group-hover:scale-[1.04]",
-            loaded ? "opacity-100" : "opacity-0"
-          )}
-        />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/0 via-black/0 to-black/0 transition-colors duration-300 group-hover:from-black/60 group-hover:via-black/20" />
-        {image.alt && (
-          <div className="pointer-events-none absolute inset-x-0 bottom-0 translate-y-full px-3 pb-3 pt-8 transition-transform duration-300 group-hover:translate-y-0">
-            <p className="text-left text-xs leading-snug text-white sm:text-sm">
-              {image.alt}
-            </p>
-          </div>
-        )}
-      </button>
-    </div>
+    <button onClick={onClick} className={cn("gtile", size)} aria-label={image.alt}>
+      {!loaded && <div className="gtile-skeleton" />}
+      <Image
+        src={image.url}
+        alt={image.alt}
+        fill
+        sizes={
+          size === "big"
+            ? "(min-width: 1024px) 50vw, 100vw"
+            : size === "wide"
+              ? "(min-width: 1024px) 50vw, 100vw"
+              : size === "tall"
+                ? "(min-width: 1024px) 25vw, 50vw"
+                : "(min-width: 1024px) 25vw, 50vw"
+        }
+        placeholder={image.blurDataURL ? "blur" : "empty"}
+        blurDataURL={image.blurDataURL ?? undefined}
+        priority={priority}
+        onLoad={() => setLoaded(true)}
+        className="gtile-img"
+        style={{ opacity: loaded ? 1 : 0 }}
+      />
+      <div className="gtile-overlay" />
+      {image.alt && <div className="gtile-caption">{image.alt}</div>}
+    </button>
   )
 }
 
@@ -260,25 +420,42 @@ type ChipProps = {
   count: number
 }
 
-function CategoryChip({ active, onClick, label, count }: ChipProps) {
+function Chip({ active, onClick, label, count }: ChipProps) {
   return (
     <button
       onClick={onClick}
-      className={cn(
-        "inline-flex shrink-0 items-center gap-1.5 rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors",
-        active
-          ? "border-primary bg-primary text-primary-foreground"
-          : "border-border bg-background text-muted-foreground hover:border-primary/40 hover:text-foreground"
-      )}
+      style={{
+        display: "inline-flex",
+        alignItems: "center",
+        gap: 8,
+        padding: "8px 16px",
+        borderRadius: 24,
+        border: active
+          ? "1px solid rgba(216,185,120,.6)"
+          : "1px solid rgba(216,185,120,.18)",
+        background: active ? "rgba(216,185,120,.14)" : "rgba(255,255,255,.03)",
+        color: active ? "#F7EEDE" : "rgba(247,238,222,.7)",
+        fontFamily: "var(--font-body), sans-serif",
+        fontSize: 13,
+        cursor: "pointer",
+        whiteSpace: "nowrap",
+        backdropFilter: "blur(8px)",
+        WebkitBackdropFilter: "blur(8px)",
+        transition: "all .25s ease",
+        flexShrink: 0,
+      }}
     >
       <span>{label}</span>
       <span
-        className={cn(
-          "rounded-full px-1.5 py-0 text-[11px] font-semibold tabular-nums",
-          active
-            ? "bg-primary-foreground/20 text-primary-foreground"
-            : "bg-muted text-muted-foreground/80"
-        )}
+        style={{
+          padding: "1px 7px",
+          borderRadius: 12,
+          fontFamily: "var(--font-mono), monospace",
+          fontSize: 10,
+          letterSpacing: "0.08em",
+          background: active ? "rgba(216,185,120,.28)" : "rgba(247,238,222,.08)",
+          color: active ? "#F7EEDE" : "rgba(247,238,222,.55)",
+        }}
       >
         {count}
       </span>
