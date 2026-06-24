@@ -4,6 +4,10 @@ import { prisma } from "@/lib/prisma"
 import { getTranslations, setRequestLocale } from "next-intl/server"
 import { GalleryGrid } from "./gallery-grid"
 import { getCategoryLabel, getCategoryOrder } from "@/lib/gallery-categories"
+import blurMap from "@/lib/gallery-blur.json"
+
+type BlurEntry = { width: number; height: number; blurDataURL: string }
+const BLUR: Record<string, BlurEntry> = blurMap as Record<string, BlurEntry>
 
 export default async function GalleryPage({
   params,
@@ -33,25 +37,37 @@ export default async function GalleryPage({
     }))
     .sort((a, b) => a.order - b.order)
 
-  const serializedImages = images.map((img) => ({
-    id: img.id,
-    url: img.url,
-    alt: img.alt ?? "",
-    category: img.category ?? "",
-  }))
+  const serializedImages = images.map((img) => {
+    const meta = BLUR[img.url]
+    return {
+      id: img.id,
+      url: img.url,
+      alt: img.alt ?? "",
+      category: img.category ?? "",
+      width: meta?.width ?? 1000,
+      height: meta?.height ?? 1333,
+      blurDataURL: meta?.blurDataURL ?? null,
+    }
+  })
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
-      <div className="mb-6 flex flex-col items-start gap-1 sm:mb-8">
-        <h1 className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
+    <div className="mx-auto max-w-7xl px-4 pt-8 pb-12 sm:px-6 sm:pt-10 lg:px-8">
+      <div className="mb-8 flex flex-col items-start gap-2 sm:mb-10">
+        <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-primary/70">
+          Sitorai Mohi Xosa
+        </span>
+        <h1 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
           {t("title")}
         </h1>
-        <p className="text-sm text-muted-foreground sm:text-base">{t("subtitle")}</p>
+        <p className="max-w-2xl text-sm text-muted-foreground sm:text-base">
+          {t("subtitle")}
+        </p>
       </div>
       <GalleryGrid
         images={serializedImages}
         categories={categories}
         allLabel={t("all")}
+        locale={locale}
       />
     </div>
   )
