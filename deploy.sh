@@ -49,11 +49,19 @@ echo "  • prisma db push"
 npx prisma db push --accept-data-loss 2>&1 | tail -2
 
 if [ "$RESEED" = "1" ]; then
-  # Run every additive seeder (anything matching seed-*.ts, e.g.
-  # seed-dissertation*.ts, seed-salomxona-gallery.ts, future seed-<hall>*.ts).
-  # The master seed.ts is excluded — it's the bootstrap seeder.
+  # Run additive, idempotent seeders only.
+  # SKIPPED:
+  #   - seed.ts             — master bootstrap (admin user, base halls)
+  #   - seed-exhibits.ts    — DESTRUCTIVE: wipes editorial data and reseeds
+  #                           the 12 base exhibits; only for fresh DBs.
   for f in prisma/seed-*.ts; do
     [ -f "\$f" ] || continue
+    base=\$(basename "\$f")
+    case "\$base" in
+      seed-exhibits.ts)
+        echo "  ! skip destructive: \$base"
+        continue ;;
+    esac
     echo "  • seeding \$f"
     npx tsx "\$f" 2>&1 | tail -5 || true
   done
@@ -63,7 +71,17 @@ if [ "$SKIP_BUILD" = "0" ]; then
   echo "  • npm ci"
   npm ci --silent 2>&1 | tail -2 || true
   echo "  • next build"
-  NODE_OPTIONS=--max-old-space-size=2048 npm run build 2>&1 | tail -2
+  if ! NODE_OPTIONS=--max-old-space-size=2048 npm run build 2>&1 | tee /tmp/build.log | tail -20; then
+    echo
+    echo "✗ BUILD FAILED — full log above. NOT restarting pm2."
+    exit 1
+  fi
+  # Fail even when piped through tee (npm exits 0 if the pipe consumer doesn't fail).
+  if grep -qE "Failed to compile|Failed to type check|Module .* not found" /tmp/build.log; then
+    echo
+    echo "✗ BUILD FAILED — see /tmp/build.log on the droplet. NOT restarting pm2."
+    exit 1
+  fi
 fi
 
 echo "  • pm2 restart"
