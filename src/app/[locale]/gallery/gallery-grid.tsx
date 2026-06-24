@@ -1,6 +1,8 @@
 "use client"
 
 import { useState, useMemo, useCallback, useEffect } from "react"
+import Image from "next/image"
+import { useSearchParams } from "next/navigation"
 import { useTranslations } from "next-intl"
 import { Dialog, DialogContent } from "@/components/ui/dialog"
 import { cn } from "@/lib/utils"
@@ -27,7 +29,9 @@ type Props = {
 
 export function GalleryGrid({ images, categories, allLabel }: Props) {
   const t = useTranslations("common")
-  const [activeCategory, setActiveCategory] = useState("")
+  const searchParams = useSearchParams()
+  const initialCategory = searchParams.get("category") ?? ""
+  const [activeCategory, setActiveCategory] = useState(initialCategory)
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null)
   const [lightboxOpen, setLightboxOpen] = useState(false)
 
@@ -107,10 +111,13 @@ export function GalleryGrid({ images, categories, allLabel }: Props) {
                 onClick={() => openLightbox(index)}
                 className="group relative block w-full overflow-hidden rounded-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
               >
-                <img
+                <Image
                   src={image.url}
                   alt={image.alt}
-                  className="w-full rounded-xl object-cover transition-transform duration-300 group-hover:scale-105"
+                  width={1000}
+                  height={1333}
+                  sizes="(min-width: 1024px) 25vw, (min-width: 640px) 33vw, 50vw"
+                  className="h-auto w-full rounded-xl object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
                 <div className="absolute inset-0 rounded-xl bg-black/0 transition-colors duration-300 group-hover:bg-black/15" />

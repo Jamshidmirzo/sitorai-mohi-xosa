@@ -10,6 +10,7 @@ import { MobileMenu } from "./mobile-menu";
 import { Hero } from "./hero";
 import { Story } from "./story";
 import { WhiteHall } from "./white-hall";
+import { Museums } from "./museums";
 import { Collection } from "./collection";
 import { Visit } from "./visit";
 import { ExhibitDetail } from "./exhibit-detail";
@@ -33,6 +34,7 @@ function LandingBody({
         <Hero />
         <Story />
         <WhiteHall />
+        <Museums />
         <Collection
           exhibits={exhibits}
           onOpen={(i) => setSelected(i)}

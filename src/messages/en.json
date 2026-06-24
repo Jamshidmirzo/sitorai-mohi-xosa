@@ -85,7 +85,9 @@
       "glossary": "Glossary",
       "visitPill": "Visit",
       "mobilePlanVisit": "Plan your visit",
-      "mobileWordmark": "SMX"
+      "mobileWordmark": "SMX",
+      "museums": "Museums",
+      "more": "More"
     },
     "hero": {
       "eyebrowWeb": "Bukhara · Uzbekistan · est. 1912",
@@ -168,6 +170,28 @@
       "verdictSome": "A glance through the doorway. Come back to look longer.",
       "verdictNone": "The palace asks for a slower visit. Try again.",
       "answerPlaceholder": "Type your answer"
+    },
+    "museums": {
+      "eyebrow": "Three museums",
+      "title": "Museums of the complex",
+      "intro": "Walk three connected pavilions — the Reception Palace, the eight-room Costume Hall and the Harem — each its own museum within Sitorai Mohi Xosa.",
+      "cta": "Open in gallery",
+      "photos": "photos",
+      "salomxona": {
+        "name": "Salomxona",
+        "subtitle": "Reception Palace · 1912–1914",
+        "desc": "Main reception pavilion built under Emir Sayyid Olim Khan. Houses the Chinese-Japanese porcelain collection, silver, late-19th-c European furniture, and the carved kursi-throne."
+      },
+      "xonai-xasht": {
+        "name": "Xonai Xasht",
+        "subtitle": "Eight-room Costume Hall",
+        "desc": "Eight-room pavilion turned into the Museum of 19th- and 20th-century Bukharan national costume — chapans of every social class, brides’ dresses, ikat, gold-thread zarduzi."
+      },
+      "harem": {
+        "name": "Harem",
+        "subtitle": "Private quarters · ceramics & suzani",
+        "desc": "The harem hall — Bukharan Gijduvan ceramics (Ibadulla Narzullayev), large suzani embroideries, women’s costumes and the painted-ceiling rooms."
+      }
     }
   }
 }

@@ -1,10 +1,19 @@
 "use client";
 
+import { useEffect, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { useNarrative } from "./narrative-root";
 
 const LANGS: Array<"uz" | "ru" | "en"> = ["uz", "ru", "en"];
+
+const linkStyle: React.CSSProperties = {
+  fontFamily: "var(--font-body), sans-serif",
+  fontSize: 14,
+  color: "rgba(247,238,222,.86)",
+  textDecoration: "none",
+  cursor: "pointer",
+};
 
 export function TopNav() {
   const { navRef, scrollTo } = useNarrative();
@@ -12,17 +21,39 @@ export function TopNav() {
   const router = useRouter();
   const pathname = usePathname();
   const currentLocale = useLocale();
-  const ITEMS = [
+
+  const ANCHORS = [
     { id: "story", label: t("story") },
     { id: "hall", label: t("hall") },
+    { id: "museums", label: t("museums") },
     { id: "exhibits", label: t("collection") },
     { id: "visit", label: t("visit") },
   ];
-  const historyLabel = t("history");
-  const mastersLabel = t("masters");
-  const branchesLabel = t("branches");
-  const sourcesLabel = t("sources");
-  const glossaryLabel = t("glossary");
+  const MORE_LINKS = [
+    { href: "/history", label: t("history") },
+    { href: "/masters", label: t("masters") },
+    { href: "/branches", label: t("branches") },
+    { href: "/sources", label: t("sources") },
+    { href: "/glossary", label: t("glossary") },
+  ];
+
+  const [moreOpen, setMoreOpen] = useState(false);
+  const moreRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (!moreOpen) return;
+    const onDocClick = (e: MouseEvent) => {
+      if (!moreRef.current?.contains(e.target as Node)) setMoreOpen(false);
+    };
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setMoreOpen(false);
+    document.addEventListener("mousedown", onDocClick);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("mousedown", onDocClick);
+      document.removeEventListener("keydown", onKey);
+    };
+  }, [moreOpen]);
+
   return (
     <div
       ref={navRef}
@@ -59,14 +90,15 @@ export function TopNav() {
       >
         {t("wordmark")}
       </button>
+
       <nav
         style={{
           display: "flex",
           alignItems: "center",
-          gap: 36,
+          gap: 28,
         }}
       >
-        {ITEMS.map((it) => (
+        {ANCHORS.map((it) => (
           <a
             key={it.id}
             onClick={(e) => {
@@ -74,72 +106,80 @@ export function TopNav() {
               scrollTo(it.id);
             }}
             href={`#${it.id}`}
-            style={{
-              fontFamily: "var(--font-body), sans-serif",
-              fontSize: 14,
-              color: "rgba(247,238,222,.86)",
-              textDecoration: "none",
-              cursor: "pointer",
-            }}
+            style={linkStyle}
           >
             {it.label}
           </a>
         ))}
-        <Link
-          href="/history"
-          style={{
-            fontFamily: "var(--font-body), sans-serif",
-            fontSize: 14,
-            color: "rgba(247,238,222,.86)",
-            textDecoration: "none",
-          }}
-        >
-          {historyLabel}
-        </Link>
-        <Link
-          href="/masters"
-          style={{
-            fontFamily: "var(--font-body), sans-serif",
-            fontSize: 14,
-            color: "rgba(247,238,222,.86)",
-            textDecoration: "none",
-          }}
-        >
-          {mastersLabel}
-        </Link>
-        <Link
-          href="/branches"
-          style={{
-            fontFamily: "var(--font-body), sans-serif",
-            fontSize: 14,
-            color: "rgba(247,238,222,.86)",
-            textDecoration: "none",
-          }}
-        >
-          {branchesLabel}
-        </Link>
-        <Link
-          href="/sources"
-          style={{
-            fontFamily: "var(--font-body), sans-serif",
-            fontSize: 14,
-            color: "rgba(247,238,222,.86)",
-            textDecoration: "none",
-          }}
-        >
-          {sourcesLabel}
-        </Link>
-        <Link
-          href="/glossary"
-          style={{
-            fontFamily: "var(--font-body), sans-serif",
-            fontSize: 14,
-            color: "rgba(247,238,222,.86)",
-            textDecoration: "none",
-          }}
-        >
-          {glossaryLabel}
-        </Link>
+
+        <div ref={moreRef} style={{ position: "relative" }}>
+          <button
+            onClick={() => setMoreOpen((v) => !v)}
+            aria-haspopup="menu"
+            aria-expanded={moreOpen}
+            style={{
+              ...linkStyle,
+              display: "inline-flex",
+              alignItems: "center",
+              gap: 5,
+              background: "none",
+              border: 0,
+              padding: 0,
+            }}
+          >
+            {t("more")}
+            <span
+              style={{
+                display: "inline-block",
+                transform: moreOpen ? "rotate(180deg)" : "none",
+                transition: "transform .2s ease",
+                fontSize: 10,
+              }}
+            >
+              ▾
+            </span>
+          </button>
+          {moreOpen && (
+            <div
+              role="menu"
+              style={{
+                position: "absolute",
+                top: "calc(100% + 10px)",
+                right: 0,
+                minWidth: 200,
+                padding: 8,
+                borderRadius: 12,
+                background: "rgba(12,15,28,.92)",
+                backdropFilter: "blur(16px)",
+                WebkitBackdropFilter: "blur(16px)",
+                border: "1px solid rgba(216,185,120,.22)",
+                boxShadow: "0 12px 32px rgba(0,0,0,.4)",
+                display: "flex",
+                flexDirection: "column",
+                gap: 2,
+              }}
+            >
+              {MORE_LINKS.map((it) => (
+                <Link
+                  key={it.href}
+                  href={it.href}
+                  role="menuitem"
+                  onClick={() => setMoreOpen(false)}
+                  style={{
+                    ...linkStyle,
+                    padding: "9px 12px",
+                    borderRadius: 8,
+                    transition: "background .2s ease",
+                  }}
+                  className="wnav-more-item"
+                >
+                  {it.label}
+                </Link>
+              ))}
+            </div>
+          )}
+        </div>
+
         <div
           style={{
             display: "inline-flex",
@@ -179,6 +219,7 @@ export function TopNav() {
             );
           })}
         </div>
+
         <button
           onClick={() => scrollTo("visit")}
           style={{
@@ -209,6 +250,12 @@ export function TopNav() {
           {t("visitPill")}
         </button>
       </nav>
+
+      <style jsx>{`
+        :global(.wnav-more-item:hover) {
+          background: rgba(216, 185, 120, 0.12);
+        }
+      `}</style>
     </div>
   );
 }

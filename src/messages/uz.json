@@ -85,7 +85,9 @@
       "glossary": "Lug‘at",
       "visitPill": "Tashrif",
       "mobilePlanVisit": "Tashrifni rejalashtirish",
-      "mobileWordmark": "SMX"
+      "mobileWordmark": "SMX",
+      "museums": "Muzeylar",
+      "more": "Yana"
     },
     "hero": {
       "eyebrowWeb": "Buxoro · O'zbekiston · 1912-y. ta'sis",
@@ -168,6 +170,28 @@
       "verdictSome": "Eshik tashqarisidan qarash. Ko'proq ko'rish uchun qayting.",
       "verdictNone": "Saroy sekinroq tashrifni so'raydi. Qaytadan urinib ko'ring.",
       "answerPlaceholder": "Javobingizni kiriting"
+    },
+    "museums": {
+      "eyebrow": "Uchta muzey",
+      "title": "Majmua muzeylari",
+      "intro": "Uch ulangan pavilon — Qabulxona, sakkiz xonali Kiyim zali va Haram — har biri Sitorai Mohi Xosa tarkibidagi alohida muzey.",
+      "cta": "Galereyada ochish",
+      "photos": "rasm",
+      "salomxona": {
+        "name": "Salomxona",
+        "subtitle": "Qabulxona · 1912–1914",
+        "desc": "Amir Sayyid Olimxon davrida qurilgan asosiy qabulxona. Xitoy-yapon chinnisi, kumush, XIX asr oxiri yevropa mebeli va o‘yma kursi-taxtni saqlaydi."
+      },
+      "xonai-xasht": {
+        "name": "Xonai Xasht",
+        "subtitle": "Sakkiz xonali kiyim zali",
+        "desc": "Sakkiz xonali pavilon XIX–XX asrlar Buxoro milliy kiyimlari muzeyiga aylantirilgan: barcha tabaqalarning choponlari, kelinlik liboslari, ikat, zardo‘zlik."
+      },
+      "harem": {
+        "name": "Haram",
+        "subtitle": "Shaxsiy xonalar · sopol va suzani",
+        "desc": "Haram zali: Buxoro G‘ijduvon sopol buyumlari (Ibodulla Narzullaev), katta suzanilar, ayollar kiyimlari va naqshli shipli xonalar."
+      }
     }
   }
 }
