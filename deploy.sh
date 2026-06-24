@@ -42,6 +42,14 @@ cd $APP_DIR
 echo "  • git pull"
 git pull --rebase -q
 
+# IMPORTANT order: npm ci FIRST (it wipes node_modules), THEN prisma generate
+# (writes the typed client into the fresh node_modules). Reversing the two
+# means the build runs without prisma types and TypeScript inference fails.
+if [ "$SKIP_BUILD" = "0" ]; then
+  echo "  • npm ci"
+  npm ci --silent 2>&1 | tail -2 || true
+fi
+
 echo "  • prisma generate"
 npx prisma generate >/dev/null
 
@@ -68,8 +76,6 @@ if [ "$RESEED" = "1" ]; then
 fi
 
 if [ "$SKIP_BUILD" = "0" ]; then
-  echo "  • npm ci"
-  npm ci --silent 2>&1 | tail -2 || true
   echo "  • next build"
   if ! NODE_OPTIONS=--max-old-space-size=2048 npm run build 2>&1 | tee /tmp/build.log | tail -20; then
     echo
