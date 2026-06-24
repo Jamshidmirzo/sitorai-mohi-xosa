@@ -13,12 +13,19 @@ type GalleryImage = {
   category: string
 }
 
-type Props = {
-  images: GalleryImage[]
-  categories: string[]
+type Category = {
+  slug: string
+  label: string
+  count: number
 }
 
-export function GalleryGrid({ images, categories }: Props) {
+type Props = {
+  images: GalleryImage[]
+  categories: Category[]
+  allLabel: string
+}
+
+export function GalleryGrid({ images, categories, allLabel }: Props) {
   const t = useTranslations("common")
   const [activeCategory, setActiveCategory] = useState("")
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null)
@@ -67,32 +74,24 @@ export function GalleryGrid({ images, categories }: Props) {
   return (
     <div>
       {categories.length > 0 && (
-        <div className="mb-8 flex flex-wrap justify-center gap-2">
-          <button
-            onClick={() => setActiveCategory("")}
-            className={cn(
-              "rounded-full border px-5 py-2 text-sm font-medium transition-colors",
-              !activeCategory
-                ? "border-primary bg-primary text-primary-foreground"
-                : "border-border bg-background text-muted-foreground hover:border-primary/40 hover:text-foreground"
-            )}
-          >
-            All
-          </button>
-          {categories.map((cat) => (
-            <button
-              key={cat}
-              onClick={() => setActiveCategory(cat)}
-              className={cn(
-                "rounded-full border px-5 py-2 text-sm font-medium capitalize transition-colors",
-                activeCategory === cat
-                  ? "border-primary bg-primary text-primary-foreground"
-                  : "border-border bg-background text-muted-foreground hover:border-primary/40 hover:text-foreground"
-              )}
-            >
-              {cat}
-            </button>
-          ))}
+        <div className="-mx-4 mb-6 overflow-x-auto px-4 sm:mx-0 sm:px-0">
+          <div className="flex w-max gap-1.5 pb-1 sm:flex-wrap sm:w-auto">
+            <CategoryChip
+              active={!activeCategory}
+              onClick={() => setActiveCategory("")}
+              label={allLabel}
+              count={images.length}
+            />
+            {categories.map((cat) => (
+              <CategoryChip
+                key={cat.slug}
+                active={activeCategory === cat.slug}
+                onClick={() => setActiveCategory(cat.slug)}
+                label={cat.label}
+                count={cat.count}
+              />
+            ))}
+          </div>
         </div>
       )}
 
@@ -101,9 +100,9 @@ export function GalleryGrid({ images, categories }: Props) {
           {t("noResults")}
         </div>
       ) : (
-        <div className="columns-2 gap-4 sm:columns-3 lg:columns-4">
+        <div className="columns-2 gap-3 sm:columns-3 sm:gap-4 lg:columns-4">
           {filtered.map((image, index) => (
-            <div key={image.id} className="mb-4 break-inside-avoid">
+            <div key={image.id} className="mb-3 break-inside-avoid sm:mb-4">
               <button
                 onClick={() => openLightbox(index)}
                 className="group relative block w-full overflow-hidden rounded-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
@@ -180,5 +179,38 @@ export function GalleryGrid({ images, categories }: Props) {
         </DialogContent>
       </Dialog>
     </div>
+  )
+}
+
+type ChipProps = {
+  active: boolean
+  onClick: () => void
+  label: string
+  count: number
+}
+
+function CategoryChip({ active, onClick, label, count }: ChipProps) {
+  return (
+    <button
+      onClick={onClick}
+      className={cn(
+        "inline-flex shrink-0 items-center gap-1.5 rounded-full border px-3.5 py-1.5 text-sm font-medium transition-colors",
+        active
+          ? "border-primary bg-primary text-primary-foreground"
+          : "border-border bg-background text-muted-foreground hover:border-primary/40 hover:text-foreground"
+      )}
+    >
+      <span>{label}</span>
+      <span
+        className={cn(
+          "rounded-full px-1.5 py-0 text-[11px] font-semibold tabular-nums",
+          active
+            ? "bg-primary-foreground/20 text-primary-foreground"
+            : "bg-muted text-muted-foreground/80"
+        )}
+      >
+        {count}
+      </span>
+    </button>
   )
 }
