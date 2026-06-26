@@ -1,0 +1,32 @@
+[
+  {
+    "id": "cmqq52kj2001kaemht36fuxxh",
+    "locale": "en",
+    "hours": "Monday - Sunday: 9:00 AM - 5:00 PM\nClosed on Tuesdays",
+    "ticketPrices": "Adults: 25,000 UZS\nStudents: 10,000 UZS\nForeign visitors: 50,000 UZS\nChildren under 7: Free",
+    "address": "Sitorai Mohi Xosa, Bukhara, Uzbekistan",
+    "phone": "+998 65 221 00 00",
+    "email": "info@xosa.uz",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.8!2d64.4!3d39.8!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMznCsDQ4JzAwLjAiTiA2NMKwMjQnMDAuMCJF!5e0!3m2!1sen!2s!4v1"
+  },
+  {
+    "id": "cmqq52kj5001laemhls8h5ja3",
+    "locale": "ru",
+    "hours": "Понедельник - Воскресенье: 9:00 - 17:00\nВторник — выходной",
+    "ticketPrices": "Взрослые: 25 000 сум\nСтуденты: 10 000 сум\nИностранные туристы: 50 000 сум\nДети до 7 лет: бесплатно",
+    "address": "Ситораи Мохи Хоса, Бухара, Узбекистан",
+    "phone": "+998 65 221 00 00",
+    "email": "info@xosa.uz",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.8!2d64.4!3d39.8!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMznCsDQ4JzAwLjAiTiA2NMKwMjQnMDAuMCJF!5e0!3m2!1sru!2s!4v1"
+  },
+  {
+    "id": "cmqq52kj6001maemhuas294on",
+    "locale": "uz",
+    "hours": "Dushanba - Yakshanba: 9:00 - 17:00\nSeshanba — dam olish kuni",
+    "ticketPrices": "Kattalar: 25 000 so'm\nTalabalar: 10 000 so'm\nXorijiy mehmonlar: 50 000 so'm\n7 yoshgacha bolalar: bepul",
+    "address": "Sitorai Mohi Xosa, Buxoro, O'zbekiston",
+    "phone": "+998 65 221 00 00",
+    "email": "info@xosa.uz",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.8!2d64.4!3d39.8!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMznCsDQ4JzAwLjAiTiA2NMKwMjQnMDAuMCJF!5e0!3m2!1suz!2s!4v1"
+  }
+]

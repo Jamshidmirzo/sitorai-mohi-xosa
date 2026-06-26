@@ -1,0 +1,1853 @@
+[
+  {
+    "id": "cmqq7g112001lpnmh4z7mkl1u",
+    "exhibitId": "cmqq7g10s001gpnmhkqdlc5py",
+    "type": "choice",
+    "order": 0,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g112001mpnmh8zezthjz",
+        "questionId": "cmqq7g112001lpnmh4z7mkl1u",
+        "locale": "en",
+        "q": "How was the gold worked into the Emir’s chapan?",
+        "options": [
+          "Couched gold embroidery (zarduzi)",
+          "Woven as ikat",
+          "Carved into ganch",
+          "Painted on as gilt"
+        ],
+        "answerText": null,
+        "explain": "Zarduzi masters couch real metal-gold thread onto the surface of the cloth."
+      },
+      {
+        "id": "cmqq7g112001npnmh9j2bvf6q",
+        "questionId": "cmqq7g112001lpnmh4z7mkl1u",
+        "locale": "ru",
+        "q": "Как наносили золото на чапан эмира?",
+        "options": [
+          "Золотное шитьё зардузи",
+          "Тканое как икат",
+          "Резка по ганчу",
+          "Покрытие сусальным золотом"
+        ],
+        "answerText": null,
+        "explain": "Мастера зардузи прикрепляют настоящую металлическую золотую нить к поверхности ткани."
+      },
+      {
+        "id": "cmqq7g112001opnmh3zoa48xp",
+        "questionId": "cmqq7g112001lpnmh4z7mkl1u",
+        "locale": "uz",
+        "q": "Amirning choponiga oltin qanday tushirilgan?",
+        "options": [
+          "Zarduzi oltin kashta",
+          "Ikat to'qishi",
+          "Ganchga o'yib ishlangan",
+          "Oltinlash bilan bo'yalgan"
+        ],
+        "answerText": null,
+        "explain": "Zarduzi ustalari haqiqiy oltin ipni mato yuzasiga qadaydi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g116001ppnmh2er39ekk",
+    "exhibitId": "cmqq7g10s001gpnmhkqdlc5py",
+    "type": "text",
+    "order": 1,
+    "correctIndex": null,
+    "accept": [
+      "velvet",
+      "бархат",
+      "baxmal",
+      "baxmali"
+    ],
+    "translations": [
+      {
+        "id": "cmqq7g116001qpnmhl7137udj",
+        "questionId": "cmqq7g116001ppnmh2er39ekk",
+        "locale": "en",
+        "q": "Its base cloth is a deep-pile silk — silk ___.",
+        "options": [],
+        "answerText": "velvet",
+        "explain": "Only heavy silk velvet was strong enough to carry the weight of the gold."
+      },
+      {
+        "id": "cmqq7g116001rpnmhbqfquxml",
+        "questionId": "cmqq7g116001ppnmh2er39ekk",
+        "locale": "ru",
+        "q": "Основа — глубокий ворс шёлка — шёлковый ___.",
+        "options": [],
+        "answerText": "бархат",
+        "explain": "Только плотный шёлковый бархат выдерживал вес золота."
+      },
+      {
+        "id": "cmqq7g116001spnmhmw70p0fi",
+        "questionId": "cmqq7g116001ppnmh2er39ekk",
+        "locale": "uz",
+        "q": "Asosi — chuqur tukli ipak — ipak ___.",
+        "options": [],
+        "answerText": "baxmal",
+        "explain": "Faqat og'ir ipak baxmal oltinning og'irligini ko'tara olardi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g119001tpnmh7th1hv9v",
+    "exhibitId": "cmqq7g10s001gpnmhkqdlc5py",
+    "type": "choice",
+    "order": 2,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g11a001upnmhpdod52av",
+        "questionId": "cmqq7g119001tpnmh7th1hv9v",
+        "locale": "en",
+        "q": "Which room shows the palace costume collection?",
+        "options": [
+          "Khonai Khasht",
+          "The White Hall",
+          "The greenhouse",
+          "The gatehouse"
+        ],
+        "answerText": null,
+        "explain": "The Khonai Khasht parlour holds the 19th-century dress."
+      },
+      {
+        "id": "cmqq7g11a001vpnmh2252g7q1",
+        "questionId": "cmqq7g119001tpnmh7th1hv9v",
+        "locale": "ru",
+        "q": "В каком зале показана коллекция костюмов дворца?",
+        "options": [
+          "Хонаи Хашт",
+          "Белый зал",
+          "Оранжерея",
+          "Привратницкая"
+        ],
+        "answerText": null,
+        "explain": "В парадной Хонаи Хашт хранятся одежды XIX века."
+      },
+      {
+        "id": "cmqq7g11a001wpnmhfj5fbs54",
+        "questionId": "cmqq7g119001tpnmh7th1hv9v",
+        "locale": "uz",
+        "q": "Saroyning kostyum to'plamini qaysi xona namoyish etadi?",
+        "options": [
+          "Xonai Xasht",
+          "Oq Zal",
+          "Issiqxona",
+          "Darvozaxona"
+        ],
+        "answerText": null,
+        "explain": "Xonai Xasht xonasida XIX asr kiyimlari saqlanadi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g11h0022pnmhiyij598a",
+    "exhibitId": "cmqq7g11d001xpnmhr9r5rcs7",
+    "type": "choice",
+    "order": 0,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g11h0023pnmhle9649cv",
+        "questionId": "cmqq7g11h0022pnmhiyij598a",
+        "locale": "en",
+        "q": "The Emir’s porcelain came mainly from…",
+        "options": [
+          "China & Japan",
+          "England",
+          "Persia",
+          "India"
+        ],
+        "answerText": null,
+        "explain": "Blue-and-white and famille-rose travelled the old Silk Road routes."
+      },
+      {
+        "id": "cmqq7g11h0024pnmhonq9e8vg",
+        "questionId": "cmqq7g11h0022pnmhiyij598a",
+        "locale": "ru",
+        "q": "Фарфор эмира поступал в основном из…",
+        "options": [
+          "Китая и Японии",
+          "Англии",
+          "Персии",
+          "Индии"
+        ],
+        "answerText": null,
+        "explain": "Бело-голубой и famille-rose путешествовали по древним маршрутам Шёлкового пути."
+      },
+      {
+        "id": "cmqq7g11h0025pnmhozniqspl",
+        "questionId": "cmqq7g11h0022pnmhiyij598a",
+        "locale": "uz",
+        "q": "Amirning chinnisi asosan qayerdan kelgan?",
+        "options": [
+          "Xitoy va Yaponiya",
+          "Angliya",
+          "Eron",
+          "Hindiston"
+        ],
+        "answerText": null,
+        "explain": "Ko'k-oq va famille-rose qadimgi Ipak yo'li bo'ylab kelar edi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g11k0026pnmhrvxpxjgn",
+    "exhibitId": "cmqq7g11d001xpnmhr9r5rcs7",
+    "type": "text",
+    "order": 1,
+    "correctIndex": null,
+    "accept": [
+      "white",
+      "белый",
+      "белого",
+      "oq"
+    ],
+    "translations": [
+      {
+        "id": "cmqq7g11k0027pnmhauj09o1g",
+        "questionId": "cmqq7g11k0026pnmhrvxpxjgn",
+        "locale": "en",
+        "q": "The classic Chinese palette is blue-and-___.",
+        "options": [],
+        "answerText": "white",
+        "explain": "Cobalt blue under a clear glaze on white porcelain."
+      },
+      {
+        "id": "cmqq7g11k0028pnmhksi9h854",
+        "questionId": "cmqq7g11k0026pnmhrvxpxjgn",
+        "locale": "ru",
+        "q": "Классическая китайская палитра — сине-___.",
+        "options": [],
+        "answerText": "белый",
+        "explain": "Кобальтовый синий под прозрачной глазурью на белом фарфоре."
+      },
+      {
+        "id": "cmqq7g11k0029pnmh9dd1hc8b",
+        "questionId": "cmqq7g11k0026pnmhrvxpxjgn",
+        "locale": "uz",
+        "q": "Xitoyning klassik palitrasi — ko'k-___.",
+        "options": [],
+        "answerText": "oq",
+        "explain": "Oq chinniga shaffof sir ostida kobalt-ko'k."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g11m002apnmhbt7dw1zh",
+    "exhibitId": "cmqq7g11d001xpnmhr9r5rcs7",
+    "type": "choice",
+    "order": 2,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g11m002bpnmhzabgljsv",
+        "questionId": "cmqq7g11m002apnmhbt7dw1zh",
+        "locale": "en",
+        "q": "In the palace these vases stood beside European…",
+        "options": [
+          "Venetian glass",
+          "Greek marble",
+          "Egyptian stone",
+          "Roman bronze"
+        ],
+        "answerText": null,
+        "explain": "East-Asian porcelain met Venetian glass and Russian furniture in one room."
+      },
+      {
+        "id": "cmqq7g11m002cpnmhc3ycsts6",
+        "questionId": "cmqq7g11m002apnmhbt7dw1zh",
+        "locale": "ru",
+        "q": "Во дворце эти вазы стояли рядом с европейским…",
+        "options": [
+          "венецианским стеклом",
+          "греческим мрамором",
+          "египетским камнем",
+          "римской бронзой"
+        ],
+        "answerText": null,
+        "explain": "Восточноазиатский фарфор встречался с венецианским стеклом и русской мебелью в одной комнате."
+      },
+      {
+        "id": "cmqq7g11m002dpnmhq6s8ixwv",
+        "questionId": "cmqq7g11m002apnmhbt7dw1zh",
+        "locale": "uz",
+        "q": "Saroyda bu vazalar yevropalik nima yonida turgan?",
+        "options": [
+          "Venetsiya shishasi",
+          "Yunon marmari",
+          "Misr toshi",
+          "Rim bronzasi"
+        ],
+        "answerText": null,
+        "explain": "Sharqiy Osiyo chinnisi Venetsiya shishasi va rus mebeli bilan bir xonada turardi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g11x002jpnmhbsbh4pnx",
+    "exhibitId": "cmqq7g11r002epnmhhafqn2rj",
+    "type": "choice",
+    "order": 0,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g11x002kpnmhx5lntdwm",
+        "questionId": "cmqq7g11x002jpnmhbsbh4pnx",
+        "locale": "en",
+        "q": "A suzani is made by…",
+        "options": [
+          "Hand embroidery",
+          "Knotting pile",
+          "Block printing",
+          "Loom weaving"
+        ],
+        "answerText": null,
+        "explain": "Suzani means “needle” — silk embroidered onto a cotton ground."
+      },
+      {
+        "id": "cmqq7g11x002lpnmhnf04hmcu",
+        "questionId": "cmqq7g11x002jpnmhbsbh4pnx",
+        "locale": "ru",
+        "q": "Сюзане выполняется техникой…",
+        "options": [
+          "Ручной вышивки",
+          "Узелкового ворса",
+          "Набивки",
+          "Тканья на станке"
+        ],
+        "answerText": null,
+        "explain": "Сюзане означает «игла» — шёлк, вышитый по хлопку."
+      },
+      {
+        "id": "cmqq7g11x002mpnmhzicsf15d",
+        "questionId": "cmqq7g11x002jpnmhbsbh4pnx",
+        "locale": "uz",
+        "q": "Suzana qanday tayyorlanadi?",
+        "options": [
+          "Qo'lda kashta",
+          "Tuk to'qish",
+          "Bosma naqsh",
+          "To'qish dastgohi"
+        ],
+        "answerText": null,
+        "explain": "Suzana «igna» ma'nosini bildiradi — paxta ustiga ipakda kashta."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g11z002npnmhnokevxz3",
+    "exhibitId": "cmqq7g11r002epnmhhafqn2rj",
+    "type": "text",
+    "order": 1,
+    "correctIndex": null,
+    "accept": [
+      "dowry",
+      "приданое",
+      "приданого",
+      "sep",
+      "sepi"
+    ],
+    "translations": [
+      {
+        "id": "cmqq7g120002opnmhuz3ierqz",
+        "questionId": "cmqq7g11z002npnmhnokevxz3",
+        "locale": "en",
+        "q": "Suzani were stitched for a bride’s ___ (her marriage gift of goods).",
+        "options": [],
+        "answerText": "dowry",
+        "explain": "Begun by the mother, finished by many hands, for the bride’s dowry."
+      },
+      {
+        "id": "cmqq7g120002ppnmh0maluuvd",
+        "questionId": "cmqq7g11z002npnmhnokevxz3",
+        "locale": "ru",
+        "q": "Сюзане шили в ___ невесты (её свадебный набор).",
+        "options": [],
+        "answerText": "приданое",
+        "explain": "Начинала мать, заканчивали многие руки — для приданого невесты."
+      },
+      {
+        "id": "cmqq7g120002qpnmhbv1vv48q",
+        "questionId": "cmqq7g11z002npnmhnokevxz3",
+        "locale": "uz",
+        "q": "Suzana qizning ___ uchun tikilardi (uning to'y sovg'asi).",
+        "options": [],
+        "answerText": "sepi",
+        "explain": "Onasi boshlab, ko'p qo'l tugatardi — qizning sepi uchun."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g122002rpnmhexf80ord",
+    "exhibitId": "cmqq7g11r002epnmhhafqn2rj",
+    "type": "choice",
+    "order": 2,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g122002spnmhe9lwa8ao",
+        "questionId": "cmqq7g122002rpnmhexf80ord",
+        "locale": "en",
+        "q": "Which motif suits this “stars and moon” palace?",
+        "options": [
+          "Crescents & stars",
+          "Portraits",
+          "Maps",
+          "Heraldry"
+        ],
+        "answerText": null,
+        "explain": "Rosettes, vines and crescent moons bloom across the cloth."
+      },
+      {
+        "id": "cmqq7g122002tpnmhvh8rbr2g",
+        "questionId": "cmqq7g122002rpnmhexf80ord",
+        "locale": "ru",
+        "q": "Какой мотив подходит дворцу «звёзд и луны»?",
+        "options": [
+          "Полумесяцы и звёзды",
+          "Портреты",
+          "Карты",
+          "Геральдика"
+        ],
+        "answerText": null,
+        "explain": "Розетки, лозы и полумесяцы расцветают по полотну."
+      },
+      {
+        "id": "cmqq7g122002upnmhfg5lm93s",
+        "questionId": "cmqq7g122002rpnmhexf80ord",
+        "locale": "uz",
+        "q": "«Yulduzlar va oy» saroyiga qaysi naqsh mos?",
+        "options": [
+          "Yarim oy va yulduzlar",
+          "Portretlar",
+          "Xaritalar",
+          "Gerblar"
+        ],
+        "answerText": null,
+        "explain": "Rozetkalar, novdalar va yarim oylar matoda gullaydi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g1280030pnmh5kg8ryup",
+    "exhibitId": "cmqq7g123002vpnmhfaivlorh",
+    "type": "choice",
+    "order": 0,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g1280031pnmhrtamiywy",
+        "questionId": "cmqq7g1280030pnmh5kg8ryup",
+        "locale": "en",
+        "q": "The throne stood in the…",
+        "options": [
+          "White Hall (Oq Zal)",
+          "Harem",
+          "Greenhouse",
+          "Tea house"
+        ],
+        "answerText": null,
+        "explain": "The ceremonial White Hall was the throne room."
+      },
+      {
+        "id": "cmqq7g1280032pnmhtabromfe",
+        "questionId": "cmqq7g1280030pnmh5kg8ryup",
+        "locale": "ru",
+        "q": "Трон стоял в…",
+        "options": [
+          "Белом зале (Ок-Зал)",
+          "Гареме",
+          "Оранжерее",
+          "Чайхане"
+        ],
+        "answerText": null,
+        "explain": "Парадный Белый зал служил тронным залом."
+      },
+      {
+        "id": "cmqq7g1280033pnmhk1y8n8oa",
+        "questionId": "cmqq7g1280030pnmh5kg8ryup",
+        "locale": "uz",
+        "q": "Taxt qayerda turgan?",
+        "options": [
+          "Oq Zal",
+          "Haremda",
+          "Issiqxonada",
+          "Choyxonada"
+        ],
+        "answerText": null,
+        "explain": "Marosim Oq Zali — taxt xonasi edi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g12a0034pnmh287hgeoq",
+    "exhibitId": "cmqq7g123002vpnmhfaivlorh",
+    "type": "text",
+    "order": 1,
+    "correctIndex": null,
+    "accept": [
+      "ganch",
+      "ganj",
+      "gunch",
+      "ганч",
+      "g'anch"
+    ],
+    "translations": [
+      {
+        "id": "cmqq7g12a0035pnmhz4h1r5rc",
+        "questionId": "cmqq7g12a0034pnmh287hgeoq",
+        "locale": "en",
+        "q": "Carved white ___ (alabaster plaster) covers the hall’s walls.",
+        "options": [],
+        "answerText": "ganch",
+        "explain": "Ganch — carved alabaster plaster — is the hall’s signature."
+      },
+      {
+        "id": "cmqq7g12a0036pnmh3agcy452",
+        "questionId": "cmqq7g12a0034pnmh287hgeoq",
+        "locale": "ru",
+        "q": "Стены зала покрывает резной белый ___ (алебастровая штукатурка).",
+        "options": [],
+        "answerText": "ганч",
+        "explain": "Ганч — резная алебастровая штукатурка — фирменный знак зала."
+      },
+      {
+        "id": "cmqq7g12a0037pnmhri3qku1t",
+        "questionId": "cmqq7g12a0034pnmh287hgeoq",
+        "locale": "uz",
+        "q": "Zalning devorlarini o'yilgan oq ___ (alebastr suvog'i) qoplaydi.",
+        "options": [],
+        "answerText": "ganch",
+        "explain": "Ganch — o'yilgan alebastr suvog'i — zalning belgisidir."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g12c0038pnmhxe1a2acc",
+    "exhibitId": "cmqq7g123002vpnmhfaivlorh",
+    "type": "choice",
+    "order": 2,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g12d0039pnmh462zj26p",
+        "questionId": "cmqq7g12c0038pnmhxe1a2acc",
+        "locale": "en",
+        "q": "How many times can its mirrors repeat one reflection?",
+        "options": [
+          "Up to 40",
+          "Twice",
+          "Ten",
+          "A thousand"
+        ],
+        "answerText": null,
+        "explain": "Mirror set into the lattice multiplies a reflection up to forty times."
+      },
+      {
+        "id": "cmqq7g12d003apnmh43knapjr",
+        "questionId": "cmqq7g12c0038pnmhxe1a2acc",
+        "locale": "ru",
+        "q": "Сколько раз зеркала повторяют одно отражение?",
+        "options": [
+          "До 40",
+          "Дважды",
+          "Десять",
+          "Тысячу"
+        ],
+        "answerText": null,
+        "explain": "Зеркало в ганчевой решётке умножает отражение до сорока раз."
+      },
+      {
+        "id": "cmqq7g12d003bpnmh8f0mmgbi",
+        "questionId": "cmqq7g12c0038pnmhxe1a2acc",
+        "locale": "uz",
+        "q": "Oynalar bir aksni necha marta takrorlay oladi?",
+        "options": [
+          "40 martagacha",
+          "Ikki marta",
+          "O'n",
+          "Ming"
+        ],
+        "answerText": null,
+        "explain": "Ganch panjarasiga o'rnatilgan oyna aksni 40 martagacha takrorlaydi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g12k003hpnmhglk4ogae",
+    "exhibitId": "cmqq7g12g003cpnmh1ztwb841",
+    "type": "choice",
+    "order": 0,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g12l003ipnmhag1dvpbg",
+        "questionId": "cmqq7g12k003hpnmhglk4ogae",
+        "locale": "en",
+        "q": "The palace mirrors were imported from Venice and…",
+        "options": [
+          "Japan",
+          "Egypt",
+          "Brazil",
+          "Korea"
+        ],
+        "answerText": null,
+        "explain": "Venetian and Japanese mirrors were set into fancy frames."
+      },
+      {
+        "id": "cmqq7g12l003jpnmht9g2rypk",
+        "questionId": "cmqq7g12k003hpnmhglk4ogae",
+        "locale": "ru",
+        "q": "Зеркала дворца ввозили из Венеции и…",
+        "options": [
+          "Японии",
+          "Египта",
+          "Бразилии",
+          "Кореи"
+        ],
+        "answerText": null,
+        "explain": "Венецианские и японские зеркала вставлялись в изящные рамы."
+      },
+      {
+        "id": "cmqq7g12l003kpnmhtc4c1xe5",
+        "questionId": "cmqq7g12k003hpnmhglk4ogae",
+        "locale": "uz",
+        "q": "Saroy oynalari Venetsiya va qayerdan keltirilgan?",
+        "options": [
+          "Yaponiya",
+          "Misr",
+          "Braziliya",
+          "Koreya"
+        ],
+        "answerText": null,
+        "explain": "Venetsiya va yapon oynalari chiroyli ramkalarga o'rnatilardi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g12m003lpnmhnileihka",
+    "exhibitId": "cmqq7g12g003cpnmh1ztwb841",
+    "type": "text",
+    "order": 1,
+    "correctIndex": null,
+    "accept": [
+      "shirin",
+      "usto shirin",
+      "ширин",
+      "усто ширин"
+    ],
+    "translations": [
+      {
+        "id": "cmqq7g12n003mpnmhwpyn6bbp",
+        "questionId": "cmqq7g12m003lpnmhnileihka",
+        "locale": "en",
+        "q": "Master ___ Muradov led the White Hall’s decoration.",
+        "options": [],
+        "answerText": "Shirin",
+        "explain": "Usto Shirin Muradov directed the carving and mirror-work."
+      },
+      {
+        "id": "cmqq7g12n003npnmhkxtycito",
+        "questionId": "cmqq7g12m003lpnmhnileihka",
+        "locale": "ru",
+        "q": "Мастер ___ Мурадов руководил отделкой Белого зала.",
+        "options": [],
+        "answerText": "Ширин",
+        "explain": "Усто Ширин Мурадов руководил резьбой и зеркальной работой."
+      },
+      {
+        "id": "cmqq7g12n003opnmhl931k5d6",
+        "questionId": "cmqq7g12m003lpnmhnileihka",
+        "locale": "uz",
+        "q": "Usta ___ Muradov Oq Zal bezagiga rahbarlik qilgan.",
+        "options": [],
+        "answerText": "Shirin",
+        "explain": "Usto Shirin Muradov o'yma va oyna ishlariga rahbarlik qilgan."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g12o003ppnmhwhpqysft",
+    "exhibitId": "cmqq7g12g003cpnmh1ztwb841",
+    "type": "choice",
+    "order": 2,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g12p003qpnmhhomj94ed",
+        "questionId": "cmqq7g12o003ppnmhwhpqysft",
+        "locale": "en",
+        "q": "Mirror set into ganch could multiply the light of a single…",
+        "options": [
+          "Candle",
+          "Window",
+          "Street lamp",
+          "Bonfire"
+        ],
+        "answerText": null,
+        "explain": "One candle, multiplied across the walls, lit the room like a dream."
+      },
+      {
+        "id": "cmqq7g12p003rpnmh0baa16k1",
+        "questionId": "cmqq7g12o003ppnmhwhpqysft",
+        "locale": "ru",
+        "q": "Зеркало в ганчевой решётке могло умножить свет одной…",
+        "options": [
+          "свечи",
+          "окна",
+          "уличного фонаря",
+          "костра"
+        ],
+        "answerText": null,
+        "explain": "Одна свеча, умноженная по стенам, освещала комнату как сон."
+      },
+      {
+        "id": "cmqq7g12p003spnmh2c60vft3",
+        "questionId": "cmqq7g12o003ppnmhwhpqysft",
+        "locale": "uz",
+        "q": "Ganchga o'rnatilgan oyna qaysi yorug'likni ko'paytira olardi?",
+        "options": [
+          "Sham",
+          "Deraza",
+          "Ko'cha chiroq",
+          "Gulxan"
+        ],
+        "answerText": null,
+        "explain": "Bir sham, devorlarda ko'paygan, xonani tushdek yoritardi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g12w003ypnmhqgh7j00s",
+    "exhibitId": "cmqq7g12r003tpnmhmmv7eai2",
+    "type": "choice",
+    "order": 0,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g12x003zpnmhymh22nuj",
+        "questionId": "cmqq7g12w003ypnmhqgh7j00s",
+        "locale": "en",
+        "q": "Which technique builds the brooch’s coloured cells?",
+        "options": [
+          "Cloisonné enamel",
+          "Niello",
+          "Filigree",
+          "Granulation"
+        ],
+        "answerText": null,
+        "explain": "Cloisonné sets wire cells filled with coloured glass enamel."
+      },
+      {
+        "id": "cmqq7g12x0040pnmh4rj420tz",
+        "questionId": "cmqq7g12w003ypnmhqgh7j00s",
+        "locale": "ru",
+        "q": "Какой техникой набраны цветные ячейки броши?",
+        "options": [
+          "Перегородчатая эмаль",
+          "Чернение",
+          "Скань",
+          "Зернь"
+        ],
+        "answerText": null,
+        "explain": "Перегородчатая эмаль — проволочные ячейки, заполненные цветным стекловидным эмалем."
+      },
+      {
+        "id": "cmqq7g12x0041pnmhwgfuybg9",
+        "questionId": "cmqq7g12w003ypnmhqgh7j00s",
+        "locale": "uz",
+        "q": "Yoqaning rangli katakchalari qaysi texnika bilan terilgan?",
+        "options": [
+          "Kloisonne emal",
+          "Qoraytirish",
+          "Filigran",
+          "Granulyatsiya"
+        ],
+        "answerText": null,
+        "explain": "Kloisonne — rangli shisha emal bilan to'ldirilgan sim katakchalar."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g12z0042pnmhw8z0rynr",
+    "exhibitId": "cmqq7g12r003tpnmhmmv7eai2",
+    "type": "text",
+    "order": 1,
+    "correctIndex": null,
+    "accept": [
+      "silver",
+      "серебро",
+      "kumush"
+    ],
+    "translations": [
+      {
+        "id": "cmqq7g12z0043pnmhhvro9ltc",
+        "questionId": "cmqq7g12z0042pnmhw8z0rynr",
+        "locale": "en",
+        "q": "The brooch’s body is forged in ___.",
+        "options": [],
+        "answerText": "silver",
+        "explain": "Silver gives the enamel its bright contrast."
+      },
+      {
+        "id": "cmqq7g12z0044pnmhi6yxgrah",
+        "questionId": "cmqq7g12z0042pnmhw8z0rynr",
+        "locale": "ru",
+        "q": "Корпус броши выкован из ___.",
+        "options": [],
+        "answerText": "серебро",
+        "explain": "Серебро даёт эмали яркий контраст."
+      },
+      {
+        "id": "cmqq7g12z0045pnmhqezzeoxn",
+        "questionId": "cmqq7g12z0042pnmhw8z0rynr",
+        "locale": "uz",
+        "q": "Yoqa tanasi ___ dan kovlangan.",
+        "options": [],
+        "answerText": "kumush",
+        "explain": "Kumush emalga yorqin kontrast beradi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g1300046pnmhtixiptkf",
+    "exhibitId": "cmqq7g12r003tpnmhmmv7eai2",
+    "type": "choice",
+    "order": 2,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g1310047pnmhoylub1mh",
+        "questionId": "cmqq7g1300046pnmhtixiptkf",
+        "locale": "en",
+        "q": "Which bird, kept in the palace gardens, inspired the piece?",
+        "options": [
+          "Peacock",
+          "Crane",
+          "Falcon",
+          "Hoopoe"
+        ],
+        "answerText": null,
+        "explain": "Peacocks still walk the palace rose gardens."
+      },
+      {
+        "id": "cmqq7g1310048pnmh4yyclbwk",
+        "questionId": "cmqq7g1300046pnmhtixiptkf",
+        "locale": "ru",
+        "q": "Какая птица, живущая в дворцовых садах, вдохновила вещь?",
+        "options": [
+          "Павлин",
+          "Журавль",
+          "Сокол",
+          "Удод"
+        ],
+        "answerText": null,
+        "explain": "Павлины и сегодня прогуливаются по розариям дворца."
+      },
+      {
+        "id": "cmqq7g1310049pnmh5iq23dv3",
+        "questionId": "cmqq7g1300046pnmhtixiptkf",
+        "locale": "uz",
+        "q": "Saroy bog'larida yashaydigan qaysi qush bu buyumga ilhom bo'lgan?",
+        "options": [
+          "Tovus",
+          "Turna",
+          "Lochin",
+          "Hudhud"
+        ],
+        "answerText": null,
+        "explain": "Tovuslar saroyning gulzorlarida hozir ham yuradi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g134004fpnmhpf4002h1",
+    "exhibitId": "cmqq7g131004apnmhwjyueq6j",
+    "type": "choice",
+    "order": 0,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g134004gpnmhz2uqs08m",
+        "questionId": "cmqq7g134004fpnmhpf4002h1",
+        "locale": "en",
+        "q": "Ikat dyes the pattern into the…",
+        "options": [
+          "Threads before weaving",
+          "Cloth after weaving",
+          "A printed block",
+          "An embroidered top layer"
+        ],
+        "answerText": null,
+        "explain": "Warp threads are bound and dipped — the cloth shows the pattern when woven."
+      },
+      {
+        "id": "cmqq7g134004hpnmhlgbrxp5w",
+        "questionId": "cmqq7g134004fpnmhpf4002h1",
+        "locale": "ru",
+        "q": "В икате узор красят в…",
+        "options": [
+          "Нити до ткачества",
+          "Ткань после ткачества",
+          "Печатный блок",
+          "Вышитый верхний слой"
+        ],
+        "answerText": null,
+        "explain": "Основа перевязывается и окунается — узор проявляется уже при ткачестве."
+      },
+      {
+        "id": "cmqq7g134004ipnmhdh97kml8",
+        "questionId": "cmqq7g134004fpnmhpf4002h1",
+        "locale": "uz",
+        "q": "Ikatda naqsh nimaga bo'yaladi?",
+        "options": [
+          "To'qishdan oldin iplarga",
+          "To'qilgan matoga",
+          "Bosma blokga",
+          "Tikilgan yuqori qatlamga"
+        ],
+        "answerText": null,
+        "explain": "Asos iplari bog'lanadi va bo'yaladi — naqsh to'qish vaqtida ochiladi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g136004jpnmhrysq3uav",
+    "exhibitId": "cmqq7g131004apnmhwjyueq6j",
+    "type": "text",
+    "order": 1,
+    "correctIndex": null,
+    "accept": [
+      "adras",
+      "адрас"
+    ],
+    "translations": [
+      {
+        "id": "cmqq7g136004kpnmhia5jjvi7",
+        "questionId": "cmqq7g136004jpnmhrysq3uav",
+        "locale": "en",
+        "q": "The silk-cotton ikat cloth used here is called ___.",
+        "options": [],
+        "answerText": "adras",
+        "explain": "Adras blends silk warp and cotton weft for shimmer and weight."
+      },
+      {
+        "id": "cmqq7g136004lpnmhqv7dki84",
+        "questionId": "cmqq7g136004jpnmhrysq3uav",
+        "locale": "ru",
+        "q": "Шёлково-хлопковый икат здесь называют ___.",
+        "options": [],
+        "answerText": "адрас",
+        "explain": "Адрас сочетает шёлковую основу и хлопковый уток — для блеска и веса."
+      },
+      {
+        "id": "cmqq7g136004mpnmh8ul3vryy",
+        "questionId": "cmqq7g136004jpnmhrysq3uav",
+        "locale": "uz",
+        "q": "Bu yerda foydalanilgan ipak-paxta ikat ___ deyiladi.",
+        "options": [],
+        "answerText": "adras",
+        "explain": "Adras ipak asos va paxta arqoqni birlashtiradi — yaltirash va og'irlik uchun."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g138004npnmhgq7nw1c3",
+    "exhibitId": "cmqq7g131004apnmhwjyueq6j",
+    "type": "choice",
+    "order": 2,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g138004opnmhri98nnd1",
+        "questionId": "cmqq7g138004npnmhgq7nw1c3",
+        "locale": "en",
+        "q": "A characteristic ikat motif is the…",
+        "options": [
+          "Almond / boteh",
+          "Latin cross",
+          "Heraldic lion",
+          "Greek key"
+        ],
+        "answerText": null,
+        "explain": "The almond / boteh is a recurring ikat shape across the region."
+      },
+      {
+        "id": "cmqq7g138004ppnmh8g8vnhqx",
+        "questionId": "cmqq7g138004npnmhgq7nw1c3",
+        "locale": "ru",
+        "q": "Характерный мотив иката —",
+        "options": [
+          "миндаль / боте",
+          "латинский крест",
+          "геральдический лев",
+          "греческий меандр"
+        ],
+        "answerText": null,
+        "explain": "Миндалевидный мотив (боте) встречается в икате повсеместно."
+      },
+      {
+        "id": "cmqq7g138004qpnmhk8v2ef1b",
+        "questionId": "cmqq7g138004npnmhgq7nw1c3",
+        "locale": "uz",
+        "q": "Ikatning xarakterli naqshi —",
+        "options": [
+          "bodom / bota",
+          "lotin xochi",
+          "gerb sheri",
+          "yunon meandri"
+        ],
+        "answerText": null,
+        "explain": "Bodom / bota shakli ikatda hududda keng tarqalgan."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g13c004wpnmhaxv7hd1d",
+    "exhibitId": "cmqq7g139004rpnmhmk8oid8i",
+    "type": "choice",
+    "order": 0,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g13d004xpnmh3bt59qw6",
+        "questionId": "cmqq7g13c004wpnmhaxv7hd1d",
+        "locale": "en",
+        "q": "What paper carries the manuscript?",
+        "options": [
+          "Samarkand silk paper",
+          "Egyptian papyrus",
+          "European wove",
+          "Chinese rice paper"
+        ],
+        "answerText": null,
+        "explain": "Samarkand pioneered fine silk-fiber paper for centuries."
+      },
+      {
+        "id": "cmqq7g13d004ypnmh9rh5r3ad",
+        "questionId": "cmqq7g13c004wpnmhaxv7hd1d",
+        "locale": "ru",
+        "q": "На какой бумаге написан манускрипт?",
+        "options": [
+          "Самаркандская шёлковая бумага",
+          "Египетский папирус",
+          "Европейская веленевая",
+          "Китайская рисовая"
+        ],
+        "answerText": null,
+        "explain": "Самарканд веками славился тонкой шёлковой бумагой."
+      },
+      {
+        "id": "cmqq7g13d004zpnmhdmkjmc99",
+        "questionId": "cmqq7g13c004wpnmhaxv7hd1d",
+        "locale": "uz",
+        "q": "Qo'lyozma qaysi qog'ozda yozilgan?",
+        "options": [
+          "Samarqand ipak qog'ozi",
+          "Misr papirusi",
+          "Yevropa qog'ozi",
+          "Xitoy guruch qog'ozi"
+        ],
+        "answerText": null,
+        "explain": "Samarqand asrlar davomida nozik ipak qog'oz bilan mashhur edi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g13f0050pnmhl0y52udz",
+    "exhibitId": "cmqq7g139004rpnmhmk8oid8i",
+    "type": "text",
+    "order": 1,
+    "correctIndex": null,
+    "accept": [
+      "gold",
+      "золото",
+      "oltin",
+      "zar"
+    ],
+    "translations": [
+      {
+        "id": "cmqq7g13f0051pnmheieiqjfw",
+        "questionId": "cmqq7g13f0050pnmhl0y52udz",
+        "locale": "en",
+        "q": "The margins are illuminated with ___ leaf.",
+        "options": [],
+        "answerText": "gold",
+        "explain": "Gold leaf was beaten thin and laid into outlined fields."
+      },
+      {
+        "id": "cmqq7g13f0052pnmh2sv9rtec",
+        "questionId": "cmqq7g13f0050pnmhl0y52udz",
+        "locale": "ru",
+        "q": "Поля иллюминированы сусальным ___.",
+        "options": [],
+        "answerText": "золотом",
+        "explain": "Сусальное золото отбивали до тончайшей плёнки и накладывали на разметку."
+      },
+      {
+        "id": "cmqq7g13f0053pnmh73obj329",
+        "questionId": "cmqq7g13f0050pnmhl0y52udz",
+        "locale": "uz",
+        "q": "Chekkalar ___ yaproq bilan bezatilgan.",
+        "options": [],
+        "answerText": "oltin",
+        "explain": "Oltin yaproq juda yupqalanib chiziqlangan maydonlarga qo'yilardi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g13h0054pnmhcwm3n1wt",
+    "exhibitId": "cmqq7g139004rpnmhmk8oid8i",
+    "type": "choice",
+    "order": 2,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g13h0055pnmhk6jnsxyr",
+        "questionId": "cmqq7g13h0054pnmhcwm3n1wt",
+        "locale": "en",
+        "q": "Which script is most often used in such manuscripts of Mawarannahr?",
+        "options": [
+          "Naskh / Muhaqqaq",
+          "Cyrillic",
+          "Greek uncial",
+          "Latin cursive"
+        ],
+        "answerText": null,
+        "explain": "Naskh and Muhaqqaq are the calm hands of classical Qur’anic copies."
+      },
+      {
+        "id": "cmqq7g13h0056pnmhgm9266ey",
+        "questionId": "cmqq7g13h0054pnmhcwm3n1wt",
+        "locale": "ru",
+        "q": "Какой почерк чаще всего использовали в таких рукописях Мавераннахра?",
+        "options": [
+          "Насх / мухаккак",
+          "Кириллица",
+          "Греческий унциал",
+          "Латинский курсив"
+        ],
+        "answerText": null,
+        "explain": "Насх и мухаккак — спокойные почерки классических Коранов."
+      },
+      {
+        "id": "cmqq7g13h0057pnmhccv54dis",
+        "questionId": "cmqq7g13h0054pnmhcwm3n1wt",
+        "locale": "uz",
+        "q": "Movarounnahrning bunday qo'lyozmalarida qaysi xat ko'p ishlatilgan?",
+        "options": [
+          "Nasx / Muhaqqaq",
+          "Kirill",
+          "Yunon untsiali",
+          "Lotin kursivi"
+        ],
+        "answerText": null,
+        "explain": "Nasx va Muhaqqaq — klassik Qur'on nusxalarining tinch xatlari."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g13n005dpnmh3dw14fqo",
+    "exhibitId": "cmqq7g13i0058pnmhjmi3dyfa",
+    "type": "choice",
+    "order": 0,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g13n005epnmhqtoyulei",
+        "questionId": "cmqq7g13n005dpnmh3dw14fqo",
+        "locale": "en",
+        "q": "A long-necked Central-Asian water ewer is a…",
+        "options": [
+          "Kumgan",
+          "Samovar",
+          "Cauldron",
+          "Amphora"
+        ],
+        "answerText": null,
+        "explain": "Kumgan — the long-necked ewer used at the hand-washing ritual."
+      },
+      {
+        "id": "cmqq7g13n005fpnmhpy3yce47",
+        "questionId": "cmqq7g13n005dpnmh3dw14fqo",
+        "locale": "ru",
+        "q": "Среднеазиатский водный сосуд с длинным горлом — это…",
+        "options": [
+          "Кумган",
+          "Самовар",
+          "Котёл",
+          "Амфора"
+        ],
+        "answerText": null,
+        "explain": "Кумган — кувшин с длинным горлом для обряда омовения."
+      },
+      {
+        "id": "cmqq7g13n005gpnmhoc6boe4v",
+        "questionId": "cmqq7g13n005dpnmh3dw14fqo",
+        "locale": "uz",
+        "q": "O'rta Osiyo uzun bo'yinli suv idishi — bu…",
+        "options": [
+          "Qumg'on",
+          "Samovar",
+          "Qozon",
+          "Amforal"
+        ],
+        "answerText": null,
+        "explain": "Qumg'on — qo'l yuvish marosimi uchun uzun bo'yinli idish."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g13p005hpnmhx36w17n1",
+    "exhibitId": "cmqq7g13i0058pnmhjmi3dyfa",
+    "type": "text",
+    "order": 1,
+    "correctIndex": null,
+    "accept": [
+      "niello",
+      "чернение",
+      "qoraytirish"
+    ],
+    "translations": [
+      {
+        "id": "cmqq7g13q005ipnmhx093d7h6",
+        "questionId": "cmqq7g13p005hpnmhx36w17n1",
+        "locale": "en",
+        "q": "Dark inlay in the chased lines is called ___.",
+        "options": [],
+        "answerText": "niello",
+        "explain": "Niello is a black sulphide alloy run into engraved silver."
+      },
+      {
+        "id": "cmqq7g13q005jpnmhl0o9mdul",
+        "questionId": "cmqq7g13p005hpnmhx36w17n1",
+        "locale": "ru",
+        "q": "Тёмная заливка в чеканных линиях называется ___.",
+        "options": [],
+        "answerText": "чернение",
+        "explain": "Чернение — чёрный сульфидный сплав, вливаемый в гравированное серебро."
+      },
+      {
+        "id": "cmqq7g13q005kpnmh1seyocn2",
+        "questionId": "cmqq7g13p005hpnmhx36w17n1",
+        "locale": "uz",
+        "q": "Bolg'alangan chiziqlardagi qora to'ldiruv ___ deyiladi.",
+        "options": [],
+        "answerText": "qoraytirish",
+        "explain": "Qoraytirish — gravür qilingan kumushga quyiladigan qora sulfid qotishmasi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g13s005lpnmhreqpcvs2",
+    "exhibitId": "cmqq7g13i0058pnmhjmi3dyfa",
+    "type": "choice",
+    "order": 2,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g13s005mpnmhpn7qs4db",
+        "questionId": "cmqq7g13s005lpnmhreqpcvs2",
+        "locale": "en",
+        "q": "The ewer’s shape is meant for…",
+        "options": [
+          "Pouring a thin precise stream",
+          "Mass storage",
+          "Heating tea",
+          "Carrying coal"
+        ],
+        "answerText": null,
+        "explain": "The narrow neck gives a controlled stream for the wash."
+      },
+      {
+        "id": "cmqq7g13s005npnmhj4gvks0h",
+        "questionId": "cmqq7g13s005lpnmhreqpcvs2",
+        "locale": "ru",
+        "q": "Форма кумгана нужна для…",
+        "options": [
+          "Точной тонкой струи",
+          "Хранения объёма",
+          "Нагрева чая",
+          "Переноски угля"
+        ],
+        "answerText": null,
+        "explain": "Узкое горло даёт контролируемую струю для омовения."
+      },
+      {
+        "id": "cmqq7g13s005opnmhvstlq4cy",
+        "questionId": "cmqq7g13s005lpnmhreqpcvs2",
+        "locale": "uz",
+        "q": "Qumg'on shakli nima uchun?",
+        "options": [
+          "Ingichka aniq oqim quyish",
+          "Hajmni saqlash",
+          "Choy qaynatish",
+          "Ko'mir tashish"
+        ],
+        "answerText": null,
+        "explain": "Tor bo'yin yuvinish uchun nazoratli oqim beradi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g13y005upnmhbphvgpt7",
+    "exhibitId": "cmqq7g13u005ppnmhigutmgr9",
+    "type": "choice",
+    "order": 0,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g13y005vpnmh5d7nzidw",
+        "questionId": "cmqq7g13y005upnmhbphvgpt7",
+        "locale": "en",
+        "q": "The Bukharan classical cycle of suites is called…",
+        "options": [
+          "Shashmaqom",
+          "Cantata",
+          "Suite française",
+          "Raga"
+        ],
+        "answerText": null,
+        "explain": "Shashmaqom — “six maqams” — the canonical cycle of Bukharan court music."
+      },
+      {
+        "id": "cmqq7g13y005wpnmhdatu0djs",
+        "questionId": "cmqq7g13y005upnmhbphvgpt7",
+        "locale": "ru",
+        "q": "Бухарский классический цикл сюит называется…",
+        "options": [
+          "Шашмаком",
+          "Кантата",
+          "Французская сюита",
+          "Рага"
+        ],
+        "answerText": null,
+        "explain": "Шашмаком — «шесть макомов» — канонический цикл бухарской придворной музыки."
+      },
+      {
+        "id": "cmqq7g13y005xpnmhajbb2bop",
+        "questionId": "cmqq7g13y005upnmhbphvgpt7",
+        "locale": "uz",
+        "q": "Buxoroning klassik turkum siklasi nima deyiladi?",
+        "options": [
+          "Shashmaqom",
+          "Kantata",
+          "Frantsuz syuita",
+          "Raga"
+        ],
+        "answerText": null,
+        "explain": "Shashmaqom — «olti maqom» — Buxoro saroy musiqasining kanonik siklasi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g140005ypnmhi59r6v3x",
+    "exhibitId": "cmqq7g13u005ppnmhigutmgr9",
+    "type": "text",
+    "order": 1,
+    "correctIndex": null,
+    "accept": [
+      "mulberry",
+      "тут",
+      "тутовое",
+      "tut"
+    ],
+    "translations": [
+      {
+        "id": "cmqq7g140005zpnmhaomo4270",
+        "questionId": "cmqq7g140005ypnmhi59r6v3x",
+        "locale": "en",
+        "q": "The body is most often turned from ___ wood.",
+        "options": [],
+        "answerText": "mulberry",
+        "explain": "Mulberry is the canonical wood — light, resonant, easy to carve."
+      },
+      {
+        "id": "cmqq7g1400060pnmhdnqp3f1v",
+        "questionId": "cmqq7g140005ypnmhi59r6v3x",
+        "locale": "ru",
+        "q": "Корпус чаще всего точат из ___ дерева.",
+        "options": [],
+        "answerText": "тутового",
+        "explain": "Тутовое дерево — каноническое: лёгкое, звучное, легко поддаётся резьбе."
+      },
+      {
+        "id": "cmqq7g1400061pnmhgocbd5g7",
+        "questionId": "cmqq7g140005ypnmhi59r6v3x",
+        "locale": "uz",
+        "q": "Tanasi ko'pincha ___ yog'ochidan o'yib yasalardi.",
+        "options": [],
+        "answerText": "tut",
+        "explain": "Tut yog'och — kanonik: yengil, jarangli, o'yishga oson."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g1420062pnmhj8ywkvao",
+    "exhibitId": "cmqq7g13u005ppnmhigutmgr9",
+    "type": "choice",
+    "order": 2,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g1430063pnmhinnqppyo",
+        "questionId": "cmqq7g1420062pnmhj8ywkvao",
+        "locale": "en",
+        "q": "How is the tanbur sounded?",
+        "options": [
+          "Plucked with a metal plectrum",
+          "Bowed",
+          "Struck with a hammer",
+          "Blown"
+        ],
+        "answerText": null,
+        "explain": "The player plucks with a wire / metal plectrum (nakhun)."
+      },
+      {
+        "id": "cmqq7g1430064pnmhq23c7e89",
+        "questionId": "cmqq7g1420062pnmhj8ywkvao",
+        "locale": "ru",
+        "q": "Как извлекают звук на танбуре?",
+        "options": [
+          "Щипком с металлическим плектром",
+          "Смычком",
+          "Молоточком",
+          "Выдохом"
+        ],
+        "answerText": null,
+        "explain": "Играют металлическим плектром (нохун)."
+      },
+      {
+        "id": "cmqq7g1430065pnmh4w2h98p9",
+        "questionId": "cmqq7g1420062pnmhj8ywkvao",
+        "locale": "uz",
+        "q": "Tanbur qanday yangratiladi?",
+        "options": [
+          "Metall plektr bilan chertib",
+          "Kamonbilan",
+          "Bolg'a bilan urib",
+          "Puflab"
+        ],
+        "answerText": null,
+        "explain": "Chaluvchi metall plektr (noxun) bilan chertadi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g14a006bpnmhk2aq3t0g",
+    "exhibitId": "cmqq7g1450066pnmh4gsuchfu",
+    "type": "choice",
+    "order": 0,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g14a006cpnmhageqvji6",
+        "questionId": "cmqq7g14a006bpnmhk2aq3t0g",
+        "locale": "en",
+        "q": "The brick-red comes from…",
+        "options": [
+          "Madder root",
+          "Saffron",
+          "Henna",
+          "Beetroot"
+        ],
+        "answerText": null,
+        "explain": "Madder root yields a fast, deep, classic red."
+      },
+      {
+        "id": "cmqq7g14a006dpnmh5s8rn622",
+        "questionId": "cmqq7g14a006bpnmhk2aq3t0g",
+        "locale": "ru",
+        "q": "Кирпично-красный получают из…",
+        "options": [
+          "Корня марены",
+          "Шафрана",
+          "Хны",
+          "Свёклы"
+        ],
+        "answerText": null,
+        "explain": "Корень марены даёт устойчивый, глубокий, классический красный."
+      },
+      {
+        "id": "cmqq7g14a006epnmhqnqxehfe",
+        "questionId": "cmqq7g14a006bpnmhk2aq3t0g",
+        "locale": "uz",
+        "q": "G'isht qizili qaysi o'simlikdan olinadi?",
+        "options": [
+          "Ro'yan ildizi",
+          "Za'faron",
+          "Xina",
+          "Lavlagi"
+        ],
+        "answerText": null,
+        "explain": "Ro'yan ildizi mustahkam, chuqur, klassik qizilni beradi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g14c006fpnmh1eibj2xn",
+    "exhibitId": "cmqq7g1450066pnmh4gsuchfu",
+    "type": "text",
+    "order": 1,
+    "correctIndex": null,
+    "accept": [
+      "indigo",
+      "индиго"
+    ],
+    "translations": [
+      {
+        "id": "cmqq7g14c006gpnmhcitn3mer",
+        "questionId": "cmqq7g14c006fpnmh1eibj2xn",
+        "locale": "en",
+        "q": "Deep blue here is dyed with ___.",
+        "options": [],
+        "answerText": "indigo",
+        "explain": "Indigo, fermented and oxidised, gives the deep blue."
+      },
+      {
+        "id": "cmqq7g14c006hpnmhg7hnx1pd",
+        "questionId": "cmqq7g14c006fpnmh1eibj2xn",
+        "locale": "ru",
+        "q": "Глубокий синий красят ___.",
+        "options": [],
+        "answerText": "индиго",
+        "explain": "Индиго после брожения и окисления даёт глубокий синий."
+      },
+      {
+        "id": "cmqq7g14c006ipnmh6shm9j6i",
+        "questionId": "cmqq7g14c006fpnmh1eibj2xn",
+        "locale": "uz",
+        "q": "To'q ko'k bu yerda ___ bilan bo'yaladi.",
+        "options": [],
+        "answerText": "indigo",
+        "explain": "Indigo — fermentatsiya va oksidlanishdan keyin to'q ko'k beradi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g14e006jpnmhzqfjas6f",
+    "exhibitId": "cmqq7g1450066pnmh4gsuchfu",
+    "type": "choice",
+    "order": 2,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g14f006kpnmhrifdbxzv",
+        "questionId": "cmqq7g14e006jpnmhzqfjas6f",
+        "locale": "en",
+        "q": "The central design is a…",
+        "options": [
+          "Medallion",
+          "Tree of life only",
+          "Calligraphy panel",
+          "Hunting scene"
+        ],
+        "answerText": null,
+        "explain": "The corner quarter-medallions echo the central one — a four-fold garden."
+      },
+      {
+        "id": "cmqq7g14f006lpnmhl26iloao",
+        "questionId": "cmqq7g14e006jpnmhzqfjas6f",
+        "locale": "ru",
+        "q": "Центральный рисунок — это…",
+        "options": [
+          "Медальон",
+          "Только древо жизни",
+          "Каллиграфическая панель",
+          "Сцена охоты"
+        ],
+        "answerText": null,
+        "explain": "Угловые «четвертины» вторят центральному медальону — четырёхкратный сад."
+      },
+      {
+        "id": "cmqq7g14f006mpnmh1m2pv4pz",
+        "questionId": "cmqq7g14e006jpnmhzqfjas6f",
+        "locale": "uz",
+        "q": "Markaziy chizma — bu…",
+        "options": [
+          "Medalon",
+          "Faqat hayot daraxti",
+          "Xattotlik paneli",
+          "Ov sahnasi"
+        ],
+        "answerText": null,
+        "explain": "Burchak choraklari markaziy medalonni takrorlaydi — to'rt marotaba bog'."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g14k006spnmhdpleycei",
+    "exhibitId": "cmqq7g14g006npnmhh2wmvrni",
+    "type": "choice",
+    "order": 0,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g14k006tpnmhbk6gpit8",
+        "questionId": "cmqq7g14k006spnmhdpleycei",
+        "locale": "en",
+        "q": "Ganch is a kind of…",
+        "options": [
+          "Alabaster plaster",
+          "Hardwood",
+          "Fired clay",
+          "Stone mosaic"
+        ],
+        "answerText": null,
+        "explain": "Ganch is a soft alabaster plaster that hardens after carving."
+      },
+      {
+        "id": "cmqq7g14k006upnmhllq3w838",
+        "questionId": "cmqq7g14k006spnmhdpleycei",
+        "locale": "ru",
+        "q": "Ганч — это разновидность…",
+        "options": [
+          "Алебастровой штукатурки",
+          "Твёрдого дерева",
+          "Обожжённой глины",
+          "Каменной мозаики"
+        ],
+        "answerText": null,
+        "explain": "Ганч — мягкая алебастровая штукатурка, твердеющая после резьбы."
+      },
+      {
+        "id": "cmqq7g14k006vpnmhe66jdp1i",
+        "questionId": "cmqq7g14k006spnmhdpleycei",
+        "locale": "uz",
+        "q": "Ganch — qaysi turdagi material?",
+        "options": [
+          "Alebastr suvog'i",
+          "Qattiq yog'och",
+          "Pishirilgan loy",
+          "Tosh mozaikasi"
+        ],
+        "answerText": null,
+        "explain": "Ganch — yumshoq alebastr suvog'i, o'yilgandan keyin qotadi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g14m006wpnmhw5ypka8v",
+    "exhibitId": "cmqq7g14g006npnmhh2wmvrni",
+    "type": "text",
+    "order": 1,
+    "correctIndex": null,
+    "accept": [
+      "mirror",
+      "зеркало",
+      "oyna"
+    ],
+    "translations": [
+      {
+        "id": "cmqq7g14m006xpnmh4y3f2we0",
+        "questionId": "cmqq7g14m006wpnmhw5ypka8v",
+        "locale": "en",
+        "q": "Behind the pierced panel the masters set a ___.",
+        "options": [],
+        "answerText": "mirror",
+        "explain": "A mirror behind the pierced field multiplied the room’s light."
+      },
+      {
+        "id": "cmqq7g14m006ypnmh34bojulf",
+        "questionId": "cmqq7g14m006wpnmhw5ypka8v",
+        "locale": "ru",
+        "q": "За прорезной панелью мастера ставили ___.",
+        "options": [],
+        "answerText": "зеркало",
+        "explain": "Зеркало за сквозной плитой умножало свет в комнате."
+      },
+      {
+        "id": "cmqq7g14m006zpnmhuloclz1q",
+        "questionId": "cmqq7g14m006wpnmhw5ypka8v",
+        "locale": "uz",
+        "q": "Ochiq panel orqasiga ustalar ___ qo'yishgan.",
+        "options": [],
+        "answerText": "oyna",
+        "explain": "Ochiq panel orqasidagi oyna xona yorug'ligini ko'paytirar edi."
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g14n0070pnmhf1y5nco6",
+    "exhibitId": "cmqq7g14g006npnmhh2wmvrni",
+    "type": "choice",
+    "order": 2,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq7g14n0071pnmhf22ylruh",
+        "questionId": "cmqq7g14n0070pnmhf1y5nco6",
+        "locale": "en",
+        "q": "When was the White Hall built?",
+        "options": [
+          "1912–1914",
+          "1801–1803",
+          "1956–1958",
+          "1991"
+        ],
+        "answerText": null,
+        "explain": "Two years of work — the master and his thirty hands finished it in 1914."
+      },
+      {
+        "id": "cmqq7g14n0072pnmht5znt138",
+        "questionId": "cmqq7g14n0070pnmhf1y5nco6",
+        "locale": "ru",
+        "q": "Когда построили Белый зал?",
+        "options": [
+          "1912–1914",
+          "1801–1803",
+          "1956–1958",
+          "1991"
+        ],
+        "answerText": null,
+        "explain": "Два года работы — мастер и тридцать его рук закончили в 1914-м."
+      },
+      {
+        "id": "cmqq7g14n0073pnmhjehz0gcc",
+        "questionId": "cmqq7g14n0070pnmhf1y5nco6",
+        "locale": "uz",
+        "q": "Oq Zal qachon qurilgan?",
+        "options": [
+          "1912–1914",
+          "1801–1803",
+          "1956–1958",
+          "1991"
+        ],
+        "answerText": null,
+        "explain": "Ikki yil mehnat — ustaning o'ttiz qo'li 1914-yilda yakunlagan."
+      }
+    ]
+  },
+  {
+    "id": "cmqq9hiuj0004vcmhxcj295wm",
+    "exhibitId": "cmqq7ui6r0000rimhnifaf4kr",
+    "type": "choice",
+    "order": 1,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq9hium0005vcmhyfhco0nv",
+        "questionId": "cmqq9hiuj0004vcmhxcj295wm",
+        "locale": "en",
+        "q": "somsa ",
+        "options": [
+          "go`styli",
+          "boy",
+          "Bali ",
+          "tofu"
+        ],
+        "answerText": null,
+        "explain": "go`shtli horde"
+      },
+      {
+        "id": "cmqq9hium0006vcmhrjxtiplk",
+        "questionId": "cmqq9hiuj0004vcmhxcj295wm",
+        "locale": "ru",
+        "q": "somsa",
+        "options": [
+          "ll",
+          "ll",
+          "l",
+          "ll"
+        ],
+        "answerText": null,
+        "explain": "lll"
+      },
+      {
+        "id": "cmqq9hium0007vcmh7fs9hdmf",
+        "questionId": "cmqq9hiuj0004vcmhxcj295wm",
+        "locale": "uz",
+        "q": "lllllp",
+        "options": [
+          "ppp",
+          "ppp",
+          "ppp",
+          "pp"
+        ],
+        "answerText": null,
+        "explain": "pp"
+      }
+    ]
+  },
+  {
+    "id": "cmqq9vhsy0000aamhr9e4icr7",
+    "exhibitId": "cmqq7ui6r0000rimhnifaf4kr",
+    "type": "choice",
+    "order": 2,
+    "correctIndex": 0,
+    "accept": [],
+    "translations": [
+      {
+        "id": "cmqq9vhuh0001aamhdqf57pgj",
+        "questionId": "cmqq9vhsy0000aamhr9e4icr7",
+        "locale": "en",
+        "q": "kk",
+        "options": [
+          "kkk",
+          "kk",
+          "kkkk",
+          "kkkk"
+        ],
+        "answerText": null,
+        "explain": "kkkk"
+      },
+      {
+        "id": "cmqq9vhuh0002aamh3m2o6uxk",
+        "questionId": "cmqq9vhsy0000aamhr9e4icr7",
+        "locale": "ru",
+        "q": "kkk",
+        "options": [
+          "kkk",
+          "kkk",
+          "kkk",
+          "kk"
+        ],
+        "answerText": null,
+        "explain": "kkkk"
+      },
+      {
+        "id": "cmqq9vhuh0003aamh33h7w0hy",
+        "questionId": "cmqq9vhsy0000aamhr9e4icr7",
+        "locale": "uz",
+        "q": "kkkk",
+        "options": [
+          "kkk",
+          "kkk",
+          "kkkk",
+          "kkkkk"
+        ],
+        "answerText": null,
+        "explain": "kkkk"
+      }
+    ]
+  }
+]

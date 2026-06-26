@@ -1,7 +1,6 @@
 import { setRequestLocale } from "next-intl/server";
 import { MastersView } from "./view";
 
-export const dynamic = "force-dynamic";
 
 export default async function MastersPage({
   params,

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "cmqq7g10b000kpnmhum1avjgs",
+    "slug": "textiles",
+    "createdAt": "2026-06-23T05:29:36.539Z",
+    "translations": [
+      {
+        "id": "cmqq7g10c000lpnmh5viiue6u",
+        "categoryId": "cmqq7g10b000kpnmhum1avjgs",
+        "locale": "en",
+        "name": "Textiles"
+      },
+      {
+        "id": "cmqq7g10c000mpnmhlkfyrko5",
+        "categoryId": "cmqq7g10b000kpnmhum1avjgs",
+        "locale": "ru",
+        "name": "Текстиль"
+      },
+      {
+        "id": "cmqq7g10c000npnmhdswf0vk9",
+        "categoryId": "cmqq7g10b000kpnmhum1avjgs",
+        "locale": "uz",
+        "name": "To'qimachilik"
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g10d000opnmhc34uecpf",
+    "slug": "ceramics",
+    "createdAt": "2026-06-23T05:29:36.541Z",
+    "translations": [
+      {
+        "id": "cmqq7g10e000ppnmhhn7dix2o",
+        "categoryId": "cmqq7g10d000opnmhc34uecpf",
+        "locale": "en",
+        "name": "Ceramics & Porcelain"
+      },
+      {
+        "id": "cmqq7g10e000qpnmhdfyk4piw",
+        "categoryId": "cmqq7g10d000opnmhc34uecpf",
+        "locale": "ru",
+        "name": "Керамика и фарфор"
+      },
+      {
+        "id": "cmqq7g10e000rpnmhq4d7ulqg",
+        "categoryId": "cmqq7g10d000opnmhc34uecpf",
+        "locale": "uz",
+        "name": "Sopol va chinni"
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g10f000spnmhawqk8iz9",
+    "slug": "woodwork",
+    "createdAt": "2026-06-23T05:29:36.543Z",
+    "translations": [
+      {
+        "id": "cmqq7g10g000tpnmhc8mx6eri",
+        "categoryId": "cmqq7g10f000spnmhawqk8iz9",
+        "locale": "en",
+        "name": "Woodwork & Gilt"
+      },
+      {
+        "id": "cmqq7g10g000upnmhf2jlbmw1",
+        "categoryId": "cmqq7g10f000spnmhawqk8iz9",
+        "locale": "ru",
+        "name": "Резьба и золочение"
+      },
+      {
+        "id": "cmqq7g10g000vpnmhsbip6nav",
+        "categoryId": "cmqq7g10f000spnmhawqk8iz9",
+        "locale": "uz",
+        "name": "Yog'och va zarhal"
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g10i000wpnmh0pi164bb",
+    "slug": "glass",
+    "createdAt": "2026-06-23T05:29:36.546Z",
+    "translations": [
+      {
+        "id": "cmqq7g10i000xpnmh7kq63tce",
+        "categoryId": "cmqq7g10i000wpnmh0pi164bb",
+        "locale": "en",
+        "name": "Glass & Mirrors"
+      },
+      {
+        "id": "cmqq7g10i000ypnmhk00z7ag0",
+        "categoryId": "cmqq7g10i000wpnmh0pi164bb",
+        "locale": "ru",
+        "name": "Стекло и зеркала"
+      },
+      {
+        "id": "cmqq7g10i000zpnmhjwut8t30",
+        "categoryId": "cmqq7g10i000wpnmh0pi164bb",
+        "locale": "uz",
+        "name": "Shisha va oynalar"
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g10j0010pnmh1dd4hsxf",
+    "slug": "metalwork",
+    "createdAt": "2026-06-23T05:29:36.547Z",
+    "translations": [
+      {
+        "id": "cmqq7g10k0011pnmha61dee09",
+        "categoryId": "cmqq7g10j0010pnmh1dd4hsxf",
+        "locale": "en",
+        "name": "Metalwork"
+      },
+      {
+        "id": "cmqq7g10k0012pnmhjqm0qz1y",
+        "categoryId": "cmqq7g10j0010pnmh1dd4hsxf",
+        "locale": "ru",
+        "name": "Металл"
+      },
+      {
+        "id": "cmqq7g10k0013pnmh2maceabl",
+        "categoryId": "cmqq7g10j0010pnmh1dd4hsxf",
+        "locale": "uz",
+        "name": "Metall"
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g10l0014pnmhnfgzefr5",
+    "slug": "manuscripts",
+    "createdAt": "2026-06-23T05:29:36.549Z",
+    "translations": [
+      {
+        "id": "cmqq7g10l0015pnmh9ncv7p0a",
+        "categoryId": "cmqq7g10l0014pnmhnfgzefr5",
+        "locale": "en",
+        "name": "Manuscripts"
+      },
+      {
+        "id": "cmqq7g10l0016pnmhgwz1jt36",
+        "categoryId": "cmqq7g10l0014pnmhnfgzefr5",
+        "locale": "ru",
+        "name": "Рукописи"
+      },
+      {
+        "id": "cmqq7g10l0017pnmhwfkcexlq",
+        "categoryId": "cmqq7g10l0014pnmhnfgzefr5",
+        "locale": "uz",
+        "name": "Qo'lyozmalar"
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g10m0018pnmhsr6cthtw",
+    "slug": "jewelry",
+    "createdAt": "2026-06-23T05:29:36.550Z",
+    "translations": [
+      {
+        "id": "cmqq7g10m0019pnmh989yb1f2",
+        "categoryId": "cmqq7g10m0018pnmhsr6cthtw",
+        "locale": "en",
+        "name": "Jewelry"
+      },
+      {
+        "id": "cmqq7g10m001apnmhwcg64npc",
+        "categoryId": "cmqq7g10m0018pnmhsr6cthtw",
+        "locale": "ru",
+        "name": "Ювелирные изделия"
+      },
+      {
+        "id": "cmqq7g10m001bpnmh9wh9hjmy",
+        "categoryId": "cmqq7g10m0018pnmhsr6cthtw",
+        "locale": "uz",
+        "name": "Zargarlik"
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g10o001cpnmh94oj8e4h",
+    "slug": "instruments",
+    "createdAt": "2026-06-23T05:29:36.552Z",
+    "translations": [
+      {
+        "id": "cmqq7g10o001dpnmh7nwbmnw8",
+        "categoryId": "cmqq7g10o001cpnmh94oj8e4h",
+        "locale": "en",
+        "name": "Instruments"
+      },
+      {
+        "id": "cmqq7g10o001epnmhm7urcaik",
+        "categoryId": "cmqq7g10o001cpnmh94oj8e4h",
+        "locale": "ru",
+        "name": "Инструменты"
+      },
+      {
+        "id": "cmqq7g10o001fpnmhxkvjh36j",
+        "categoryId": "cmqq7g10o001cpnmh94oj8e4h",
+        "locale": "uz",
+        "name": "Asboblar"
+      }
+    ]
+  }
+]

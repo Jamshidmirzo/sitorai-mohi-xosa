@@ -1,11 +1,10 @@
-export const dynamic = "force-dynamic"
-
-import { prisma } from "@/lib/prisma"
+import { Suspense } from "react"
 import { getTranslations, setRequestLocale } from "next-intl/server"
 import { GalleryGrid } from "./gallery-grid"
 import { getCategoryLabel, getCategoryOrder } from "@/lib/gallery-categories"
 import blurMap from "@/lib/gallery-blur.json"
 import captionsMap from "@/lib/gallery-captions.json"
+import { getGalleryImages } from "@/lib/static-data"
 
 type BlurEntry = { width: number; height: number; blurDataURL: string }
 const BLUR: Record<string, BlurEntry> = blurMap as Record<string, BlurEntry>
@@ -21,9 +20,7 @@ export default async function GalleryPage({
   setRequestLocale(locale)
   const t = await getTranslations("gallery")
 
-  const images = await prisma.galleryImage.findMany({
-    orderBy: [{ order: "asc" }, { createdAt: "desc" }],
-  })
+  const images = getGalleryImages()
 
   const counts = new Map<string, number>()
   for (const img of images) {
@@ -104,12 +101,14 @@ export default async function GalleryPage({
             {t("subtitle")}
           </p>
         </div>
-        <GalleryGrid
-          images={serializedImages}
-          categories={categories}
-          allLabel={t("all")}
-          locale={locale}
-        />
+        <Suspense>
+          <GalleryGrid
+            images={serializedImages}
+            categories={categories}
+            allLabel={t("all")}
+            locale={locale}
+          />
+        </Suspense>
       </div>
     </div>
   )

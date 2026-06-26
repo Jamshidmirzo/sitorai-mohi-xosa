@@ -1,0 +1,242 @@
+[
+  {
+    "id": "cmquviqbx0000n2mhyq93edff",
+    "url": "/uploads/gallery/harem/harem-01.jpg",
+    "alt": "Harem building — exterior view with ornamented dome",
+    "category": "harem",
+    "order": 1,
+    "createdAt": "2026-06-26T11:54:38.157Z"
+  },
+  {
+    "id": "cmquvipun0000mgmh487su1cy",
+    "url": "/uploads/gallery/xonai-xasht/xonai-xasht-01.jpg",
+    "alt": "Long velvet chapan with gold zarduzi embroidery (purple)",
+    "category": "xonai-xasht",
+    "order": 1,
+    "createdAt": "2026-06-26T11:54:37.535Z"
+  },
+  {
+    "id": "cmquvipd80000lrmh1kg053w2",
+    "url": "/uploads/gallery/salomxona/salomxona-01.jpg",
+    "alt": "Salomxona — Chinese and Japanese porcelain vases in the arched-window hall",
+    "category": "salomxona",
+    "order": 1,
+    "createdAt": "2026-06-26T11:54:36.908Z"
+  },
+  {
+    "id": "cmquviqc40001n2mh83yoj0ph",
+    "url": "/uploads/gallery/harem/harem-02.jpg",
+    "alt": "Twin tower pavilions in the harem garden",
+    "category": "harem",
+    "order": 2,
+    "createdAt": "2026-06-26T11:54:38.164Z"
+  },
+  {
+    "id": "cmquvipuq0001mgmhgbtce4x6",
+    "url": "/uploads/gallery/xonai-xasht/xonai-xasht-02.jpg",
+    "alt": "Dark chapan with floral medallion pattern in gold thread",
+    "category": "xonai-xasht",
+    "order": 2,
+    "createdAt": "2026-06-26T11:54:37.538Z"
+  },
+  {
+    "id": "cmquvipdi0001lrmhyhdgoh7x",
+    "url": "/uploads/gallery/salomxona/salomxona-02.jpg",
+    "alt": "Qabulxona binosi — historical plaque (uz/ru/en), built 1912–1914 under Sayyid Olim Khan",
+    "category": "salomxona",
+    "order": 2,
+    "createdAt": "2026-06-26T11:54:36.918Z"
+  },
+  {
+    "id": "cmquviqco0002n2mhauiq4jlu",
+    "url": "/uploads/gallery/harem/harem-03.jpg",
+    "alt": "Three Bukharan glazed ceramic plates",
+    "category": "harem",
+    "order": 3,
+    "createdAt": "2026-06-26T11:54:38.184Z"
+  },
+  {
+    "id": "cmquvipur0002mgmhkq2ub9su",
+    "url": "/uploads/gallery/xonai-xasht/xonai-xasht-03.jpg",
+    "alt": "Striped chapan with embroidered roundel and gold trim",
+    "category": "xonai-xasht",
+    "order": 3,
+    "createdAt": "2026-06-26T11:54:37.539Z"
+  },
+  {
+    "id": "cmquvipdl0002lrmhin0sdb2w",
+    "url": "/uploads/gallery/salomxona/salomxona-03.jpg",
+    "alt": "Reception building — exterior facade with carved kiosk pavilion",
+    "category": "salomxona",
+    "order": 3,
+    "createdAt": "2026-06-26T11:54:36.921Z"
+  },
+  {
+    "id": "cmquviqeb0003n2mhdazehhun",
+    "url": "/uploads/gallery/harem/harem-04.jpg",
+    "alt": "Gijduvan ceramic plate by Ibadulla Narzullayev, early 20th century",
+    "category": "harem",
+    "order": 4,
+    "createdAt": "2026-06-26T11:54:38.243Z"
+  },
+  {
+    "id": "cmquvipus0003mgmhezx8eoxf",
+    "url": "/uploads/gallery/xonai-xasht/xonai-xasht-04.jpg",
+    "alt": "Two chapans on display — cream embroidered and checkered black-and-white",
+    "category": "xonai-xasht",
+    "order": 4,
+    "createdAt": "2026-06-26T11:54:37.540Z"
+  },
+  {
+    "id": "cmquvipdn0003lrmh24r57do6",
+    "url": "/uploads/gallery/salomxona/salomxona-04.jpg",
+    "alt": "Grand white hall with central chandelier and ceremonial seating",
+    "category": "salomxona",
+    "order": 4,
+    "createdAt": "2026-06-26T11:54:36.923Z"
+  },
+  {
+    "id": "cmquviqeg0004n2mhcc1sbg5a",
+    "url": "/uploads/gallery/harem/harem-05.jpg",
+    "alt": "Hall corner with mirrored cabinet, ceramics and stained-glass window",
+    "category": "harem",
+    "order": 5,
+    "createdAt": "2026-06-26T11:54:38.248Z"
+  },
+  {
+    "id": "cmquvipuu0004mgmhji92v7wi",
+    "url": "/uploads/gallery/xonai-xasht/xonai-xasht-05.jpg",
+    "alt": "Saffron and magenta chapans in glass cases",
+    "category": "xonai-xasht",
+    "order": 5,
+    "createdAt": "2026-06-26T11:54:37.542Z"
+  },
+  {
+    "id": "cmquvipdr0004lrmhi1zddjuo",
+    "url": "/uploads/gallery/salomxona/salomxona-05.jpg",
+    "alt": "Writing instruments — calligraphy brushes and paper, late 19th century",
+    "category": "salomxona",
+    "order": 5,
+    "createdAt": "2026-06-26T11:54:36.927Z"
+  },
+  {
+    "id": "cmquviqei0005n2mhyrbdy15u",
+    "url": "/uploads/gallery/harem/harem-06.jpg",
+    "alt": "Women's costumes and suzani on the walls of the harem hall",
+    "category": "harem",
+    "order": 6,
+    "createdAt": "2026-06-26T11:54:38.250Z"
+  },
+  {
+    "id": "cmquvipuw0005mgmhejwzjg91",
+    "url": "/uploads/gallery/xonai-xasht/xonai-xasht-06.jpg",
+    "alt": "Bukharan ikat-pattern chapan (adras)",
+    "category": "xonai-xasht",
+    "order": 6,
+    "createdAt": "2026-06-26T11:54:37.544Z"
+  },
+  {
+    "id": "cmquvipdt0005lrmhtyqdvmr4",
+    "url": "/uploads/gallery/salomxona/salomxona-06.jpg",
+    "alt": "Decorative miniature cup set in mirrored display case",
+    "category": "salomxona",
+    "order": 6,
+    "createdAt": "2026-06-26T11:54:36.929Z"
+  },
+  {
+    "id": "cmquviqf00006n2mhjah8n47m",
+    "url": "/uploads/gallery/harem/harem-07.jpg",
+    "alt": "Large suzani embroidery with red-orange medallion pattern",
+    "category": "harem",
+    "order": 7,
+    "createdAt": "2026-06-26T11:54:38.268Z"
+  },
+  {
+    "id": "cmquvipdu0006lrmh6605tsty",
+    "url": "/uploads/gallery/salomxona/salomxona-07.jpg",
+    "alt": "Pair of large decorative porcelain plates",
+    "category": "salomxona",
+    "order": 7,
+    "createdAt": "2026-06-26T11:54:36.930Z"
+  },
+  {
+    "id": "cmquviqf10007n2mh9ra2mxi5",
+    "url": "/uploads/gallery/harem/harem-08.jpg",
+    "alt": "Display case with golden vase",
+    "category": "harem",
+    "order": 8,
+    "createdAt": "2026-06-26T11:54:38.269Z"
+  },
+  {
+    "id": "cmquvipdw0007lrmhmsxgnsmm",
+    "url": "/uploads/gallery/salomxona/salomxona-08.jpg",
+    "alt": "Carved wooden kursi against star-pattern wall paneling",
+    "category": "salomxona",
+    "order": 8,
+    "createdAt": "2026-06-26T11:54:36.932Z"
+  },
+  {
+    "id": "cmquviqf40008n2mh5x2hrvo4",
+    "url": "/uploads/gallery/harem/harem-09.jpg",
+    "alt": "Suzani embroidery close-up with exhibit label",
+    "category": "harem",
+    "order": 9,
+    "createdAt": "2026-06-26T11:54:38.272Z"
+  },
+  {
+    "id": "cmquvipdy0008lrmhkkczbnfr",
+    "url": "/uploads/gallery/salomxona/salomxona-09.jpg",
+    "alt": "Japanese porcelain vase — late 19th century (Guldonlar · Chinni · Yaponiya)",
+    "category": "salomxona",
+    "order": 9,
+    "createdAt": "2026-06-26T11:54:36.934Z"
+  },
+  {
+    "id": "cmquvipdz0009lrmh2zw1iimr",
+    "url": "/uploads/gallery/salomxona/salomxona-10.jpg",
+    "alt": "Tall wooden cabinet with mirror",
+    "category": "salomxona",
+    "order": 10,
+    "createdAt": "2026-06-26T11:54:36.935Z"
+  },
+  {
+    "id": "cmquvipe0000alrmhzgbq4jnx",
+    "url": "/uploads/gallery/salomxona/salomxona-11.jpg",
+    "alt": "Russian service table — wood and glass, end of 19th century",
+    "category": "salomxona",
+    "order": 11,
+    "createdAt": "2026-06-26T11:54:36.936Z"
+  },
+  {
+    "id": "cmquvipe1000blrmhu4nczlor",
+    "url": "/uploads/gallery/salomxona/salomxona-12.jpg",
+    "alt": "Silver-rimmed display case with silver vessel",
+    "category": "salomxona",
+    "order": 12,
+    "createdAt": "2026-06-26T11:54:36.937Z"
+  },
+  {
+    "id": "cmquvipe2000clrmh99mamiiy",
+    "url": "/uploads/gallery/salomxona/salomxona-13.jpg",
+    "alt": "Hall corner — portrait of the Emir, longcase clock, mirrored cabinet",
+    "category": "salomxona",
+    "order": 13,
+    "createdAt": "2026-06-26T11:54:36.938Z"
+  },
+  {
+    "id": "cmquvipe4000dlrmhagbbtxga",
+    "url": "/uploads/gallery/salomxona/salomxona-14.jpg",
+    "alt": "Yermak — metal sculpture, Russia, end of 19th century",
+    "category": "salomxona",
+    "order": 14,
+    "createdAt": "2026-06-26T11:54:36.940Z"
+  },
+  {
+    "id": "cmquvipe4000elrmhrgrqs1xw",
+    "url": "/uploads/gallery/salomxona/salomxona-15.jpg",
+    "alt": "Silver winged-horse sculpture and antique tea cart",
+    "category": "salomxona",
+    "order": 15,
+    "createdAt": "2026-06-26T11:54:36.940Z"
+  }
+]

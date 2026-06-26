@@ -1,7 +1,6 @@
 import { setRequestLocale } from "next-intl/server";
 import { SourcesView } from "./view";
 
-export const dynamic = "force-dynamic";
 
 export default async function SourcesPage({
   params,

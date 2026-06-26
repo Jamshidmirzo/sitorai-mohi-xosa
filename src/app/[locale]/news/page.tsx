@@ -1,8 +1,6 @@
-export const dynamic = "force-dynamic"
-
-import { prisma } from "@/lib/prisma"
 import { getTranslations, setRequestLocale } from "next-intl/server"
 import { Link } from "@/i18n/navigation"
+import { getPostsForLocale } from "@/lib/static-data"
 import { Card, CardContent } from "@/components/ui/card"
 
 export default async function NewsPage({
@@ -15,13 +13,7 @@ export default async function NewsPage({
   const t = await getTranslations("news")
   const tc = await getTranslations("common")
 
-  const posts = await prisma.post.findMany({
-    where: { published: true },
-    orderBy: { createdAt: "desc" },
-    include: {
-      translations: { where: { locale } },
-    },
-  })
+  const posts = getPostsForLocale(locale)
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
@@ -36,8 +28,7 @@ export default async function NewsPage({
       ) : (
         <div className="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-3">
           {posts.map((post) => {
-            const title = post.translations[0]?.title ?? post.slug
-            const excerpt = post.translations[0]?.excerpt ?? ""
+            const { title, excerpt } = post
             const date = new Date(post.createdAt).toLocaleDateString(locale, {
               year: "numeric",
               month: "long",

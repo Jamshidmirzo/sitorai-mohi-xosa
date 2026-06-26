@@ -1,0 +1,32 @@
+[
+  {
+    "id": "cmqq52kit001haemhp75flwr2",
+    "locale": "en",
+    "siteName": "Sitorai Mohi Xosa",
+    "siteDescription": "The Palace of Moon-like Stars — Summer residence of the last Emir of Bukhara",
+    "heroTitle": "Sitorai Mohi Xosa",
+    "heroSubtitle": "The Palace of Moon-like Stars",
+    "heroImage": null,
+    "aboutText": "Sitorai Mohi Xosa is a palace of the Bukharan emirs, located about 4 km north of Bukhara. Built in the late 19th and early 20th centuries, it served as the summer residence of the last emir of Bukhara, Alim Khan. The palace complex combines Eastern and European architectural styles, reflecting the cultural exchanges of the era."
+  },
+  {
+    "id": "cmqq52kiv001iaemhulwhqo1f",
+    "locale": "ru",
+    "siteName": "Ситораи Мохи Хоса",
+    "siteDescription": "Дворец Луноподобных Звёзд — Летняя резиденция последнего эмира Бухары",
+    "heroTitle": "Ситораи Мохи Хоса",
+    "heroSubtitle": "Дворец Луноподобных Звёзд",
+    "heroImage": null,
+    "aboutText": "Ситораи Мохи Хоса — дворец бухарских эмиров, расположенный примерно в 4 км к северу от Бухары. Построенный в конце XIX — начале XX века, он служил летней резиденцией последнего эмира Бухары Алим-хана. Дворцовый комплекс сочетает восточный и европейский архитектурные стили, отражая культурный обмен эпохи."
+  },
+  {
+    "id": "cmqq52kix001jaemhceai1fyz",
+    "locale": "uz",
+    "siteName": "Sitorai Mohi Xosa",
+    "siteDescription": "Oysimon Yulduzlar Saroyi — Buxoroning so'nggi amirining yozgi qarorgohi",
+    "heroTitle": "Sitorai Mohi Xosa",
+    "heroSubtitle": "Oysimon Yulduzlar Saroyi",
+    "heroImage": null,
+    "aboutText": "Sitorai Mohi Xosa — Buxoro amirlarining saroyi bo'lib, Buxorodan shimolda taxminan 4 km masofada joylashgan. XIX asr oxiri — XX asr boshlarida qurilgan bo'lib, Buxoroning so'nggi amiri Olimxonning yozgi qarorgohi sifatida xizmat qilgan. Saroy majmuasi sharq va yevropa me'morchilik uslublarini uyg'unlashtirgan."
+  }
+]

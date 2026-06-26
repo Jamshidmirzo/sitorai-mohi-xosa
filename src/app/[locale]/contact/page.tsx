@@ -1,7 +1,5 @@
-export const dynamic = "force-dynamic"
-
-import { prisma } from "@/lib/prisma"
 import { getTranslations, setRequestLocale } from "next-intl/server"
+import { getVisitorInfo } from "@/lib/static-data"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Mail, Phone, MapPin } from "lucide-react"
 import { ContactForm } from "./contact-form"
@@ -16,7 +14,7 @@ export default async function ContactPage({
 
   const t = await getTranslations("contact")
   const tc = await getTranslations("common")
-  const visitorInfo = await prisma.visitorInfo.findUnique({ where: { locale } })
+  const visitorInfo = getVisitorInfo(locale)
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">

@@ -1,0 +1,147 @@
+[
+  {
+    "id": "cmqq7g0zy0000pnmh073nbnmg",
+    "slug": "khonai-khasht",
+    "number": 1,
+    "createdAt": "2026-06-23T05:29:36.526Z",
+    "translations": [
+      {
+        "id": "cmqq7g1010001pnmhfq008mso",
+        "hallId": "cmqq7g0zy0000pnmh073nbnmg",
+        "locale": "en",
+        "name": "Khonai Khasht — Costume Hall",
+        "description": null
+      },
+      {
+        "id": "cmqq7g1010002pnmhw8t6flvo",
+        "hallId": "cmqq7g0zy0000pnmh073nbnmg",
+        "locale": "ru",
+        "name": "Хонаи Хашт — зал костюма",
+        "description": null
+      },
+      {
+        "id": "cmqq7g1010003pnmh82y3xv3g",
+        "hallId": "cmqq7g0zy0000pnmh073nbnmg",
+        "locale": "uz",
+        "name": "Xonai Xasht — kostyum zali",
+        "description": null
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g1040004pnmh7rjl9lwk",
+    "slug": "reception-rooms",
+    "number": 2,
+    "createdAt": "2026-06-23T05:29:36.532Z",
+    "translations": [
+      {
+        "id": "cmqq7g1050005pnmhcqeitll4",
+        "hallId": "cmqq7g1040004pnmh7rjl9lwk",
+        "locale": "en",
+        "name": "Reception Rooms",
+        "description": null
+      },
+      {
+        "id": "cmqq7g1050006pnmhs4app089",
+        "hallId": "cmqq7g1040004pnmh7rjl9lwk",
+        "locale": "ru",
+        "name": "Парадные залы",
+        "description": null
+      },
+      {
+        "id": "cmqq7g1050007pnmho1onxzt3",
+        "hallId": "cmqq7g1040004pnmh7rjl9lwk",
+        "locale": "uz",
+        "name": "Qabul xonalari",
+        "description": null
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g1060008pnmh27qkzouq",
+    "slug": "harem",
+    "number": 3,
+    "createdAt": "2026-06-23T05:29:36.534Z",
+    "translations": [
+      {
+        "id": "cmqq7g1060009pnmhtxfr8tvr",
+        "hallId": "cmqq7g1060008pnmh27qkzouq",
+        "locale": "en",
+        "name": "Harem Quarters",
+        "description": null
+      },
+      {
+        "id": "cmqq7g106000apnmhhxcxmpyy",
+        "hallId": "cmqq7g1060008pnmh27qkzouq",
+        "locale": "ru",
+        "name": "Гарем",
+        "description": null
+      },
+      {
+        "id": "cmqq7g106000bpnmh2d25vpig",
+        "hallId": "cmqq7g1060008pnmh27qkzouq",
+        "locale": "uz",
+        "name": "Harem",
+        "description": null
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g107000cpnmhjpn7bm5w",
+    "slug": "white-hall",
+    "number": 4,
+    "createdAt": "2026-06-23T05:29:36.535Z",
+    "translations": [
+      {
+        "id": "cmqq7g108000dpnmhc4o0gpcr",
+        "hallId": "cmqq7g107000cpnmhjpn7bm5w",
+        "locale": "en",
+        "name": "Oq Zal · White Hall",
+        "description": null
+      },
+      {
+        "id": "cmqq7g108000epnmh0mhi8m27",
+        "hallId": "cmqq7g107000cpnmhjpn7bm5w",
+        "locale": "ru",
+        "name": "Ок-Зал · Белый зал",
+        "description": null
+      },
+      {
+        "id": "cmqq7g108000fpnmhvaxvqgim",
+        "hallId": "cmqq7g107000cpnmhjpn7bm5w",
+        "locale": "uz",
+        "name": "Oq Zal",
+        "description": null
+      }
+    ]
+  },
+  {
+    "id": "cmqq7g109000gpnmhghbugh8e",
+    "slug": "garden-pavilion",
+    "number": 5,
+    "createdAt": "2026-06-23T05:29:36.537Z",
+    "translations": [
+      {
+        "id": "cmqq7g109000hpnmhlas68let",
+        "hallId": "cmqq7g109000gpnmhghbugh8e",
+        "locale": "en",
+        "name": "Garden Pavilion",
+        "description": null
+      },
+      {
+        "id": "cmqq7g109000ipnmh81i8bek6",
+        "hallId": "cmqq7g109000gpnmhghbugh8e",
+        "locale": "ru",
+        "name": "Садовый павильон",
+        "description": null
+      },
+      {
+        "id": "cmqq7g109000jpnmhb262uo0x",
+        "hallId": "cmqq7g109000gpnmhghbugh8e",
+        "locale": "uz",
+        "name": "Bog' shiyponi",
+        "description": null
+      }
+    ]
+  }
+]
